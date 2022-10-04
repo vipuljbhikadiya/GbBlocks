@@ -1,0 +1,95 @@
+.quote {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 25px;
+
+	&.quote--color {
+		&-one {
+			color: $color-one;
+			path {
+				fill: $color-one;
+			}
+		}
+		&-two {
+			color: $color-two;
+			path {
+				fill: $color-two;
+			}
+		}
+		&-three {
+			color: $color-three;
+			path {
+				fill: $color-three;
+			}
+		}
+		&-four {
+			color: $color-four;
+			path {
+				fill: $color-four;
+			}
+		}
+		&-five {
+			color: $color-five;
+			path {
+				fill: $color-five;
+			}
+		}
+		&-six {
+			color: $color-six;
+			path {
+				fill: $color-six;
+			}
+		}
+		&-seven {
+			color: $color-seven;
+			path {
+				fill: $color-seven;
+			}
+		}
+	}
+
+	.quote__visual {
+		max-width: 40px;
+		height: 40px;
+		width: 100%;
+	}
+
+	.quote__text {
+		font-family: $font-body;
+		font-style: italic;
+		font-size: 18px;
+		line-height: 26px;
+		margin: 0px 0px 0px 10px;
+	}
+}
+
+@media screen and (min-width: 481px) {
+
+	.quote {
+		.quote__text {
+			font-size: 20px;
+			line-height: 27px;
+			margin: 10px 0px 0px 24px;
+		}
+	}
+
+}
+
+@media screen and (min-width: 1025px) {
+
+	.quote {
+		margin-bottom: 30px;
+
+		.quote__visual {
+			max-width: 60px;
+			height: 58px;
+		}
+
+		.quote__text {
+			font-size: 22px;
+			line-height: 30px;
+			margin: 16px 0px 0px 24px;
+		}
+	}
+
+}

@@ -1,0 +1,202 @@
+
+
+$width: 94px;
+$smallcircle : 20;
+.visual--circle_wrapper{
+    width: 100%;
+    padding-top: 100%;
+   position: relative;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    .circle--items{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .visual--circle{
+            width:  $width;
+            height:  $width;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            position: absolute;
+            text-align: center;
+            &:nth-child(odd){
+                background-color: $color-one;
+            }
+            &:nth-child(even){
+                background-color: $color-four;
+            }
+            span{
+                display: block;
+                color: #fff;
+            }
+            .circle--title{
+                font-size: 20px;
+                line-height: 22px;
+                font-weight: 500;
+            }
+            .circle--text{
+                font-size: 14px;
+                line-height: 15px;
+                font-weight: 300;
+            }
+            &:nth-child(1){
+                top:0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &:nth-child(2){
+                top:50%;
+                right:0;
+                transform: translateY(-50%);
+            }
+            &:nth-child(3){
+                bottom:0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &:nth-child(4){
+                top:50%;
+                left:0;
+                transform: translateY(-50%);
+            }
+        }
+       
+    }
+
+
+    .visual--bg{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: calc(100% -  #{$width});
+        height: calc(100% -  #{$width} );
+        position: absolute;
+        transform: rotate(45deg);
+        border-radius: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        border: 1px solid #707070;
+        li{
+            width: #{$smallcircle} + 'px';
+            height: #{$smallcircle} + 'px';
+            border-radius: 100%;
+            background-color: #8ABD7D;
+            position: absolute;
+            &:nth-child(1){
+                top: - #{$smallcircle/2} + px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &:nth-child(2){
+                top:50%;
+                right:- #{$smallcircle/2} + px;
+                transform: translateY(-50%) ;
+            }
+            &:nth-child(3){
+                bottom:- #{$smallcircle/2 }+ px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &:nth-child(4){
+                top:50%;
+                left:- #{$smallcircle/2 }+ px;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) {
+    $width: 138px; 
+    $smallcircle : 30;
+    .visual--circle_wrapper{
+        margin-bottom: 40px;
+        .circle--items{
+            .visual--circle{
+                width:  $width;
+                height:  $width;
+                .circle--title{
+                    font-size: 28px;
+                    line-height: 30px;
+                }
+                .circle--text{
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+            }
+        }
+
+        .visual--bg{
+            width: calc(100% -  #{$width});
+            height: calc(100% -  #{$width} );
+            li{
+                width: #{$smallcircle} + 'px';
+                height: #{$smallcircle} + 'px';
+                &:nth-child(1){
+                    top: - #{$smallcircle/2} + px;
+                }
+                &:nth-child(2){
+                    right:- #{$smallcircle/2} + px;
+                }
+                &:nth-child(3){
+                    bottom:- #{$smallcircle/2} + px;
+                }
+                &:nth-child(4){
+                    left:- #{$smallcircle/2} + px;
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (min-width: 769px) {
+    $width: 206px; 
+    $smallcircle : 45;
+    .visual--circle_wrapper{
+        margin-bottom: 60px;
+        .circle--items{
+            .visual--circle{
+                width:  $width;
+                height:  $width;
+                .circle--title{
+                    font-size: 40px;
+                    line-height: 42px;
+                }
+                .circle--text{
+                    font-size: 22px;
+                    line-height: 25px;
+                }
+            }
+         }
+
+        .visual--bg{
+            width: calc(100% -  #{$width});
+            height: calc(100% -  #{$width} );
+            li{
+                width: #{$smallcircle} + 'px';
+                height: #{$smallcircle} + 'px';
+                &:nth-child(1){
+                    top: - #{$smallcircle/2} + px;
+                }
+                &:nth-child(2){
+                    right:- #{$smallcircle/2} + px;
+                }
+                &:nth-child(3){
+                    bottom:- #{$smallcircle/2} + px;
+                }
+                &:nth-child(4){
+                    left:- #{$smallcircle/2} + px;
+                }
+            }
+        }
+        
+    }
+}
+

@@ -1,0 +1,53 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/imageoverlay",
+	"version": "0.1.0",
+	"title": "Image Overlay",
+	"category": "theme",
+	"keywords": ["overlay", "image", "Collection"],
+	"description": "A gutenberg block to use for image overlay.",
+	"supports": {
+		"html": true,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"url": {
+			"type": "string"
+		},
+		"linkTarget": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		},
+		"imageId": {
+			"type": "number"
+		},
+		"imageUrl": {
+			"type": "string"
+		},
+		"webpImageUrl": {
+			"type": "string"
+		},
+		"mdimageUrl": {
+			"type": "string"
+		},
+		"webpmdImageUrl": {
+			"type": "string"
+		},
+		"xsimageUrl": {
+			"type": "string"
+		},
+		"webpxsImageUrl": {
+			"type": "string"
+		},
+		"imageAlt": {
+			"type": "string"
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/imageoverlaycollection"],
+	"editorScript": "blocks-4"
+}

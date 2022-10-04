@@ -1,0 +1,40 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/newsslider",
+	"version": "0.1.5",
+	"title": "News Slider",
+	"category": "theme",
+	"keywords": ["news", "taxonomy"],
+	"description": "A gutenberg block to use for News slider.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"taxonomy": {
+			"type": "array"
+		},
+		"newsSlider": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"editorScript": "blocks-4"
+}

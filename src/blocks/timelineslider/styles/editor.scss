@@ -1,0 +1,62 @@
+[data-type="gbblocks/timelineslide"] {
+	max-width: 100% !important;
+	display: block;
+
+	&[data-hidden] {
+		display: none;
+	}
+}
+.timelines {
+	.timeline--wrapper {
+		padding: 50px 15px;
+	}
+	.timeline__nav {
+		max-width: 300px;
+		.splide__list {
+			display: flex;
+			justify-content: center;
+		}
+	}
+	.timeline--detail {
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		.icon {
+			left: -90px;
+		}
+	}
+}
+.timelines
+	.timeline__nav
+	.splide__track
+	.splide__list
+	.timeline__nav-slide:not(.is-active) {
+	margin-right: 15px !important;
+}
+@media screen and (min-width: 740px) {
+	.timelines {
+		.timeline__nav {
+			max-width: 440px;
+		}
+		.timeline--detail {
+			max-width: 440px;
+		}
+	}
+}
+@media screen and (min-width: 1025px) {
+	.timelines {
+		.timeline__nav {
+			max-width: 940px;
+		}
+		.timeline--detail {
+			max-width: 644.49px;
+		}
+	}
+}
+@media screen and (min-width: 1401px) {
+	.timelines {
+		.timeline__nav {
+			max-width: 1340px;
+		}
+	}
+}

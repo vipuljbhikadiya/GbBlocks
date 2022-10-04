@@ -1,0 +1,87 @@
+$content: nth($grid-xs-breakpoint, 3);
+.container {
+	max-width: $content;
+}
+
+@each $breakpoint in $grid-breakpoints {
+	$content: nth($breakpoint, 3);
+	$size: nth($breakpoint, 2);
+	@media only screen and (min-width: $size) {
+		.container {
+			max-width: $content;
+		}
+	}
+}
+@media screen and (min-width: 1920px) {
+	.container {
+		max-width: 1600px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.nav--arrow {
+		&.is--right{
+			margin: 39.5px;
+			width: 22px;
+			height: 22px;
+			left: -6px;
+		&::after{
+			width: 22px;
+   			height: 22px;
+		}
+		}
+		&.is--left{
+			left: 5px;
+			margin: 32.5px;
+			width: 15px;
+			height: 15px;
+			&::after{
+				width: 15px;
+				height: 15px;
+			}
+		}
+	}	
+	
+		.splide{
+		.splide__arrows {			
+				.splide__arrow--prev {
+				background: $color-four;
+				margin-right: -14px;
+				}
+			}
+		}
+}
+
+@media screen and (max-width: 767px) {
+	.nav--arrow {
+		&.is--right{
+	   		margin: 30.5px;
+			width: 16px;
+			height: 16px;
+			left: -6px;
+			
+		&::after{
+			width: 16px;
+   			height: 16px;
+		}
+		}
+		&.is--left{
+			left: 5px;
+			margin: 24.5px;
+			width: 12px;
+			height: 12px;
+			&::after{
+				width: 12px;
+				height: 12px;
+			}
+		}
+	}	
+	.splide{
+	.splide__arrows {			
+			.splide__arrow--prev {
+			background: $color-four;
+			margin-right: -12px;
+			}
+		}
+	}
+}

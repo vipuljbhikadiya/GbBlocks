@@ -1,0 +1,56 @@
+/*
+Fonts Load
+*/
+
+@font-face {
+	font-family: "FontAwesome";
+	src: url("./fonts/fontawesome-webfont.woff2") format("woff2"),
+		url("./fonts/fontawesome-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./fonts/barlow-semiBold.woff2') format('woff2'),
+        url('./fonts/barlow-semiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./fonts/barlow-light.woff2') format('woff2'),
+        url('./fonts/barlow-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./fonts/barlow-regular.woff2') format('woff2'),
+        url('./fonts/barlow-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./fonts/barlow-medium.woff2') format('woff2'),
+        url('./fonts/barlow-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./fonts/barlow-bold.woff2') format('woff2'),
+        url('./fonts/barlow-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

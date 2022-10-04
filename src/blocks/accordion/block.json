@@ -1,0 +1,18 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/accordion",
+	"version": "0.1.5",
+	"title": "Accordion",
+	"category": "theme",
+	"keywords": ["accordion"],
+	"description": "A gutenberg block to use for Accordion.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-4"
+}

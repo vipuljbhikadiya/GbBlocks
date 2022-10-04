@@ -1,0 +1,69 @@
+@import "../../../styles/variables";
+
+.site--logo a {
+	pointer-events: none;
+}
+
+.wp-block-gbblocks-footer {
+	font-family: $font-body;
+	.icon__visual {
+		font-size: 23.31px;
+	}
+	.footer--col-copyright {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}
+
+.footer--middle-section {
+	.section__content {
+		> div:nth-child(2) {
+			margin: auto 0px;
+		}
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+	.footer--top-section {
+		.section__content {
+			> div:not(:first-child) {
+				width: 49.5%;
+				display: inline-block;
+				vertical-align: top;
+			}
+		}
+	}
+	.footer--middle-section {
+		.section__content {
+			justify-content: center;
+			> div:nth-child(2) {
+				width: calc(100% - 275.5px);
+				margin-left: 16.5px;
+				.footer--col.footer--col-divider {
+					width: 100%;
+				}
+			}
+			> div:last-child {
+				width: 100%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 767px) {
+	.footer--middle-section {
+		.section__content {
+			> div:first-child {
+				order: 1;
+			}
+			> div:nth-child(2) {
+				order: 3;
+				width: 100%;
+			}
+			> div:last-child {
+				order: 2;
+				margin: 60px auto 37.3px;
+			}
+		}
+	}
+}

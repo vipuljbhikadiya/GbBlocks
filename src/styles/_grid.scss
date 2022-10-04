@@ -1,0 +1,358 @@
+@import "variables";
+// -----------------------------------------------------------------------------
+// SETTINGS DEFINITION::START --------------------------------------------------
+// -----------------------------------------------------------------------------
+
+// SET NUMBER OF COLUMNS -------------------------------------------------------
+$grid-column-count: 12 !default;
+$grid-column-offset: ($grid-column-count - 1) !default;
+
+// DEFINE BREAKPOINTS ----------------------------------------------------------
+// name | breakpoint | content-width
+
+$grid-xs-breakpoint: xs 0 300px;
+$grid-breakpoints: sm 481px 440px, md 769px 740px, lg 1025px 940px,
+	xl 1401px 1340px;
+
+// DEFINE COLUMN GAPS ----------------------------------------------------------
+// breakpoint | gap 1 | gap 2...
+
+$grid-xs-gap: xs 0px 20px 20px 20px;
+$grid-gaps: sm 0px 20px 20px 30px, md 0px 20px 30px 40px, lg 0px 20px 40px 60px, xl 0px 20px 40px 60px;
+$grid-gaps-count: length($grid-xs-gap);
+
+// DEFINE COLUMN CONTENT PADDINGS ----------------------------------------------
+// breakpoint | padding 1 | padding 2...
+
+$grid-column-xs-padding: xs 0px 3px 10px 30px 40px;
+$grid-column-paddings: sm 0px 3px 20px 40px 50px, md 0px 3px 20px 40px 50px,
+	lg 0px 3px 30px 50px 60px, xl 0px 3px 30px 50px 60px;
+
+$grid-column-paddings-count: length($grid-column-paddings);
+
+// DEFINE COLUMN CONTENT BACKGROUND COLORS -------------------------------------
+// name | color
+
+$grid-column-background: one $color-one, two $color-two, three $color-three,
+	four $color-four, five $color-five, six $color-six;
+
+// -----------------------------------------------------------------------------
+// CSS DEFINITION::START -------------------------------------------------------
+// -----------------------------------------------------------------------------
+
+// CSS XS DEFINITION::ROW ------------------------------------------------------
+// -----------------------------------------------------------------------------
+
+$name: nth($grid-xs-breakpoint, 1);
+$content: nth($grid-xs-breakpoint, 3);
+
+.row {
+	--gap: 0px;
+
+	width: calc(100% + var(--gap));
+	//width: 100%;
+
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 0 0 calc(-1 * var(--gap)) calc(-1 * var(--gap));
+	padding: 0 0 var(--gap) 0;
+}
+
+// DEFINE XS ROW WIDTH ---------------------------------------------------------
+
+.row-wrapper--ct-wd {
+	max-width: $content;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+// DEFINE XS COLUMN SAME HEIGHT ------------------------------------------------
+
+.row.row--col-ht {
+	align-items: initial;
+}
+.row--col-ht > .col > .col__content {
+	height: 100%;
+}
+
+// DEFINE XS COLUMN GAPS -------------------------------------------------------
+
+@for $i from 0 through ($grid-gaps-count - 2) {
+	$gap-size: $i;
+	$gap-value: nth($grid-xs-gap, ($i + 2));
+
+	.row--gap-#{$gap-size} {
+		--gap: #{$gap-value};
+	}
+}
+
+// DEFINE XS COLUMN ALIGNMENT VERTICAL -----------------------------------------
+
+.row--xs-top {
+	align-items: start;
+}
+.row--xs-middle {
+	align-items: center;
+}
+.row--xs-bottom {
+	align-items: end;
+}
+
+// DEFINE XS ROW ALIGNMENT HORIZONTAL ------------------------------------------
+
+.row--xs-start {
+	justify-content: start;
+}
+.row--xs-center {
+	justify-content: center;
+}
+.row--xs-end {
+	justify-content: end;
+}
+
+// DEFINE XS ROW REVERSE -------------------------------------------------------
+
+.row--xs-rv {
+	flex-direction: row-reverse;
+}
+
+// CSS XS DEFINITION::COLUMN ---------------------------------------------------
+// -----------------------------------------------------------------------------
+
+.col {
+	display: block;
+	box-sizing: border-box;
+	flex: 0 0 auto;
+}
+
+.col__content {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	box-sizing: border-box;
+	justify-content: start;
+}
+
+.col__content > * {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+// DEFINE XS COLUMN ALIGNMENT VERTICAL -----------------------------------------
+
+.col--xs-top > .col__content {
+	justify-content: start;
+}
+.col--xs-middle > .col__content {
+	justify-content: center;
+}
+.col--xs-bottom > .col__content {
+	justify-content: end;
+}
+
+// DEFINE XS COLUMN WIDTH ------------------------------------------------------
+
+@for $i from 1 through $grid-column-count {
+	$colum-calc-value: (100% / $grid-column-count * $i);
+
+	.col--#{$name}-#{$i} {
+		flex-basis: calc(#{$colum-calc-value} - var(--gap));
+		max-width: calc(#{$colum-calc-value} - var(--gap));
+		margin: 0 0 var(--gap) var(--gap);
+	}
+}
+
+// DEFINE XS COLUMN OFFSET -----------------------------------------------------
+
+@for $i from 0 through $grid-column-offset {
+	$colum-calc-value: (100% / $grid-column-count * $i);
+
+	.col--#{$name}-os-#{$i} {
+		margin-left: calc(#{$colum-calc-value} + var(--gap));
+	}
+}
+
+// DEFINE XS COLUMN PADDING ----------------------------------------------------
+
+@for $i from 0 through $grid-column-paddings-count {
+	$grid-column-padding: nth($grid-column-xs-padding, ($i + 2));
+
+	.col--pd-#{$i} > .col__content {
+		padding: $grid-column-padding;
+	}
+}
+
+// DEFINE XS COLUMN BACKGROUND COLOR -------------------------------------------
+
+@each $background-color in $grid-column-background {
+	$color-name: nth($background-color, 1);
+	$color-value: nth($background-color, 2);
+
+	.col--bg-#{$color-name} > .col__content {
+		background-color: $color-value;
+	}
+}
+
+// DEFINE XS COLUMN HIDE -------------------------------------------------------
+
+.col--xs-hide {
+	display: none;
+}
+
+// -----------------------------------------------------------------------------
+// CSS DEFINITION::BREAKPOINTS -------------------------------------------------
+// -----------------------------------------------------------------------------
+
+@each $breakpoint in $grid-breakpoints {
+	// CSS BREAKPOINTS DEFINITION::ROW ---------------------------------------------
+	// -----------------------------------------------------------------------------
+
+	$name: nth($breakpoint, 1);
+
+	$size: nth($breakpoint, 2);
+	$content: nth($breakpoint, 3);
+
+	@media only screen and (min-width: $size) {
+		// DEFINE BREAKPOINTS ROW WIDTH ------------------------------------------------
+
+		.row-wrapper--ct-wd {
+			max-width: $content;
+		}
+
+		.row {
+			flex-direction: row;
+		}
+
+		.row--col-ht {
+			align-items: initial;
+		}
+
+		// DEFINE BREAKPOINTS COLUMN GAPS ----------------------------------------------
+
+		@each $gap in $grid-gaps {
+			$gap-name: nth($gap, 1);
+
+			@if ($gap-name == $name) {
+				@for $i from 0 through ($grid-gaps-count - 2) {
+					$gap-size: $i;
+					$gap-value: nth($gap, ($i + 2));
+                    
+                    .row--gap-#{$gap-size} {
+					    --gap: #{$gap-value};
+                    }
+				}
+			}
+		}
+
+		// DEFINE BREAKPOINTS ROW ALIGNMENT VERTICAL -----------------------------------
+
+		.row--#{$name}-top {
+			align-items: start;
+		}
+		.row--#{$name}-middle {
+			align-items: center;
+		}
+		.row--#{$name}-bottom {
+			align-items: end;
+		}
+
+		// DEFINE BREAKPOINTS ROW ALIGNMENT HORIZONTAL ---------------------------------
+
+		.row--#{$name}-start {
+			justify-content: start;
+		}
+		.row--#{$name}-center {
+			justify-content: center;
+		}
+		.row--#{$name}-end {
+			justify-content: end;
+		}
+
+		// DEFINE BREAKPOINTS COLUMN REVERSE -------------------------------------------
+
+		.row--#{$name}-rv {
+			flex-direction: row-reverse;
+		}
+
+		// CSS BREAKPOINTS DEFINITION::COLUMN ------------------------------------------
+		// -----------------------------------------------------------------------------
+
+		.col {
+			display: block;
+		}
+
+		// DEFINE BREAKPOINTS ROW ALIGNMENT VERTICAL -----------------------------------
+
+		.col--#{$name}-top > .col__content {
+			justify-content: start;
+		}
+		.col--#{$name}-middle > .col__content {
+			justify-content: center;
+		}
+		.col--#{$name}-bottom > .col__content {
+			justify-content: end;
+		}
+
+		// DEFINE BREAKPOINTS COLUMN WIDTH ---------------------------------------------
+
+		@for $i from 1 through $grid-column-count {
+			$colum-calc-value: (100% / $grid-column-count * $i);
+
+			.col--#{$name}-#{$i} {
+				flex-basis: calc(#{$colum-calc-value} - var(--gap));
+				max-width: calc(#{$colum-calc-value} - var(--gap));
+				margin: 0 0 var(--gap) var(--gap);
+			}
+		}
+
+		// DEFINE BREAKPOINTS COLUMN OFFSET --------------------------------------------
+
+		@for $i from 0 through $grid-column-offset {
+			$colum-calc-value: (100% / $grid-column-count * $i);
+
+			.col--#{$name}-os-#{$i} {
+				margin-left: calc(#{$colum-calc-value} + var(--gap));
+			}
+		}
+
+		// DEFINE BREAKPOINTS COLUMN PADDING -------------------------------------------
+
+		@each $padding in $grid-column-paddings {
+			$padding-name: nth($padding, 1);
+
+			@if ($padding-name == $name) {
+				@for $i from 0 through $grid-column-paddings-count {
+					$grid-column-padding: nth($padding, ($i + 2));
+
+					.col--pd-#{$i} > .col__content {
+						padding: $grid-column-padding;
+					}
+				}
+			}
+		}
+
+		// DEFINE BREAKPOINTS COLUMN HIDE ----------------------------------------------
+
+		@if $name == sm {
+			.col--xs-hide {
+				display: none;
+			}
+		} @else if $name == md {
+			.col--md-hide {
+				display: none;
+			}
+		} @else if $name == lg {
+			.col--lg-hide {
+				display: none;
+			}
+		} @else if $name == xl {
+			.col--lg-hide {
+				display: none;
+			}
+		}
+	}
+}

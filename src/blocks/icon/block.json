@@ -1,0 +1,55 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/icon",
+	"version": "0.1.0",
+	"title": "Icon",
+	"category": "theme",
+	"keywords": ["icon", "gbblocks"],
+	"description": "A gutenberg block to use for Icon.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"iconColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"iconColorClass": {
+			"type": "string",
+			"default": "six"
+		},
+		"iconbgColor": {
+			"type": "string",
+			"default": "#8ABD7D"
+		},
+		"iconbgColorClass": {
+			"type": "string",
+			"default": "four"
+		},
+		"iconClass": {
+			"type": "string",
+			"default": "fa fa-wordpress"
+		},
+		"iconLink": {
+			"type": "object"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		},
+		"isbutton": {
+			"type": "string",
+			"default": false
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-3"
+}

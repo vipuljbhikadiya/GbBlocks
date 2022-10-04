@@ -1,0 +1,24 @@
+.row {
+	// padding: 10px;
+	> div {
+		width: 100%;
+		&.grid-col {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	> .block-editor-inner-blocks {
+		> .block-editor-block-list__layout {
+			box-sizing: border-box;
+			margin: 0 auto;
+			width: 100%;
+			display: flex;
+			flex: 0 1 auto;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+	}
+	> .block-list-appender {
+		padding: 0px 0px var(--gap) var(--gap);
+	}
+}

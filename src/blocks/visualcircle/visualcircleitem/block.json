@@ -1,0 +1,36 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/visualcircleitem",
+	"version": "0.1.0",
+	"title": "Visual Circle Item",
+	"category": "theme",
+	"keywords": ["visual", "circle item", "gbblocks"],
+	"description": "A gutenberg block to use for Visual Circle Item.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"circleHeadline": {
+			"type": "string",
+			"default": "Headline"
+		},
+		"circleText": {
+			"type": "string",
+			"default": "Small text"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/visualcircle"],
+	"editorScript": "blocks-6"
+}

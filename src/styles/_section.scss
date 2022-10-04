@@ -1,0 +1,134 @@
+@import "variables";
+
+// -----------------------------------------------------------------------------
+// SETTINGS DEFINITION::START --------------------------------------------------
+// -----------------------------------------------------------------------------
+
+// DEFINE BREAKPOINTS ----------------------------------------------------------
+// name | breakpoint | content-width
+
+$section-xs-breakpoint: xs 0 300px;
+$section-breakpoints: sm 480px 460px, md 768px 740px, lg 1200px 1040px,
+	xl 1480px 1400px;
+
+// DEFINE SECTION PADDINGS -----------------------------------------------------
+// breakpoint | padding 1 | padding 2...
+
+$section-xs-padding: xs 0px 60px 90px 120px 160px;
+$section-paddings: sm 0px 60px 90px 120px 180px, md 0px 60px 90px 120px 180px,
+	lg 0px 60px 90px 120px 240px, xl 0px 60px 90px 120px 240px;
+
+$section-paddings-count: length($section-paddings);
+
+// DEFINE SECTION BACKGROUND COLORS --------------------------------------------
+// name | color
+
+$section-background: one $color-one, two $color-two, three $color-three,
+	four $color-four, five $color-five, six $color-six;
+
+// -----------------------------------------------------------------------------
+// CSS DEFINITION::START -------------------------------------------------------
+// -----------------------------------------------------------------------------
+
+// CSS XS DEFINITION::SECTION --------------------------------------------------
+// -----------------------------------------------------------------------------
+
+.section {
+	display: block;
+	position: relative;
+}
+
+.section__content {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.section__background {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.section__background picture img {
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	width: 100%;
+}
+
+// DEFINE XS SECTION BACKGROUND COLOR ------------------------------------------
+
+@each $background-color in $section-background {
+	$color-name: nth($background-color, 1);
+	$color-value: nth($background-color, 2);
+
+	.section--bg-#{$color-name} {
+		background-color: $color-value;
+	}
+}
+
+// DEFINE XS SECTION PADDING ---------------------------------------------------
+
+@for $i from 0 through $section-paddings-count {
+	$section-padding: nth($section-xs-padding, ($i + 2));
+
+	.section--pd-top-#{$i} {
+		padding-top: $section-padding;
+	}
+	.section--pd-bottom-#{$i} {
+		padding-bottom: $section-padding;
+	}
+}
+
+// DEFINE XS SECTION HIDE ------------------------------------------------------
+
+.section--xs-hide {
+	display: none;
+}
+
+// -----------------------------------------------------------------------------
+// CSS DEFINITION::BREAKPOINTS -------------------------------------------------
+// -----------------------------------------------------------------------------
+
+@each $breakpoint in $section-breakpoints {
+	// CSS BREAKPOINTS DEFINITION::SECTION -----------------------------------------
+	// -----------------------------------------------------------------------------
+
+	$name: nth($breakpoint, 1);
+	$size: nth($breakpoint, 2);
+
+	@media only screen and (min-width: $size) {
+		.section {
+			display: block;
+		}
+
+		// DEFINE BREAKPOINTS SECTION PADDING ------------------------------------------
+
+		@each $padding in $section-paddings {
+			$padding-name: nth($padding, 1);
+
+			@if ($padding-name == $name) {
+				@for $i from 0 through $section-paddings-count {
+					$section-padding: nth($padding, ($i + 2));
+
+					.section--pd-top-#{$i} {
+						padding-top: $section-padding;
+					}
+					.section--pd-bottom-#{$i} {
+						padding-bottom: $section-padding;
+					}
+				}
+			}
+		}
+
+		// DEFINE BREAKPOINTS SECTION HIDE ---------------------------------------------
+
+		.section--#{$name}-hide {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/swipesection",
+	"version": "0.1.5",
+	"title": "Swipe Section",
+	"category": "theme",
+	"description": "A gutenberg block to use Swipe Section.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"topPadding": {
+			"type": "number",
+			"default": "1"
+		},
+		"bottomPadding": {
+			"type": "number",
+			"default": "1"
+		},
+		"orientation": {
+			"type": "string",
+			"default": "left"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"hideLG": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideMD": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideXS": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"keywords": ["swipe section", "section", "swipe"],
+	"textdomain": "gbblocks",
+	"editorScript": "file:./blocks-1.js"
+}

@@ -1,0 +1,15 @@
+[data-type="gbblocks/testimonialslide"] {
+	max-width: 100% !important;
+	display: block;
+
+	&[data-hidden] {
+		display: none;
+	}
+}
+.testimonials {
+	.testimonial--slide {
+		&:not(.is-active) {
+			opacity: 1;
+		}
+	}
+}

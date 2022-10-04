@@ -1,0 +1,65 @@
+@import "../../../styles/variables";
+.gbblocks-icon-panel .components-popover__content {
+	width: 376px;
+	max-height: 443px !important;
+	overflow: hidden !important;
+	overflow-y: auto !important;
+	padding: 10px;
+	box-sizing: border-box !important;
+}
+.gbblocks-icon-panel .components-popover__content * {
+	box-sizing: border-box !important;
+}
+
+.gbblocks-icon-panel .components-popover__content > div {
+	height: auto;
+}
+
+.gbblocks-icon-panel.is-expanded .components-popover__content {
+	width: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+ul.gbblocks-icon-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	height: 100%;
+	max-height: 180px;
+	overflow-y: scroll;
+}
+
+ul.gbblocks-icon-list li {
+	padding: 2px;
+	margin: 0;
+	transition: all 0.5s ease-in-out;
+	&.selectedicon {
+		.components-button {
+			border-color: $color-seven;
+		}
+	}
+}
+
+ul.gbblocks-icon-list li .components-button {
+	display: inline-block;
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	color: $color-seven;
+	border: 1px solid transparent;
+	text-align: center;
+	padding: 0;
+	outline: 0;
+	&:focus {
+		box-shadow: unset;
+	}
+}
+
+ul.gbblocks-icon-list li .components-button:hover {
+	border-color: $color-seven;
+	color: $color-seven !important;
+}

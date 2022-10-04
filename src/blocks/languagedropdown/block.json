@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/langdropdown",
+	"version": "0.1.0",
+	"title": "Language Dropdown",
+	"category": "theme",
+	"keywords": ["Language", "Dropdown", "gbblocks"],
+	"description": "A gutenberg block to use for Language Dropdown.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"textdomain": "gbblocks",
+	"editorScript": "blocks-6"
+}

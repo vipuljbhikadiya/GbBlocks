@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/navigation",
+	"version": "0.1.5",
+	"title": "Navigation",
+	"category": "theme",
+	"description": "A gutenberg block to use classic menus.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"anchor": {
+			"type": "string"
+		},
+		"menu": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/header", "gbblocks/footer"],
+	"editorScript": "blocks-2"
+}

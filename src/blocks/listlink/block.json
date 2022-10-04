@@ -1,0 +1,38 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/listlink",
+	"version": "0.1.5",
+	"title": "List Link",
+	"category": "theme",
+	"keywords": ["list", "item", "list link"],
+	"description": "A gutenberg block to use for List with Link.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"url": {
+			"type": "string"
+		},
+		"linkTarget": {
+			"type": "string"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"listlinkExtraClass": {
+			"type": "string",
+			"default": ""
+		},
+		"isListLink": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-3.js"
+}

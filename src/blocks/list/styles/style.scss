@@ -1,0 +1,100 @@
+@import "../../../styles/variables";
+ 
+.list {
+	font-family: $font-body;
+	font-weight: normal;
+
+	&.list--style- {
+		&one {
+			margin: 0px 0px 25px;
+			li {
+				font-size: 22px;
+				line-height: 26px;
+				margin-bottom: 18px;
+			}
+		}
+		&two {
+			margin-bottom: 25px;
+			li {
+				font-size: 18px;
+				line-height: 28px;
+				margin-bottom: 15px;
+			}
+		}
+		&three {
+			margin-bottom: 20px;
+			li {
+				font-size: 16px;
+				line-height: 24px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	&.list--color- {
+		&one {
+			color: $color-one;
+		}
+		&two {
+			color: $color-two;
+		}
+		&three {
+			color: $color-three;
+		}
+		&four {
+			color: $color-four;
+		}
+		&five {
+			color: $color-five;
+		}
+		&six {
+			color: $color-six;
+		}
+	}
+}
+
+@media screen and (min-width: 481px) {
+
+    .list {    
+        &.list--style- {
+            &one {
+                margin: 0px 0px 35px;
+                li {
+                    font-size: 27px;
+                    line-height: 32px;
+                }
+            }
+            &two {
+                li {
+                    line-height: 30px;
+                }
+            }
+            &three {
+                li {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    .list {    
+        &.list--style- {
+            &two {
+                margin-bottom: 30px;
+                li {
+                    font-size: 20px;
+                }
+            }
+            &three {
+                li {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+
+}

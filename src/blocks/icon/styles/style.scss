@@ -1,0 +1,79 @@
+@import "../../../styles/variables";
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border-radius: 100%;
+
+	&.icon--link {
+		text-decoration: none;
+	}
+
+	&.icon--bgcolor {
+		&-one {
+			background-color: $color-one;
+		}
+		&-two {
+			background-color: $color-two;
+		}
+		&-three {
+			background-color: $color-three;
+		}
+		&-four {
+			background-color: $color-four;
+		}
+		&-five {
+			background-color: $color-five;
+		}
+		&-six {
+			background-color: $color-six;
+		}
+		&-seven {
+			background-color: $color-seven;
+		}
+	}
+
+	&.icon--color {
+		&-one .icon__visual {
+			color: $color-one;
+		}
+		&-two .icon__visual {
+			color: $color-two;
+		}
+		&-three .icon__visual {
+			color: $color-three;
+		}
+		&-four .icon__visual {
+			color: $color-four;
+		}
+		&-five .icon__visual {
+			color: $color-five;
+		}
+		&-six .icon__visual {
+			color: $color-six;
+		}
+		&-seven .icon__visual {
+			color: $color-seven;
+		}
+	}
+
+	.icon__visual {
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+
+		&::before {
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	.icon__helper {
+		padding: 100% 0 0 0;
+		position: relative;
+	}
+}

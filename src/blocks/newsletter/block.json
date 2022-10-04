@@ -1,0 +1,74 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/newsletter",
+	"version": "0.1.0",
+	"title": "Newsletter",
+	"category": "theme",
+	"keywords": ["form", "Newsletter", "gbblocks"],
+	"description": "A gutenberg block to use for Newsletter.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"bgResponsiveMode": {
+			"type": "string",
+			"default": "xs"
+		},
+		"imageId": {
+			"type": "number"
+		},
+		"xlImageSrc": {
+			"type": "string",
+			"default": ""
+		},
+		"webpImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"mdimageId": {
+			"type": "number"
+		},
+		"mdImageSrc": {
+			"type": "string",
+			"default": ""
+		},
+		"webpmdImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"xsimageId": {
+			"type": "number"
+		},
+		"xsImageSrc": {
+			"type": "string",
+			"default": ""
+		},
+		"webpxsImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"bgAlt": {
+			"type": "string",
+			"default": ""
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"editorScript": "blocks-6"
+}

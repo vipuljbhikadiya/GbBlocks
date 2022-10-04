@@ -1,0 +1,33 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/timelineslider",
+	"version": "0.1.5",
+	"title": "Timeline Slider",
+	"category": "theme",
+	"description": "A gutenberg block for Timeline Slider.",
+	"supports": {
+		"multiple": true,
+		"reusable": false,
+		"html": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"innerItem": {
+			"type": "array",
+			"default": []
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"textdomain": "gbblocks",
+	"editorScript": "blocks-5"
+}

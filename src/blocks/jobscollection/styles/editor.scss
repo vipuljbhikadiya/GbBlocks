@@ -1,0 +1,38 @@
+.jobs__collection {
+	.block-editor-block-list__layout {
+		.wp-block-gbblocks-jobcard {
+			flex-basis: calc(100% - var(--gap));
+			max-width: calc(100% - var(--gap));
+			margin: 0 0 var(--gap) var(--gap);
+			.col {
+				flex-basis: 100%;
+				max-width: 100%;
+				margin: 0px;
+				background-color: transparent;
+				border-color: #52715d;
+			}
+		}
+	}
+}
+@media only screen and (min-width: 1025px) {
+	.jobs__collection {
+		.block-editor-block-list__layout {
+			.wp-block-gbblocks-jobcard {
+				flex-basis: calc(33.3333333333% - var(--gap));
+				max-width: calc(33.3333333333% - var(--gap));
+				margin: 0 0 var(--gap) var(--gap);
+			}
+		}
+	}
+}
+@media only screen and (min-width: 1401px) {
+	.jobs__collection {
+		.block-editor-block-list__layout {
+			.wp-block-gbblocks-jobcard {
+				flex-basis: calc(25% - var(--gap));
+				max-width: calc(25% - var(--gap));
+				margin: 0 0 var(--gap) var(--gap);
+			}
+		}
+	}
+}

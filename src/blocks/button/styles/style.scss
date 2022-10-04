@@ -1,0 +1,369 @@
+.button--cta {
+	text-align: left;
+	text-decoration: none;
+	border-radius: 50px;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 500;
+	font-family: $font-body;
+	text-transform: uppercase;
+	border-width: 1px;
+	border-style: solid;
+	width: max-content;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	cursor: pointer;
+	pointer-events: all;
+	z-index: 2;
+	&.button--text {
+		text-align: center;
+	}
+	.button--has-icon {
+		transition: all 0.4s ease;
+		position: absolute;
+		left: 2px;
+		top: 0px;
+		bottom: 0px;
+		margin: auto;
+		height: 55px;
+		width: 54px;
+		line-height: 55px;
+		.icon {
+			height: 54px;
+			width: 54px;
+			font-size: 29.31px;
+			line-height: 54px;
+			margin: 0px;
+		}
+	}
+}
+
+.wp-site-blocks {
+	.button--hover {
+		&:hover {
+			.button--text {
+				font-size: 0;
+				line-height: 0px;
+				&:before {
+					content: attr(data-hover);
+					font-size: 18px;
+					line-height: 22px;
+				}
+			}
+		}
+	}
+}
+.button--align-xs {
+	&-center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	&-right {
+		margin-left: auto;
+	}
+}
+.button--width {
+	&-one {
+		width: 25%;
+	}
+	&-two {
+		width: 50%;
+	}
+	&-three {
+		width: 75%;
+	}
+	&-four {
+		width: 100%;
+	}
+}
+.button--style {
+	&-one {
+		&.button--icon {
+			border-width: 2px;
+			padding: 16.5px 50px 16.5px 71px;
+			transition: all 1s ease;
+			&.button--color {
+				&-one {
+					background-color: $color-one;
+					border-color: $color-one;
+					color: $color-six;
+					background: linear-gradient(to left, $color-one 50%, $color-four 50%);
+					background-size: 200% 100%;
+					background-position: right bottom;
+				}
+				&-two {
+					background-color: $color-two;
+					border-color: $color-two;
+					color: $color-three;
+					background: linear-gradient(
+						to left,
+						$color-two 50%,
+						$color-three 50%
+					);
+					background-size: 200% 100%;
+					background-position: right bottom;
+					&:hover {
+						color: $color-six;
+					}
+				}
+				&-three {
+					background-color: $color-three;
+					border-color: $color-three;
+					color: $color-six;
+					background: linear-gradient(
+						to left,
+						$color-three 50%,
+						$color-two 50%
+					);
+					background-size: 200% 100%;
+					background-position: right bottom;
+					&:hover {
+						color: $color-three;
+					}
+				}
+				&-four {
+					background-color: $color-four;
+					border-color: $color-four;
+					color: $color-six;
+					background: linear-gradient(to left, $color-four 50%, $color-one 50%);
+					background-size: 200% 100%;
+					background-position: right bottom;
+				}
+				&-five {
+					background-color: $color-five;
+					border-color: $color-five;
+					color: $color-six;
+					background: linear-gradient(to left, $color-five 50%, $color-six 50%);
+					background-size: 200% 100%;
+					background-position: right bottom;
+					&:hover {
+						color: $color-five;
+					}
+				}
+				&-six {
+					background-color: $color-six;
+					border-color: $color-six;
+					color: $color-three;
+					background: linear-gradient(to left, $color-six 50%, $color-one 50%);
+					background-size: 200% 100%;
+					background-position: right bottom;
+					&:hover {
+						color: $color-six;
+					}
+				}
+			}
+			&:hover {
+				background-position: left bottom;
+			}
+		}
+		&:not(.button--icon) {
+			border-width: 1px;
+			padding: 14px 49px 14px 50px;
+			transition: 0.5s all;
+			font-size: 17px;
+			line-height: 20px;
+			background-color: $color-one;
+			border-color: $color-one;
+			color: $color-six;
+			&.button--color {
+				&-one {
+					background-color: $color-one;
+					border-color: $color-one;
+					color: $color-six;
+				}
+				&-two {
+					background-color: $color-two;
+					border-color: $color-two;
+					color: $color-three;
+				}
+				&-three {
+					background-color: $color-three;
+					border-color: $color-three;
+					color: $color-six;
+				}
+				&-four {
+					background-color: $color-four;
+					border-color: $color-four;
+					color: $color-six;
+				}
+				&-five {
+					background-color: $color-five;
+					border-color: $color-five;
+					color: $color-six;
+				}
+				&-six {
+					background-color: $color-six;
+					border-color: $color-six;
+					color: $color-three;
+				}
+			}
+		}
+	}
+	&-two {
+		border-width: 1px;
+		padding: 14px 49px 14px 50px;
+		background-color: transparent;
+		transition: 0.5s all;
+		font-size: 17px;
+		line-height: 20px;
+		&.button--color {
+			&-one {
+				border-color: $color-one;
+				color: $color-one;
+			}
+			&-two {
+				border-color: $color-two;
+				color: $color-two;
+			}
+			&-three {
+				border-color: $color-three;
+				color: $color-three;
+			}
+			&-four {
+				border-color: $color-four;
+				color: $color-four;
+			}
+			&-five {
+				border-color: $color-five;
+				color: $color-five;
+			}
+			&-six {
+				border-color: $color-six;
+				color: $color-six;
+			}
+		}
+		&.button--icon {
+			.button--text {
+				margin-left: 17px;
+				display: block;
+			}
+			.button--hover-text {
+				opacity: 1;
+				margin-left: 17px;
+			}
+		}
+		.button--has-icon,
+		.button--has-icon .icon {
+			height: 46px;
+			width: 46px;
+		}
+		.button--has-icon .icon {
+			line-height: 47px;
+		}
+	}
+}
+@media screen and (min-width: 1401px) {
+	.button--cta {
+		&.button--align-xl {
+			&-left {
+				margin-left: 0px;
+				margin-right: auto;
+			}
+			&-center {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			&-right {
+				margin-left: auto;
+				margin-right: 0px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+	.button--cta {
+		&.button--align-lg {
+			&-left {
+				margin-left: 0px;
+				margin-right: auto;
+			}
+			&-center {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			&-right {
+				margin-left: auto;
+			}
+		}
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.button--cta {
+		&.button--align-md {
+			&-left {
+				margin-left: 0px;
+				margin-right: auto;
+			}
+			&-center {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			&-right {
+				margin-left: auto;
+				margin-right: 0px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.button--cta {
+		&.button--align-sm {
+			&-left {
+				margin-left: 0px;
+				margin-right: auto;
+			}
+			&-center {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			&-right {
+				margin-left: auto;
+				margin-right: 0px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.button--cta svg {
+		left: 7.1px;
+	}
+	.button--style {
+		&-one {
+			&.button--icon {
+				padding: 14px 32px 14px 59px;
+				font-size: 15px;
+				line-height: 18px;
+			}
+			.button--has-icon,
+			.button--has-icon .icon {
+				width: 45px;
+				height: 46px;
+			}
+			.button--has-icon .icon {
+				line-height: 46px;
+			}
+			&:not(.button--icon) {
+				padding: 15px 44px 15px 44px;
+				font-size: 15px;
+				line-height: 18px;
+			}
+		}
+		&-two {
+			padding: 15px 44px 15px 44px;
+			font-size: 15px;
+			line-height: 18px;
+		}
+	}
+}
+@media screen and (max-width: 480px) {
+	.button--style {
+		&-one {
+			&.button--icon {
+				padding: 14px 44px 14px 64px;
+			}
+		}
+	}
+}

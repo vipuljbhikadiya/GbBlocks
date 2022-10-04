@@ -1,0 +1,112 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/column",
+	"version": "0.1.5",
+	"title": "Grid - Column",
+	"category": "theme",
+	"description": "A gutenberg block to use Column.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"colResponsiveMode": {
+			"type": "string",
+			"default": "xs"
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": ""
+		},
+		"colbgClass": {
+			"type": "string",
+			"default": ""
+		},
+		"xlwidth": {
+			"type": "number",
+			"default": 0
+		},
+		"lgwidth": {
+			"type": "number",
+			"default": 0
+		},
+		"mdwidth": {
+			"type": "number",
+			"default": 0
+		},
+		"smwidth": {
+			"type": "number",
+			"default": 0
+		},
+		"xswidth": {
+			"type": "number",
+			"default": 0
+		},
+		"xloffset": {
+			"type": "number",
+			"default": -1
+		},
+		"lgoffset": {
+			"type": "number",
+			"default": -1
+		},
+		"mdoffset": {
+			"type": "number",
+			"default": -1
+		},
+		"smoffset": {
+			"type": "number",
+			"default": -1
+		},
+		"xsoffset": {
+			"type": "number",
+			"default": -1
+		},
+		"colPadding": {
+			"type": "number",
+			"default": 1
+		},
+		"xlalignV": {
+			"type": "string",
+			"default": ""
+		},
+		"lgalignV": {
+			"type": "string",
+			"default": ""
+		},
+		"mdalignV": {
+			"type": "string",
+			"default": ""
+		},
+		"smalignV": {
+			"type": "string",
+			"default": ""
+		},
+		"xsalignV": {
+			"type": "string",
+			"default": ""
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"hideLG": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideMD": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideXS": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"keywords": ["column", "gbblocks"],
+	"parent": ["gbblocks/row"],
+	"textdomain": "gbblocks",
+	"editorScript": "file:./blocks-1.js"
+}

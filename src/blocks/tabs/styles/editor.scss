@@ -1,0 +1,32 @@
+[data-type="gbblocks/tabcontent"] {
+	max-width: 100% !important;
+	display: block;
+
+	&[data-hidden] {
+		display: none;
+	}
+}
+.tabs {
+	.tab__nav {
+		.splide__list {
+			display: flex;
+			justify-content: flex-start;
+		}
+		.tab__head-slide {
+			display: none;
+			&.active {
+				display: block;
+				.headline {
+					color: $color-three;
+					border-color: $color-three;
+				}
+				.text {
+					color: $color-three;
+				}
+			}
+		}
+	}
+}
+.tabs .tab__nav .splide__track .splide__list .tab__nav-slide:not(.is-active) {
+	margin-right: 15px !important;
+}

@@ -1,0 +1,69 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/videoslider",
+	"version": "0.1.5",
+	"title": "Video Slider",
+	"category": "theme",
+	"description": "A gutenberg block for Video Slider.",
+	"supports": {
+		"multiple": true,
+		"reusable": false,
+		"html": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"videoLink": {
+			"type": "string"
+		},
+		"navLabel1": {
+			"type": "string"
+		},
+		"navTime1": {
+			"type": "string",
+			"default": "0"
+		},
+		"navLabel2": {
+			"type": "string"
+		},
+		"navTime2": {
+			"type": "string",
+			"default": "0"
+		},
+		"navLabel3": {
+			"type": "string"
+		},
+		"navTime3": {
+			"type": "string",
+			"default": "0"
+		},
+		"navLabel4": {
+			"type": "string"
+		},
+		"navTime4": {
+			"type": "string",
+			"default": "0"
+		},
+		"navLabel5": {
+			"type": "string"
+		},
+		"navTime5": {
+			"type": "string",
+			"default": "0"
+		},
+		"anchor": {
+			"type": "string"
+		},
+		"extraClass": {
+			"type": "string"
+		}
+	},
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"textdomain": "gbblocks",
+	"editorScript": "blocks-6"
+}

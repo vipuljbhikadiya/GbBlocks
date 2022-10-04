@@ -1,0 +1,59 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/previewitem",
+	"version": "0.1.5",
+	"title": "Circle Preview Item",
+	"category": "theme",
+	"keywords": ["circle", "preview", "item"],
+	"description": "A gutenberg block to use for Circle Preview Item.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"headline": {
+			"type": "string",
+			"default": ""
+		},
+		"description": {
+			"type": "string",
+			"default": ""
+		},
+		"iconClass": {
+			"type": "string",
+			"default": "fa fa-wordpress"
+		},
+		"imageId": {
+			"type": "number"
+		},
+		"altText": {
+			"type": "string",
+			"default": ""
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"xsimageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpxsImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"mdimageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpmdImageUrl": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/circlepreview"],
+	"editorScript": "blocks-6.js"
+}

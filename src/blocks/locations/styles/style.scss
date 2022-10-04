@@ -1,0 +1,128 @@
+.location--map-slider{
+  .locationmap--wrapper {
+    display: flex;
+    align-items: center;
+    .locations{
+        position: relative;
+        width: calc(100% - 59.5%);
+        .location--heading{
+            margin-bottom: 40px;
+            .headline{
+              margin-bottom: 0px;
+              max-width: 612px;
+              border: 1px solid $color-one;
+              border-radius: 40px;
+              display: flex;
+              align-items: center;
+              margin-bottom: 0px;
+              padding: 2px;
+            }
+            .location--block-icon {
+              width: 53px;
+              height: 53px;
+              background-color: $color-four;
+              border-radius: 50px;
+              display: inline-block;
+              text-align: center;
+              padding: 11px;
+              margin-right: 20px;
+          }
+        }
+        p{
+          margin-top: 0px;
+        }
+        .splide {
+          margin-left: 20px;
+        }
+        .splide__arrows {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+    }
+    .map--navigations{
+      width: 59.5%;
+      margin-right: 40px;
+      .location--markers{
+        position: relative;
+        .marker {
+          position: absolute;
+          transition: all 0.5s;
+          &.active {
+            transform: scale(1.3);
+            transform-origin: 50% 100%;
+          }
+          &:not(.active){
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .location--map-slider{
+    .locationmap--wrapper {
+        .locations{
+          margin-bottom: 140px;
+          .splide__arrows{
+            bottom: -140px;
+              left: 50%;
+              right: auto;
+              transform: translateX(-50%);
+          }
+        }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .location--map-slider{
+      .locationmap--wrapper {
+        flex-flow: column;
+          .map--navigations{
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 40px;
+          }
+          .locations{
+                width: 100%;
+                max-width: 505px;
+                .location--heading{
+                  margin-bottom: 30px;
+                   .location--block-icon{
+                      width: 40px;
+                      height: 40px;
+                      padding: 4px;
+                      margin-right: 18px;
+                      svg{
+                        width: 22px;
+                      }
+                   }
+                }
+            .splide__arrows{
+          
+          }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .location--map-slider{
+      .locationmap--wrapper {
+          .map--navigations{
+          display: none;
+          }
+          .locations{
+             margin-bottom: 100px;
+            .splide__arrows{
+              bottom: -100px;
+          }
+      }
+    }
+  }
+}

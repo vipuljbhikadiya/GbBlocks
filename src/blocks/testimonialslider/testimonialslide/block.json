@@ -1,0 +1,36 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/testimonialslide",
+	"version": "0.1.5",
+	"title": "Testimonial Slide",
+	"category": "theme",
+	"description": "A gutenberg block for Testimonial Slide.",
+	"supports": {
+		"multiple": true,
+		"reusable": false,
+		"html": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"xsimageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"xswebpImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageId": {
+			"type": "number",
+			"default": ""
+		},
+		"altText": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/testimonialslider"],
+	"editorScript": "blocks-5"
+}

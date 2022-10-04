@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+.site--logo a {
+	pointer-events: none;
+}
+
+.wp-block-tbblocks-header {
+	font-family: $font-body;
+}
+.nav--wrapper {
+	.block-editor-block-list__layout {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		height: 100%;
+	}
+}

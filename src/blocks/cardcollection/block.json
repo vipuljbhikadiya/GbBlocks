@@ -1,0 +1,57 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/cardcollection",
+	"version": "0.1.0",
+	"title": "Card Collection",
+	"category": "theme",
+	"keywords": ["card", "Card", "Collection"],
+	"description": "A gutenberg block to use for Card Collection.",
+	"supports": {
+		"html": true,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"responsiveMode": {
+			"type": "string",
+			"default": "xs"
+		},
+		"xsColumnCount": {
+			"type": "number",
+			"default": 0
+		},
+		"smColumnCount": {
+			"type": "number",
+			"default": 0
+		},
+		"mdColumnCount": {
+			"type": "number",
+			"default": 0
+		},
+		"lgColumnCount": {
+			"type": "number",
+			"default": 0
+		},
+		"xlColumnCount": {
+			"type": "number",
+			"default": 0
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"editorScript": "blocks-4"
+}

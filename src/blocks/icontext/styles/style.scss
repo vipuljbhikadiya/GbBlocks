@@ -1,0 +1,39 @@
+.icon-text {
+	display: flex;
+	align-items: center;
+	margin: 0px 0px 15px 0px;
+
+	.icon {
+		width: 40px;
+	}
+
+	.headline {
+		margin: 0 0 0 15px;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (min-width: 481px) {
+	.icon-text {
+		margin: 0px 0px 20px 0px;
+
+		.icon {
+			width: 40px;
+		}
+
+		.headline {
+			margin: 0 0 0 15px;
+		}
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.icon-text {
+		.icon {
+			width: 60px;
+		}
+		.headline {
+			margin: 0 0 0 20px;
+		}
+	}
+}

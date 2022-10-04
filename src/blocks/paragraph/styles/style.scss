@@ -1,0 +1,153 @@
+@import "../../../styles/variables";
+
+.text {
+	margin-top: 0px;
+	&.text--color- {
+		&one {
+			color: $color-one;
+		}
+		&two {
+			color: $color-two;
+		}
+		&three {
+			color: $color-three;
+		}
+		&four {
+			color: $color-four;
+		}
+		&five {
+			color: $color-five;
+		}
+		&six {
+			color: $color-six;
+		}
+		&seven {
+			color: $color-seven;
+		}
+	}
+
+	&.text--align-xs {
+		&-left {
+			text-align: left;
+		}
+		&-center {
+			text-align: center;
+		}
+		&-right {
+			text-align: right;
+		}
+	}
+
+	&.text--style- {
+		&one {
+			display: block;
+			font-family: $font-body;
+			font-size: 22px;
+			font-weight: normal;
+			line-height: 26px;
+			margin-bottom: 35px;
+		}
+		&two {
+			display: block;
+			font-family: $font-body;
+			font-size: 18px;
+			font-weight: normal;
+			line-height: 28px;
+			margin-bottom: 25px;
+		}
+		&three {
+			display: block;
+			font-family: $font-body;
+			font-size: 16px;
+			font-weight: normal;
+			line-height: 24px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media screen and (min-width: 481px) {
+	.text {
+		&.text--align-sm {
+			&-left {
+				text-align: left;
+			}
+			&-center {
+				text-align: center;
+			}
+			&-right {
+				text-align: right;
+			}
+		}
+
+		&.text--style- {
+			&one {
+				font-size: 27px;
+				line-height: 32px;
+			}
+			&two {
+				line-height: 30px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.text {
+		&.text--align-md {
+			&-left {
+				text-align: left;
+			}
+			&-center {
+				text-align: center;
+			}
+			&-right {
+				text-align: right;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.text {
+		&.text--align-lg {
+			&-left {
+				text-align: left;
+			}
+			&-center {
+				text-align: center;
+			}
+			&-right {
+				text-align: right;
+			}
+		}
+
+		&.text--style- {
+			&two {
+				font-size: 20px;
+				line-height: 34px;
+				margin-bottom: 30px;
+			}
+			&three {
+				font-size: 18px;
+				line-height: 28px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1401px) {
+	.text {
+		&.text--align-xl {
+			&-left {
+				text-align: left;
+			}
+			&-center {
+				text-align: center;
+			}
+			&-right {
+				text-align: right;
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+.slider__wrapper {
+	.news__slider {
+		visibility: visible;
+		.news__list {
+			max-width: 520px;
+			margin-right: 20px;
+		}
+		.splide__arrows {
+			bottom: -38px;
+		}
+	}
+}

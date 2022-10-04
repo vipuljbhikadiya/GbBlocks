@@ -1,0 +1,72 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/image",
+	"version": "0.1.5",
+	"title": "Image",
+	"category": "theme",
+	"keywords": ["image", "picture"],
+	"description": "A gutenberg block to use for Image.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"xsimageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpxsImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"mdimageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpmdImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageId": {
+			"type": "number",
+			"default": ""
+		},
+		"altText": {
+			"type": "string",
+			"default": ""
+		},
+		"imageStyle": {
+			"type": "string",
+			"default": "one"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"imgExtraClass": {
+			"type": "string",
+			"default": ""
+		},
+		"isImage": {
+			"type": "boolean",
+			"default": false
+		},
+		"isOnlyImage": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-3.js"
+}

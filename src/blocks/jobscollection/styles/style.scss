@@ -1,0 +1,117 @@
+.jobs__collection {
+	.col {
+		padding: 30px 20px;
+		border: 1px solid #52715d;
+		border-radius: 15px;
+	}
+	.job_card {
+		.job__card-headline {
+			display: grid;
+			grid-template-columns: 51.62px auto;
+			column-gap: 21.5px;
+			margin-bottom: 20px;
+			.headline {
+				margin: 0px;
+			}
+		}
+		.job__card-headicon {
+			width: 49.86px;
+			height: 49.86px;
+			border-radius: 100%;
+			background-color: $color-one;
+			display: block;
+			position: relative;
+			&::after {
+				content: "";
+				position: absolute;
+				right: 0px;
+				bottom: 0px;
+				width: 21.49px;
+				height: 21.49px;
+				border-radius: 100%;
+				background-color: $color-four;
+				z-index: -1;
+			}
+			svg {
+				display: block;
+				margin: auto;
+				text-align: center;
+				height: 100%;
+			}
+		}
+		.job__card-detail {
+			margin-bottom: 20px;
+			.job__card-list {
+				display: grid;
+				grid-template-columns: 129px auto;
+				column-gap: 12.2px;
+				align-items: center;
+				margin-bottom: 10px;
+				.job__card-list-head,
+				.text {
+					margin: 0px;
+				}
+				.job__card-list-head {
+					font-family: $font-body;
+					font-size: 18px;
+					line-height: 28px;
+					font-weight: 500;
+					color: $color-four;
+					text-transform: unset;
+				}
+			}
+		}
+		.button--cta {
+			margin: 10px 0px;
+		}
+	}
+	.col {
+		&:last-child {
+			background-color: $color-four;
+			border-color: $color-four;
+			.job__card-head {
+				.headline {
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 1024px) {
+	.jobs__collection {
+		.job_card {
+			.job__card-detail {
+				.job__card-list {
+					.job__card-list-head {
+						font-size: 16px;
+						line-height: 24px;
+					}
+				}
+			}
+			.button--cta {
+				margin: 5px 0px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+	.jobs__collection {
+		&.container {
+			max-width: 420px;
+		}
+	}
+}
+@media screen and (min-width: 420px) and (max-width: 480px) {
+	.jobs__collection {
+		&.container {
+			max-width: 400px;
+		}
+	}
+}
+@media screen and (min-width: 1401px) and (max-width: 1919px) {
+	.jobs__collection {
+		&.container {
+			max-width: 1340px;
+		}
+	}
+}

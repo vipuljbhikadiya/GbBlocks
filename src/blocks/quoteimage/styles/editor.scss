@@ -1,0 +1,11 @@
+.quote-image {
+	.block-editor-block-list__layout {
+		position: unset;
+		.wp-block-gbblocks-icon {
+			position: unset;
+		}
+	}
+	.col__content .quote-image__background .placeholder__img img {
+		position: absolute;
+	}
+}

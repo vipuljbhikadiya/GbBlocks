@@ -1,0 +1,40 @@
+.accordion {
+	max-width: 544.32px;
+	// margin: 0px auto;
+	.accordion__item {
+		padding: 0px 0px 10px;
+		.list-link {
+			cursor: pointer;
+			svg {
+				transition: transform 0.5s ease-in-out;
+				transform: rotate(90deg);
+			}
+			&.collapsed {
+				svg {
+					transform: rotate(-90deg);
+				}
+			}
+		}
+		.accordion-body {
+			padding: 10px 20px 0px;
+			p {
+				margin-top: 0px;
+			}
+		}
+		&:not(:first-child) {
+			.accordion-collapse {
+				display: none;
+			}
+		}
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+	.accordion {
+		max-width: 362.54px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.accordion {
+		max-width: 299.65px;
+	}
+}

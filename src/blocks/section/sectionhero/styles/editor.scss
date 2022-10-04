@@ -1,0 +1,132 @@
+.section--hero {
+	&::before {
+		z-index: unset;
+	}
+}
+@media screen and (min-width: 300px) {
+	.section--hero {
+		.col--hero__content {
+			padding: 0px calc(((100vw - 300px) / 2) / 2);
+		}
+	}
+}
+@media screen and (min-width: 420px) {
+	.section--hero {
+		.col--hero__content {
+			padding: 0px calc(((100vw - 400px) / 2) / 2);
+		}
+	}
+}
+@media screen and (min-width: 768px) {
+	.section--hero {
+		.col--hero__content {
+			padding: 0px calc(((100vw - 640px) / 2) / 2);
+		}
+	}
+}
+@media screen and (min-width: 1025px) {
+	.section--hero {
+		&.section--hero- {
+			&right {
+				.col--hero__content {
+					padding: 0px;
+				}
+			}
+			&left {
+				.col--hero__content {
+					padding: 0px;
+				}
+			}
+		}
+		.col--hero__visual {
+			.col__visual {
+				picture {
+					top: 100px;
+					height: calc(100% - 100px);
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 1280px) {
+	.section--hero {
+		.col--hero__visual {
+			.col__visual {
+				padding: 74%;
+				picture {
+					top: 200px;
+					height: calc(100% - 200px);
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 1401px) {
+	.section--hero {
+		&.section--hero- {
+			&right {
+				.col--hero__content {
+					padding: 0px;
+				}
+			}
+			&left {
+				.col--hero__content {
+					padding: 0px;
+				}
+			}
+		}
+
+		.headline-numbered {
+			.col--xl-2 {
+				flex-basis: calc(30% - var(--gap));
+				max-width: calc(30% - var(--gap));
+				margin: 0 0 var(--gap) var(--gap);
+			}
+			.col--xl-5 {
+				flex-basis: calc(70% - 20px);
+				max-width: calc(70% - 20px);
+				margin: 0 0 var(--gap) 20px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 1920px) {
+	.section--hero {
+		&.section--hero- {
+			&right {
+				.col--hero__content {
+					padding: 0px 0px 0px calc(((100vw - 1600px) / 2) / 2);
+				}
+			}
+			&left {
+				.col--hero__content {
+					padding: 0px calc(((100vw - 1600px) / 2) / 2) 0px 0px;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+	.section--hero {
+		> .section__content {
+			> .row-wrapper {
+				> .row {
+					> .col {
+						flex-basis: calc(100% - var(--gap));
+						max-width: calc(100% - var(--gap));
+						margin: 0 0 var(--gap) var(--gap);
+					}
+				}
+			}
+		}
+		&.section--hero-right {
+			.row-wrapper:not(.headline-numbered) {
+				> .row {
+					> .col:first-child {
+						order: 2;
+					}
+				}
+			}
+		}
+	}
+}

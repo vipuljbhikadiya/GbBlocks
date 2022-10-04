@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/sectionherocontent",
+	"version": "0.1.5",
+	"title": "Section Hero Left | Right - Content",
+	"category": "theme",
+	"keywords": ["Hero", "Left", "Right", "Content"],
+	"description": "A gutenberg block to use for Hero Section.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"parentAttributesData": {
+			"type": "object",
+			"default": []
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/herosection"],
+	"editorScript": "blocks-1"
+}

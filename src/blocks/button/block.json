@@ -1,0 +1,99 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/button",
+	"version": "0.1.0",
+	"title": "Button",
+	"category": "theme",
+	"keywords": ["button", "link", "gbblocks"],
+	"description": "A gutenberg block to use for Button.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"style": {
+			"type": "string",
+			"default": "one"
+		},
+		"bgcolorClass": {
+			"type": "string",
+			"default": "one"
+		},
+		"bgcolor": {
+			"type": "string",
+			"default": "#49725B"
+		},
+		"width": {
+			"type": "string",
+			"default": "inline"
+		},
+		"linkTarget": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "target"
+		},
+		"rel": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "rel"
+		},
+		"text": {
+			"type": "string",
+			"source": "html",
+			"selector": ".button--text"
+		},
+		"url": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "href"
+		},
+		"buttonicon": {
+			"type": "boolean",
+			"default": false
+		},
+		"hoverButtonText": {
+			"type": "string",
+			"default": ""
+		},
+		"responsiveMode": {
+			"type": "string",
+			"default": "xs"
+		},
+		"AlignXs": {
+			"type": "string",
+			"default": "left"
+		},
+		"AlignSm": {
+			"type": "string",
+			"default": "left"
+		},
+		"AlignMd": {
+			"type": "string",
+			"default": "left"
+		},
+		"AlignLg": {
+			"type": "string",
+			"default": "left"
+		},
+		"AlignXl": {
+			"type": "string",
+			"default": "left"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"btnExtraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-3"
+}

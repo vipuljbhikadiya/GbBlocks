@@ -1,0 +1,77 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/headlinenumbered",
+	"version": "0.1.0",
+	"title": "Headline Numbered",
+	"category": "theme",
+	"keywords": ["headline", "numbered", "gbblocks"],
+	"description": "A gutenberg block to use for Headline Numbered.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"contentResponsiveMode": {
+			"type": "string",
+			"default": "xs"
+		},
+		"xlwidth": {
+			"type": "number",
+			"default": 5
+		},
+		"lgwidth": {
+			"type": "number",
+			"default": 9
+		},
+		"mdwidth": {
+			"type": "number",
+			"default": 8
+		},
+		"smwidth": {
+			"type": "number",
+			"default": 9
+		},
+		"xswidth": {
+			"type": "number",
+			"default": 12
+		},
+		"number": {
+			"type": "number",
+			"default": 0
+		},
+		"hideDescription": {
+			"type": "boolean",
+			"default": true
+		},
+		"hideButton": {
+			"type": "boolean",
+			"default": true
+		},
+		"isFullWidth": {
+			"type": "boolean",
+			"default": true
+		},
+		"isHeadlineNumbered": {
+			"type": "boolean",
+			"default": true
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"editorScript": "blocks-4"
+}

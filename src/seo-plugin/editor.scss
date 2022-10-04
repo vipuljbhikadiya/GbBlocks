@@ -1,0 +1,14 @@
+.igb_text_area{
+    width: 100%;
+    textarea{
+        resize: none;
+    }
+}
+
+.ix_hide_panel_icon{
+    .components-panel__body-toggle{
+        .components-panel__icon{
+            display: none;
+        }
+    }
+}

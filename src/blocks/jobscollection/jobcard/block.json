@@ -1,0 +1,44 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/jobcard",
+	"version": "0.1.0",
+	"title": "Jobs",
+	"category": "theme",
+	"keywords": ["jobs", "list", "gbblocks"],
+	"description": "A gutenberg block to use for Jobs.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"location": {
+			"type": "string",
+			"default": ""
+		},
+		"entryLevel": {
+			"type": "string",
+			"default": ""
+		},
+		"employment": {
+			"type": "string",
+			"default": ""
+		},
+		"sector": {
+			"type": "string",
+			"default": ""
+		},
+		"link": {
+			"type": "string",
+			"default": "#"
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/jobscollection"],
+	"editorScript": "blocks-4"
+}

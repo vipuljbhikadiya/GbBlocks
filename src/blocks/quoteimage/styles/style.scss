@@ -1,0 +1,138 @@
+.quote-image {
+	.col__content {
+		position: relative;
+		.quote-image__background {
+			position: relative;
+			padding-bottom: 42.5%;
+			picture {
+				margin: 0px;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				img {
+					width: 100%;
+					border-radius: 15px;
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+		}
+		.quote-image__content {
+			padding: 40px 40px 40px 146.04px;
+			border-radius: 30px;
+			backdrop-filter: blur(14px) saturate(32%);
+			background-color: rgb(255 255 255 / 50%);
+			position: absolute;
+			bottom: 40px;
+			left: 40px;
+			width: 764px;
+			z-index: 2;
+			.icon {
+				margin: 0px;
+				width: 71.04px;
+				height: 68.06px;
+				font-size: 71.04px;
+				line-height: 68.06px;
+				position: absolute;
+				left: 40px;
+				top: 40px;
+			}
+			.headline--quote-image {
+				line-height: 28px;
+				letter-spacing: 1.242px;
+			}
+			.button--cta {
+				margin-bottom: 0px;
+				font-size: 18px;
+				line-height: 22px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+	.quote-image {
+		max-width: 640px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.quote-image {
+		.col__content {
+			.quote-image__background {
+				padding-bottom: 64.3%;
+			}
+			.quote-image__content {
+				width: calc(100% - 80px);
+				border-radius: 20px;
+				padding: 20px 20px 20px 103px;
+				left: 40px;
+				bottom: 33.9px;
+				.icon {
+					width: 60px;
+					font-size: 60px;
+					line-height: 56.69px;
+					height: 56.69px;
+					left: 20px;
+					top: 20px;
+				}
+				.headline--quote-image {
+					font-size: 18px;
+					line-height: 22px;
+					letter-spacing: 0.972px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 767px) {
+	.quote-image {
+		max-width: 400px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.quote-image {
+		.col__content {
+			.quote-image__background {
+				padding-bottom: 86.8%;
+			}
+			.quote-image__content {
+				width: calc(100% - 40px);
+				border-radius: 15px;
+				padding: 15px 15px 15px 74.97px;
+				left: 20px;
+				bottom: 20px;
+				.icon {
+					width: 40.47px;
+					font-size: 40.47px;
+					line-height: 38.23px;
+					height: 56.69px;
+					left: 15px;
+					top: 15px;
+				}
+				.headline--quote-image {
+					font-size: 14px;
+					line-height: 19px;
+					letter-spacing: 0.756px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 390px) {
+	.quote-image {
+		.col__content {
+			.quote-image__background {
+				padding-bottom: 120%;
+			}
+			.quote-image__content {
+				padding: 15px;
+				.icon {
+					position: relative;
+					left: unset;
+					top: unset;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,226 @@
+@import "../../../styles/variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+	font-family: $font-body;
+	text-transform: uppercase;
+}
+span.headline {
+	margin-top: 0px;
+	font-family: $font-body;
+	text-transform: uppercase;
+	display: block;
+}
+
+.headline {
+	margin-top: 0px;
+	&.headline--color- {
+		&one {
+			color: $color-one;
+		}
+		&two {
+			color: $color-two;
+		}
+		&three {
+			color: $color-three;
+		}
+		&four {
+			color: $color-four;
+		}
+		&five {
+			color: $color-five;
+		}
+		&six {
+			color: $color-six;
+		}
+	}
+
+	&.headline--align-xs {
+		&-left {
+			text-align: left;
+		}
+		&-center {
+			text-align: center;
+		}
+		&-right {
+			text-align: right;
+		}
+	}
+
+	&.headline--style- {
+		&one {
+			font-size: 35px;
+			font-weight: normal;
+			line-height: 45px;
+			letter-spacing: 1.68px;
+			margin-bottom: 20px;
+		}
+		&two {
+			font-size: 30px;
+			font-weight: 600;
+			line-height: 34px;
+			letter-spacing: 1.62px;
+			margin-bottom: 20px;
+		}
+		&three {
+			font-size: 24px;
+			font-weight: 400;
+			line-height: 28px;
+			letter-spacing: 1.296px;
+			margin-bottom: 20px;
+		}
+		&four {
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 22px;
+			margin-bottom: 20px;
+		}
+		&five {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 22px;
+			letter-spacing: 1.08px;
+			margin-bottom: 5px;
+			text-transform: none;
+		}
+		&six {
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 22px;
+			margin-bottom: 20px;
+		}
+		&seven {
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 18px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media screen and (min-width: 481px) {
+	.headline {
+		&.headline--align-sm {
+			&-left {
+				text-align: left;
+			}
+			&-center {
+				text-align: center;
+			}
+			&-right {
+				text-align: right;
+			}
+		}
+
+		&.headline--style- {
+			&one {
+				font-size: 50px;
+				line-height: 60px;
+				letter-spacing: 3.24px;
+			}
+			&three {
+				font-size: 28px;
+				line-height: 31px;
+				letter-spacing: 1.674px;
+			}
+			&four {
+				font-size: 22px;
+				line-height: 24px;
+				margin-bottom: 25px;
+			}
+			&six {
+				font-size: 20px;
+				line-height: 24px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.headline {
+		&.headline--align-md {
+			&-left {
+				text-align: left;
+			}
+			&-center {
+				text-align: center;
+			}
+			&-right {
+				text-align: right;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.headline {
+		&.headline--align-lg {
+			&-left {
+				text-align: left;
+			}
+			&-center {
+				text-align: center;
+			}
+			&-right {
+				text-align: right;
+			}
+		}
+
+		&.headline--style- {
+			&one {
+				font-size: 60px;
+				line-height: 70px;
+			}
+			&two {
+				font-size: 50px;
+				line-height: 60px;
+				letter-spacing: 2.7px;
+				margin-bottom: 25px;
+			}
+			&three {
+				font-size: 31px;
+				line-height: 37px;
+				margin-bottom: 30px;
+			}
+			&four {
+				font-size: 26px;
+				line-height: 29px;
+			}
+			&five {
+				font-size: 24px;
+				line-height: 29px;
+				letter-spacing: 1.296px;
+				margin-bottom: 22px;
+			}
+			&six {
+				font-size: 23px;
+				line-height: 27px;
+			}
+			&seven {
+				font-size: 18px;
+				line-height: 22px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1401px) {
+	.headline {
+		&.headline--align-xl {
+			&-left {
+				text-align: left;
+			}
+			&-center {
+				text-align: center;
+			}
+			&-right {
+				text-align: right;
+			}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/imagebutton",
+	"version": "0.1.5",
+	"title": "Image + CTA",
+	"category": "theme",
+	"keywords": ["image", "picture", "button"],
+	"description": "A gutenberg block to use for Image with Button.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"xsimageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpxsImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"mdimageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpmdImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageId": {
+			"type": "number",
+			"default": ""
+		},
+		"altText": {
+			"type": "string",
+			"default": ""
+		},
+		"buttonPosition": {
+			"type": "string",
+			"default": "left"
+		},
+		"buttonText": {
+			"type": "string",
+			"default": ""
+		},
+		"url": {
+			"type": "string"
+		},
+		"linkTarget": {
+			"type": "string"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"imgExtraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-5"
+}

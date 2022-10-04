@@ -1,0 +1,82 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/headline",
+	"version": "0.1.5",
+	"title": "Headline",
+	"category": "theme",
+	"keywords": ["title", "subtitle"],
+	"description": "A gutenberg block to use for Heading.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "h1,h2,h3,h4,h5,h6,span",
+			"default": ""
+		},
+		"level": {
+			"type": "string",
+			"default": "1"
+		},
+		"placeholder": {
+			"type": "string",
+			"default": "Heading"
+		},
+		"headStyle": {
+			"type": "string",
+			"default": "one"
+		},
+		"headColor": {
+			"type": "string",
+			"default": ""
+		},
+		"headColorClass": {
+			"type": "string",
+			"default": ""
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"headExtraClass": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		},
+		"responsiveMode": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignXs": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignSm": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignMd": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignLg": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignXl": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-3.js"
+}

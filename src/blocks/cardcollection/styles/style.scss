@@ -1,0 +1,85 @@
+.card--row {
+	.card--details-wrap {
+		padding: 0px 20px;
+		.image {
+			position: relative;
+			padding-bottom: 68.58%;
+			background-color: #e3e3e3;
+			border-radius: 15px;
+			margin: 0px 0px 36px -20px;
+			width: calc(100% + 40px);
+			img {
+				position: absolute;
+				top: 0px;
+				bottom: 0px;
+				left: 0px;
+				right: 0px;
+				margin: auto;
+				width: auto;
+				padding: 20px;
+				border-radius: 0;
+			}
+		}
+		.card--title {
+			font-size: 26px;
+			line-height: 29px;
+			text-transform: uppercase;
+			margin-bottom: 25px;
+		}
+		.card--detail {
+			display: inline-block;
+		}
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1919px) {
+	.card--row {
+		.card--details-wrap {
+			.image {
+				padding-bottom: 89.58%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 1024px) {
+	.card--wrapper {
+		margin-bottom: 40px;
+	}
+	.card--row {
+		.card--details-wrap {
+			.image {
+				margin-bottom: 29px;
+			}
+			.card--title {
+				font-size: 22px;
+				line-height: 24px;
+			}
+			.button--cta {
+				margin-top: 5px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.card--row.container {
+		max-width: 420px;
+	}
+}
+@media screen and (min-width: 420px) and (max-width: 480px) {
+	.card--row.container {
+		max-width: 400px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.card--wrapper {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 390px) {
+	.card--row {
+		.card--details-wrap {
+			.image {
+				padding-bottom: 86.58%;
+			}
+		}
+	}
+}

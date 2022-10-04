@@ -1,0 +1,49 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/list",
+	"version": "0.1.5",
+	"title": "List",
+	"category": "theme",
+	"keywords": ["list", "item", "list item"],
+	"description": "A gutenberg block to use for List.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"listStyle": {
+			"type": "string",
+			"default": "three"
+		},
+		"values": {
+			"type": "string",
+			"source": "html",
+			"selector": "ul",
+			"multiline": "li",
+			"__unstableMultilineWrapperTags": ["ul"],
+			"default": "",
+			"__experimentalRole": "content"
+		},
+		"listColor": {
+			"type": "string",
+			"default": "#575756"
+		},
+		"listColorClass": {
+			"type": "string",
+			"default": "three"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"listExtraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-3.js"
+}

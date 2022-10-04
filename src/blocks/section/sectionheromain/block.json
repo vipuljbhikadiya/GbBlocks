@@ -1,0 +1,68 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/heromainsection",
+	"version": "0.1.5",
+	"title": "Section - Hero Main",
+	"category": "theme",
+	"description": "A gutenberg block to use Hero Section.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"bottomPadding": {
+			"type": "number",
+			"default": 1
+		},
+		"heroImageId": {
+			"type": "number"
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"xsimageUrl": {
+			"type": "string"
+		},
+		"webpxsImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"mdimageUrl": {
+			"type": "string"
+		},
+		"webpmdImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageAlt": {
+			"type": "string",
+			"default": ""
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"hideLG": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideMD": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideXS": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"keywords": ["section", "hero", "main", "GbBlocks"],
+	"textdomain": "gbblocks",
+	"editorScript": "file:./blocks-1.js"
+}

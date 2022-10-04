@@ -1,0 +1,75 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/youtube",
+	"version": "0.1.0",
+	"title": "YouTube",
+	"category": "theme",
+	"keywords": ["youtube", "video", "gbblocks"],
+	"description": "A gutenberg block to use for YouTube Video.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"imageId": {
+			"type": "number"
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"xsimageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpxsImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"mdimageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"webpmdImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"altText": {
+			"type": "string",
+			"default": ""
+		},
+		"youTubeId": {
+			"type": "string",
+			"default": ""
+		},
+		"showdesc": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		},
+		"iframeId": {
+			"type": "string"
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"editorScript": "blocks-3"
+}

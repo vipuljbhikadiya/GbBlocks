@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/card",
+	"version": "0.1.0",
+	"title": "Card",
+	"category": "theme",
+	"keywords": ["icon", "card", "Collection"],
+	"description": "A gutenberg block to use for card.",
+	"supports": {
+		"html": true,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"parentAttributesData": {
+			"type": "object",
+			"default": []
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/cardcollection"],
+	"editorScript": "blocks-4"
+}

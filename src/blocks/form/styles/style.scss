@@ -1,0 +1,198 @@
+.gbblocks--form {
+	.form-label {
+		font-family: $font-body;
+		font-size: 20px;
+		line-height: 25px;
+		color: $color-three;
+		display: block;
+	}
+	input,
+	textarea {
+		&:not(input[type="checkbox"]):not(input[type="submit"]) {
+			font-family: $font-body;
+			font-size: 18px;
+			line-height: 28px;
+			color: $color-three;
+			display: block;
+			margin: 0px;
+			border-width: 0px 0px 1px 0px;
+			border-color: $color-three;
+			outline: unset;
+			border-radius: 0px;
+			width: 100%;
+			padding: 2px 0px 0px;
+		}
+		&:focus,
+		:focus-within,
+		&:active {
+			outline: unset;
+			box-shadow: unset;
+		}
+	}
+	textarea {
+		height: 127px;
+	}
+	.acceptance {
+		display: block;
+		position: relative;
+		margin-top: 33px;
+		input {
+			position: absolute;
+			z-index: 100;
+			opacity: 0;
+			width: 100%;
+			height: 100%;
+			cursor: pointer;
+		}
+		.form-label {
+			cursor: pointer;
+			display: block;
+			padding-left: 60px;
+			position: relative;
+			&::before {
+				content: "";
+				border: 1px solid $color-three;
+				display: block;
+				height: 35px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 35px;
+			}
+		}
+		input[type="checkbox"] {
+			&:checked + {
+				& .form-label {
+					&:after {
+						content: "";
+						transform: rotate(45deg);
+						height: 20px;
+						width: 9px;
+						border-bottom: 5px solid $color-one;
+						border-right: 5px solid $color-one;
+						position: absolute;
+						top: 2px;
+						left: 11px;
+					}
+				}
+			}
+		}
+	}
+	.submit--button {
+		max-width: 259px;
+		width: 100%;
+		margin: 30px auto 0px;
+		display: block;
+		position: relative;
+		.button--cta {
+			padding: 16.5px 56px 16.5px 74px;
+		}
+		.button--has-icon {
+			position: absolute;
+			top: 12px;
+			left: 3px;
+			z-index: 3;
+			.icon {
+				width: 54px;
+				height: 55px;
+			}
+		}
+	}
+	.error-msg,
+	.invalid-msg {
+		font-family: $font-body;
+		font-size: 16px;
+		line-height: 20px;
+		color: #ff0000;
+		display: none;
+		opacity: 0;
+		transition: 0.5s all ease-in-out;
+		&.show {
+			opacity: 1;
+			display: block;
+		}
+	}
+	.response {
+		display: none;
+		opacity: 0;
+		transition: 0.5s all ease-in-out;
+		&.show {
+			opacity: 1;
+			display: block;
+		}
+		.response-message {
+			font-family: $font-body;
+			font-size: 16px;
+			line-height: 24px;
+			color: $color-three;
+			padding: 0.2em 1em;
+			border: 2px solid;
+			&.error {
+				border-color: #ff0000;
+			}
+			&.success {
+				border-color: #46b450;
+			}
+		}
+	}
+}
+@media screen and (max-width: 1024px) {
+	.gbblocks--form {
+		> .row {
+			--gap: 40px;
+			.row {
+				&:not(:last-child) {
+					--gap: 40px;
+				}
+			}
+		}
+		.acceptance {
+			margin-top: 50px;
+			.form-label {
+				font-size: 18px;
+				line-height: 24px;
+			}
+		}
+		.submit--button {
+			max-width: 207px;
+			margin-top: 10px;
+			.button--cta {
+				display: inline-block;
+				width: 100%;
+				font-size: 15px;
+				line-height: 18px;
+				padding: 14px 39px 14px 62px;
+			}
+			.button--has-icon {
+				top: 13px;
+				.icon {
+					width: 45px;
+					height: 46px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 767px) {
+	.gbblocks--form {
+		.acceptance {
+			.form-label {
+				font-size: 16px;
+				line-height: 20px;
+				padding-left: 50px;
+			}
+		}
+		.submit--button {
+			max-width: 217px;
+			margin-top: 0px;
+			.button--cta {
+				display: inline-block;
+				width: 100%;
+				padding: 14px 39px 14px 62px;
+			}
+			.button--has-icon {
+				top: 12px;
+			}
+		}
+	}
+}

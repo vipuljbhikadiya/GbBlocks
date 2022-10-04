@@ -1,0 +1,45 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/form",
+	"version": "0.1.5",
+	"title": "Form",
+	"category": "theme",
+	"description": "A gutenberg block for Form.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"clientid": {
+			"type": "string",
+			"default": ""
+		},
+		"recipients": {
+			"type": "string",
+			"default": "info@epea.com"
+		},
+		"mailSubject": {
+			"type": "string",
+			"default": "Website | Contact Form"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"keywords": ["form", "general", "GbBlocks"],
+	"textdomain": "gbblocks",
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"editorScript": "blocks-5"
+}

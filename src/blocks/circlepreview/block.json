@@ -1,0 +1,41 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/circlepreview",
+	"version": "0.1.5",
+	"title": "Circle Preview",
+	"category": "theme",
+	"keywords": ["circle", "preview"],
+	"description": "A gutenberg block to use for Circle Preview.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"innerItem": {
+			"type": "array",
+			"default": []
+		},
+		"style": {
+			"type": "string",
+			"default": "big"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"editorScript": "blocks-6.js"
+}

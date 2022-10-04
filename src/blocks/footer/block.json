@@ -1,0 +1,16 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/footer",
+	"version": "0.1.5",
+	"title": "Footer",
+	"category": "theme",
+	"description": "A gutenberg block for footer.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"textdomain": "gbblocks",
+	"editorScript": "blocks-2"
+}

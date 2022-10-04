@@ -1,0 +1,42 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/divider",
+	"version": "0.1.5",
+	"title": "Divider",
+	"category": "theme",
+	"keywords": ["divider", "spacer", "gbblocks"],
+	"description": "A gutenberg block to use for Divider.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"style": {
+			"type": "string",
+			"default": "one"
+		},
+		"paddingTop": {
+			"type": "string",
+			"default": "1"
+		},
+		"paddingBottom": {
+			"type": "string",
+			"default": "1"
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection",
+		"gbblocks/column"
+	],
+	"textdomain": "gbblocks",
+	"editorScript": "blocks-3.js"
+}

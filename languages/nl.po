@@ -1,0 +1,2801 @@
+# Copyright (C) 2022 The WordPress Contributors
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gb Blocks 0.1.0\n"
+"Site-Reference: http://localhost/epea/epea\n"
+"Language-Source: en-US\n"
+"Language-Target: de-DE\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gbblocks\n"
+"POT-Creation-Date: 2022-09-06 12:30+0530\n"
+"PO-Revision-Date: 2022-09-06 12:42+0530\n"
+"Last-Translator: \n"
+"Language-Team: lang <lang@epea.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: gbblocks\n"
+
+#. Plugin Name of the plugin
+msgid "EPEA"
+msgstr "EPEA test"
+
+#. Description of the plugin
+msgid "Gutenberg Blocks."
+msgstr ""
+
+#. Author of the plugin
+msgid "The WordPress Contributors"
+msgstr ""
+
+#: src/blocks/newsletter/register.php:20
+msgid "Mailchimp Options"
+msgstr ""
+
+#: src/blocks/newsletter/register.php:21
+msgid "MailChimp Setting"
+msgstr "MailChimp-Einstellung"
+
+#: dist/gbblocks-1.js:563 dist/gbblocks-1.js:1316 dist/gbblocks-1.js:2123
+#: dist/gbblocks-1.js:3719 dist/gbblocks-1.js:4516 dist/gbblocks-2.js:627
+#: dist/gbblocks-3.js:452 dist/gbblocks-3.js:908 dist/gbblocks-3.js:2389
+#: dist/gbblocks-3.js:3589 dist/gbblocks-3.js:4225 dist/gbblocks-4.js:1282
+#: dist/gbblocks-4.js:2151 dist/gbblocks-4.js:2864 dist/gbblocks-5.js:1772
+#: dist/gbblocks-5.js:2171 dist/gbblocks-5.js:2740 dist/gbblocks-5.js:3868
+#: dist/gbblocks-6.js:1943 dist/gbblocks-6.js:3674 dist/gbblocks-6.js:3959
+#: src/blocks/button/edit.js:325 src/blocks/cardcollection/edit.js:118
+#: src/blocks/column/edit.js:207 src/blocks/divider/edit.js:56
+#: src/blocks/headlinenumbered/edit.js:242 src/blocks/image/edit.js:168
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:365
+#: src/blocks/locations/locationitem/edit.js:159
+#: src/blocks/navigation/edit.js:36 src/blocks/paragraph/edit.js:349
+#: src/blocks/row/edit.js:186 src/blocks/section/edit.js:454
+#: src/blocks/section/sectionheromain/edit.js:243
+#: src/blocks/section/sectionswipe/edit.js:96
+#: src/blocks/tabs/tabcontent/edit.js:129
+#: src/blocks/testimonialslider/edit.js:169
+#: src/blocks/testimonialslider/testimonialslide/edit.js:207
+#: src/blocks/timelineslider/timelineslide/edit.js:166
+#: src/blocks/visualcircle/visualcircleitem/edit.js:31
+#: src/blocks/visualimage/edit.js:158 src/blocks/youtube/edit.js:166
+#: dist/gbblocks-1.js:517 dist/gbblocks-1.js:1268 dist/gbblocks-1.js:2421
+#: dist/gbblocks-1.js:4349 dist/gbblocks-1.js:5203 dist/gbblocks-2.js:528
+#: dist/gbblocks-3.js:395 dist/gbblocks-3.js:876 dist/gbblocks-3.js:2317
+#: dist/gbblocks-3.js:3670 dist/gbblocks-4.js:1081 dist/gbblocks-4.js:1844
+#: dist/gbblocks-4.js:2672 dist/gbblocks-5.js:1840 dist/gbblocks-5.js:2148
+#: dist/gbblocks-5.js:2749 dist/gbblocks-5.js:3911 dist/gbblocks-6.js:2558
+#: dist/gbblocks-6.js:4317 dist/gbblocks-6.js:4560
+msgid "Settings"
+msgstr ""
+
+#: dist/gbblocks-1.js:566 dist/gbblocks-1.js:1319 dist/gbblocks-3.js:494
+#: dist/gbblocks-3.js:1354 dist/gbblocks-3.js:3525 dist/gbblocks-4.js:1285
+#: dist/gbblocks-4.js:2101 src/blocks/button/edit.js:375
+#: src/blocks/cardcollection/edit.js:120 src/blocks/column/edit.js:211
+#: src/blocks/headline/edit.js:293 src/blocks/headlinenumbered/edit.js:168
+#: src/blocks/paragraph/edit.js:248 src/blocks/row/edit.js:190
+#: dist/gbblocks-1.js:521 dist/gbblocks-1.js:1272 dist/gbblocks-3.js:445
+#: dist/gbblocks-3.js:1294 dist/gbblocks-3.js:3569 dist/gbblocks-4.js:1083
+#: dist/gbblocks-4.js:1770
+msgid "Responsive Mode"
+msgstr ""
+
+#: dist/gbblocks-1.js:577 dist/gbblocks-1.js:1330 dist/gbblocks-3.js:505
+#: dist/gbblocks-3.js:1365 dist/gbblocks-3.js:3536 dist/gbblocks-4.js:1296
+#: dist/gbblocks-4.js:2112 src/blocks/button/edit.js:387
+#: src/blocks/cardcollection/edit.js:132 src/blocks/column/edit.js:223
+#: src/blocks/headline/edit.js:305 src/blocks/headlinenumbered/edit.js:180
+#: src/blocks/paragraph/edit.js:260 src/blocks/row/edit.js:202
+#: dist/gbblocks-1.js:533 dist/gbblocks-1.js:1284 dist/gbblocks-3.js:457
+#: dist/gbblocks-3.js:1306 dist/gbblocks-3.js:3581 dist/gbblocks-4.js:1095
+#: dist/gbblocks-4.js:1782
+msgid "XS"
+msgstr ""
+
+#: dist/gbblocks-1.js:579 dist/gbblocks-1.js:1332 dist/gbblocks-3.js:507
+#: dist/gbblocks-3.js:1367 dist/gbblocks-3.js:3538 dist/gbblocks-4.js:1298
+#: dist/gbblocks-4.js:2114 src/blocks/button/edit.js:389
+#: src/blocks/cardcollection/edit.js:134 src/blocks/column/edit.js:225
+#: src/blocks/headline/edit.js:307 src/blocks/headlinenumbered/edit.js:182
+#: src/blocks/paragraph/edit.js:262 src/blocks/row/edit.js:204
+#: dist/gbblocks-1.js:535 dist/gbblocks-1.js:1286 dist/gbblocks-3.js:459
+#: dist/gbblocks-3.js:1308 dist/gbblocks-3.js:3583 dist/gbblocks-4.js:1097
+#: dist/gbblocks-4.js:1784
+msgid "Extra Small"
+msgstr ""
+
+#: dist/gbblocks-1.js:582 dist/gbblocks-1.js:1335 dist/gbblocks-3.js:510
+#: dist/gbblocks-3.js:1370 dist/gbblocks-3.js:3541 dist/gbblocks-4.js:1301
+#: dist/gbblocks-4.js:2117 src/blocks/button/edit.js:393
+#: src/blocks/cardcollection/edit.js:138 src/blocks/column/edit.js:229
+#: src/blocks/headline/edit.js:311 src/blocks/headlinenumbered/edit.js:186
+#: src/blocks/paragraph/edit.js:266 src/blocks/row/edit.js:208
+#: dist/gbblocks-1.js:539 dist/gbblocks-1.js:1290 dist/gbblocks-3.js:463
+#: dist/gbblocks-3.js:1312 dist/gbblocks-3.js:3587 dist/gbblocks-4.js:1101
+#: dist/gbblocks-4.js:1788
+msgid "SM"
+msgstr ""
+
+#: dist/gbblocks-1.js:584 dist/gbblocks-1.js:1337 dist/gbblocks-1.js:1504
+#: dist/gbblocks-3.js:512 dist/gbblocks-3.js:1372 dist/gbblocks-3.js:3543
+#: dist/gbblocks-4.js:1303 dist/gbblocks-4.js:2119 dist/gbblocks-6.js:240
+#: dist/gbblocks-6.js:242 src/blocks/button/edit.js:395
+#: src/blocks/cardcollection/edit.js:140 src/blocks/circlepreview/edit.js:208
+#: src/blocks/circlepreview/edit.js:210 src/blocks/column/edit.js:231
+#: src/blocks/headline/edit.js:313 src/blocks/headlinenumbered/edit.js:188
+#: src/blocks/paragraph/edit.js:268 src/blocks/row/edit.js:210
+#: src/blocks/row/edit.js:550 dist/gbblocks-1.js:541 dist/gbblocks-1.js:1292
+#: dist/gbblocks-1.js:1632 dist/gbblocks-3.js:465 dist/gbblocks-3.js:1314
+#: dist/gbblocks-3.js:3589 dist/gbblocks-4.js:1103 dist/gbblocks-4.js:1790
+#: dist/gbblocks-6.js:208 dist/gbblocks-6.js:210
+msgid "Small"
+msgstr ""
+
+#: dist/gbblocks-1.js:587 dist/gbblocks-1.js:1340 dist/gbblocks-3.js:515
+#: dist/gbblocks-3.js:1375 dist/gbblocks-3.js:3546 dist/gbblocks-4.js:1306
+#: dist/gbblocks-4.js:2122 src/blocks/button/edit.js:399
+#: src/blocks/cardcollection/edit.js:144 src/blocks/column/edit.js:235
+#: src/blocks/headline/edit.js:317 src/blocks/headlinenumbered/edit.js:192
+#: src/blocks/paragraph/edit.js:272 src/blocks/row/edit.js:214
+#: dist/gbblocks-1.js:545 dist/gbblocks-1.js:1296 dist/gbblocks-3.js:469
+#: dist/gbblocks-3.js:1318 dist/gbblocks-3.js:3593 dist/gbblocks-4.js:1107
+#: dist/gbblocks-4.js:1794
+msgid "MD"
+msgstr ""
+
+#: dist/gbblocks-1.js:589 dist/gbblocks-1.js:1342 dist/gbblocks-1.js:1509
+#: dist/gbblocks-3.js:517 dist/gbblocks-3.js:1377 dist/gbblocks-3.js:3548
+#: dist/gbblocks-4.js:1308 dist/gbblocks-4.js:2124
+#: src/blocks/button/edit.js:401 src/blocks/cardcollection/edit.js:146
+#: src/blocks/column/edit.js:237 src/blocks/headline/edit.js:319
+#: src/blocks/headlinenumbered/edit.js:194 src/blocks/paragraph/edit.js:274
+#: src/blocks/row/edit.js:216 src/blocks/row/edit.js:556 dist/gbblocks-1.js:547
+#: dist/gbblocks-1.js:1298 dist/gbblocks-1.js:1638 dist/gbblocks-3.js:471
+#: dist/gbblocks-3.js:1320 dist/gbblocks-3.js:3595 dist/gbblocks-4.js:1109
+#: dist/gbblocks-4.js:1796
+msgid "Medium"
+msgstr ""
+
+#: dist/gbblocks-1.js:592 dist/gbblocks-1.js:1345 dist/gbblocks-3.js:520
+#: dist/gbblocks-3.js:1380 dist/gbblocks-3.js:3551 dist/gbblocks-4.js:1311
+#: dist/gbblocks-4.js:2127 src/blocks/button/edit.js:405
+#: src/blocks/cardcollection/edit.js:150 src/blocks/column/edit.js:241
+#: src/blocks/headline/edit.js:323 src/blocks/headlinenumbered/edit.js:198
+#: src/blocks/paragraph/edit.js:278 src/blocks/row/edit.js:220
+#: dist/gbblocks-1.js:551 dist/gbblocks-1.js:1302 dist/gbblocks-3.js:475
+#: dist/gbblocks-3.js:1324 dist/gbblocks-3.js:3599 dist/gbblocks-4.js:1113
+#: dist/gbblocks-4.js:1800
+msgid "LG"
+msgstr ""
+
+#: dist/gbblocks-1.js:594 dist/gbblocks-1.js:1347 dist/gbblocks-1.js:1514
+#: dist/gbblocks-3.js:522 dist/gbblocks-3.js:1382 dist/gbblocks-3.js:3553
+#: dist/gbblocks-4.js:1313 dist/gbblocks-4.js:2129
+#: src/blocks/button/edit.js:407 src/blocks/cardcollection/edit.js:152
+#: src/blocks/column/edit.js:243 src/blocks/headline/edit.js:325
+#: src/blocks/headlinenumbered/edit.js:200 src/blocks/paragraph/edit.js:280
+#: src/blocks/row/edit.js:222 src/blocks/row/edit.js:562 dist/gbblocks-1.js:553
+#: dist/gbblocks-1.js:1304 dist/gbblocks-1.js:1644 dist/gbblocks-3.js:477
+#: dist/gbblocks-3.js:1326 dist/gbblocks-3.js:3601 dist/gbblocks-4.js:1115
+#: dist/gbblocks-4.js:1802
+msgid "Large"
+msgstr ""
+
+#: dist/gbblocks-1.js:597 dist/gbblocks-1.js:1350 dist/gbblocks-3.js:525
+#: dist/gbblocks-3.js:1385 dist/gbblocks-3.js:3556 dist/gbblocks-4.js:1316
+#: dist/gbblocks-4.js:2132 src/blocks/button/edit.js:411
+#: src/blocks/cardcollection/edit.js:156 src/blocks/column/edit.js:247
+#: src/blocks/headline/edit.js:329 src/blocks/headlinenumbered/edit.js:204
+#: src/blocks/paragraph/edit.js:284 src/blocks/row/edit.js:226
+#: dist/gbblocks-1.js:557 dist/gbblocks-1.js:1308 dist/gbblocks-3.js:481
+#: dist/gbblocks-3.js:1330 dist/gbblocks-3.js:3605 dist/gbblocks-4.js:1119
+#: dist/gbblocks-4.js:1806
+msgid "XL"
+msgstr ""
+
+#: dist/gbblocks-1.js:599 dist/gbblocks-1.js:1352 dist/gbblocks-1.js:1519
+#: dist/gbblocks-3.js:527 dist/gbblocks-3.js:1387 dist/gbblocks-3.js:3558
+#: dist/gbblocks-4.js:1318 dist/gbblocks-4.js:2134
+#: src/blocks/button/edit.js:413 src/blocks/cardcollection/edit.js:158
+#: src/blocks/column/edit.js:249 src/blocks/headline/edit.js:331
+#: src/blocks/headlinenumbered/edit.js:206 src/blocks/paragraph/edit.js:286
+#: src/blocks/row/edit.js:228 src/blocks/row/edit.js:568 dist/gbblocks-1.js:559
+#: dist/gbblocks-1.js:1310 dist/gbblocks-1.js:1650 dist/gbblocks-3.js:483
+#: dist/gbblocks-3.js:1332 dist/gbblocks-3.js:3607 dist/gbblocks-4.js:1121
+#: dist/gbblocks-4.js:1808
+msgid "Extra Large"
+msgstr ""
+
+#: dist/gbblocks-1.js:610 dist/gbblocks-3.js:455 dist/gbblocks-4.js:2143
+#: src/blocks/button/edit.js:329 src/blocks/column/edit.js:266
+#: src/blocks/headlinenumbered/edit.js:221 dist/gbblocks-1.js:576
+#: dist/gbblocks-3.js:399 dist/gbblocks-4.js:1823
+msgid "Width"
+msgstr ""
+
+#: dist/gbblocks-1.js:617 src/blocks/column/edit.js:277 dist/gbblocks-1.js:587
+msgid "Offset"
+msgstr ""
+
+#: dist/gbblocks-1.js:626 dist/gbblocks-1.js:1387 src/blocks/column/edit.js:291
+#: src/blocks/row/edit.js:308 dist/gbblocks-1.js:601 dist/gbblocks-1.js:1390
+msgid "Alignment - Vertical"
+msgstr ""
+
+#: dist/gbblocks-1.js:629 dist/gbblocks-1.js:1367 dist/gbblocks-1.js:1390
+#: src/blocks/column/edit.js:298 src/blocks/row/edit.js:254
+#: src/blocks/row/edit.js:315 dist/gbblocks-1.js:608 dist/gbblocks-1.js:1336
+#: dist/gbblocks-1.js:1397
+msgid "Not Set"
+msgstr ""
+
+#: dist/gbblocks-1.js:632 dist/gbblocks-1.js:1393 src/blocks/column/edit.js:305
+#: src/blocks/row/edit.js:322 dist/gbblocks-1.js:615 dist/gbblocks-1.js:1404
+msgid "Top"
+msgstr ""
+
+#: dist/gbblocks-1.js:635 dist/gbblocks-1.js:1396 src/blocks/column/edit.js:312
+#: src/blocks/row/edit.js:329 dist/gbblocks-1.js:622 dist/gbblocks-1.js:1411
+msgid "Middle"
+msgstr ""
+
+#: dist/gbblocks-1.js:638 dist/gbblocks-1.js:1399 src/blocks/column/edit.js:319
+#: src/blocks/row/edit.js:336 dist/gbblocks-1.js:629 dist/gbblocks-1.js:1418
+msgid "Bottom"
+msgstr ""
+
+#: dist/gbblocks-1.js:644 dist/gbblocks-1.js:646 dist/gbblocks-1.js:1382
+#: dist/gbblocks-1.js:1384 dist/gbblocks-1.js:1405 dist/gbblocks-1.js:1407
+#: dist/gbblocks-1.js:1422 dist/gbblocks-1.js:1424 dist/gbblocks-1.js:1434
+#: dist/gbblocks-1.js:1436 dist/gbblocks-1.js:1446 dist/gbblocks-1.js:1448
+#: dist/gbblocks-1.js:1458 dist/gbblocks-1.js:1460 dist/gbblocks-1.js:1470
+#: dist/gbblocks-1.js:1472 src/blocks/column/edit.js:336
+#: src/blocks/column/edit.js:342 src/blocks/row/edit.js:294
+#: src/blocks/row/edit.js:300 src/blocks/row/edit.js:355
+#: src/blocks/row/edit.js:361 src/blocks/row/edit.js:398
+#: src/blocks/row/edit.js:401 src/blocks/row/edit.js:425
+#: src/blocks/row/edit.js:428 src/blocks/row/edit.js:452
+#: src/blocks/row/edit.js:455 src/blocks/row/edit.js:479
+#: src/blocks/row/edit.js:482 src/blocks/row/edit.js:506
+#: src/blocks/row/edit.js:509 dist/gbblocks-1.js:652 dist/gbblocks-1.js:1376
+#: dist/gbblocks-1.js:1437 dist/gbblocks-1.js:1443 dist/gbblocks-1.js:1480
+#: dist/gbblocks-1.js:1483 dist/gbblocks-1.js:1507 dist/gbblocks-1.js:1510
+#: dist/gbblocks-1.js:1534 dist/gbblocks-1.js:1537 dist/gbblocks-1.js:1561
+#: dist/gbblocks-1.js:1564 dist/gbblocks-1.js:1588 dist/gbblocks-1.js:1591
+msgid "Reset"
+msgstr ""
+
+#: dist/gbblocks-1.js:652 src/blocks/column/edit.js:360 dist/gbblocks-1.js:670
+msgid "Padding"
+msgstr ""
+
+#: dist/gbblocks-1.js:663 dist/gbblocks-1.js:1502 dist/gbblocks-1.js:2137
+#: dist/gbblocks-1.js:2172 dist/gbblocks-1.js:2762 dist/gbblocks-1.js:3733
+#: dist/gbblocks-1.js:4530 dist/gbblocks-1.js:4565
+#: src/blocks/column/edit.js:372 src/blocks/row/edit.js:548
+#: src/blocks/section/edit.js:470 src/blocks/section/edit.js:512
+#: src/blocks/section/sectionhero/edit.js:193
+#: src/blocks/section/sectionheromain/edit.js:257
+#: src/blocks/section/sectionswipe/edit.js:112
+#: src/blocks/section/sectionswipe/edit.js:154 dist/gbblocks-1.js:682
+#: dist/gbblocks-1.js:1630 dist/gbblocks-1.js:2437 dist/gbblocks-1.js:2479
+#: dist/gbblocks-1.js:3276 dist/gbblocks-1.js:4363 dist/gbblocks-1.js:5219
+#: dist/gbblocks-1.js:5261
+msgid "0"
+msgstr ""
+
+#: dist/gbblocks-1.js:665 dist/gbblocks-1.js:2139 dist/gbblocks-1.js:2174
+#: dist/gbblocks-1.js:2764 dist/gbblocks-1.js:3735 dist/gbblocks-1.js:4532
+#: dist/gbblocks-1.js:4567 src/blocks/column/edit.js:374
+#: src/blocks/section/edit.js:472 src/blocks/section/edit.js:514
+#: src/blocks/section/sectionhero/edit.js:195
+#: src/blocks/section/sectionheromain/edit.js:259
+#: src/blocks/section/sectionswipe/edit.js:114
+#: src/blocks/section/sectionswipe/edit.js:156 dist/gbblocks-1.js:684
+#: dist/gbblocks-1.js:2439 dist/gbblocks-1.js:2481 dist/gbblocks-1.js:3278
+#: dist/gbblocks-1.js:4365 dist/gbblocks-1.js:5221 dist/gbblocks-1.js:5263
+msgid "0px"
+msgstr ""
+
+#: dist/gbblocks-1.js:668 dist/gbblocks-1.js:1507 dist/gbblocks-1.js:2142
+#: dist/gbblocks-3.js:1431 src/blocks/column/edit.js:378
+#: src/blocks/headline/edit.js:406 src/blocks/row/edit.js:554
+#: src/blocks/section/edit.js:476 dist/gbblocks-1.js:688
+#: dist/gbblocks-1.js:1636 dist/gbblocks-1.js:2443 dist/gbblocks-3.js:1407
+msgid "1"
+msgstr ""
+
+#: dist/gbblocks-1.js:670 src/blocks/column/edit.js:380 dist/gbblocks-1.js:690
+msgid "3px"
+msgstr ""
+
+#: dist/gbblocks-1.js:673 dist/gbblocks-1.js:1512 dist/gbblocks-1.js:2147
+#: dist/gbblocks-1.js:2182 dist/gbblocks-1.js:2772 dist/gbblocks-1.js:3743
+#: dist/gbblocks-1.js:4540 dist/gbblocks-1.js:4575 dist/gbblocks-3.js:1436
+#: src/blocks/column/edit.js:384 src/blocks/headline/edit.js:412
+#: src/blocks/row/edit.js:560 src/blocks/section/edit.js:482
+#: src/blocks/section/edit.js:524 src/blocks/section/sectionhero/edit.js:205
+#: src/blocks/section/sectionheromain/edit.js:269
+#: src/blocks/section/sectionswipe/edit.js:124
+#: src/blocks/section/sectionswipe/edit.js:166 dist/gbblocks-1.js:694
+#: dist/gbblocks-1.js:1642 dist/gbblocks-1.js:2449 dist/gbblocks-1.js:2491
+#: dist/gbblocks-1.js:3288 dist/gbblocks-1.js:4375 dist/gbblocks-1.js:5231
+#: dist/gbblocks-1.js:5273 dist/gbblocks-3.js:1413
+msgid "2"
+msgstr ""
+
+#: dist/gbblocks-1.js:675 src/blocks/column/edit.js:386 dist/gbblocks-1.js:696
+msgid "30px"
+msgstr ""
+
+#: dist/gbblocks-1.js:678 dist/gbblocks-1.js:1517 dist/gbblocks-1.js:2152
+#: dist/gbblocks-1.js:2187 dist/gbblocks-1.js:2777 dist/gbblocks-1.js:3748
+#: dist/gbblocks-1.js:4545 dist/gbblocks-1.js:4580 dist/gbblocks-3.js:1441
+#: src/blocks/column/edit.js:390 src/blocks/headline/edit.js:418
+#: src/blocks/row/edit.js:566 src/blocks/section/edit.js:488
+#: src/blocks/section/edit.js:530 src/blocks/section/sectionhero/edit.js:211
+#: src/blocks/section/sectionheromain/edit.js:275
+#: src/blocks/section/sectionswipe/edit.js:130
+#: src/blocks/section/sectionswipe/edit.js:172 dist/gbblocks-1.js:700
+#: dist/gbblocks-1.js:1648 dist/gbblocks-1.js:2455 dist/gbblocks-1.js:2497
+#: dist/gbblocks-1.js:3294 dist/gbblocks-1.js:4381 dist/gbblocks-1.js:5237
+#: dist/gbblocks-1.js:5279 dist/gbblocks-3.js:1419
+msgid "3"
+msgstr ""
+
+#: dist/gbblocks-1.js:680 dist/gbblocks-1.js:685 src/blocks/column/edit.js:392
+#: src/blocks/column/edit.js:398 dist/gbblocks-1.js:702 dist/gbblocks-1.js:708
+msgid "50px"
+msgstr ""
+
+#: dist/gbblocks-1.js:683 dist/gbblocks-1.js:2157 dist/gbblocks-1.js:2192
+#: dist/gbblocks-1.js:2782 dist/gbblocks-1.js:3753 dist/gbblocks-1.js:4550
+#: dist/gbblocks-1.js:4585 dist/gbblocks-3.js:1446
+#: src/blocks/column/edit.js:396 src/blocks/headline/edit.js:424
+#: src/blocks/section/edit.js:494 src/blocks/section/edit.js:536
+#: src/blocks/section/sectionhero/edit.js:217
+#: src/blocks/section/sectionheromain/edit.js:281
+#: src/blocks/section/sectionswipe/edit.js:136
+#: src/blocks/section/sectionswipe/edit.js:178 dist/gbblocks-1.js:706
+#: dist/gbblocks-1.js:2461 dist/gbblocks-1.js:2503 dist/gbblocks-1.js:3300
+#: dist/gbblocks-1.js:4387 dist/gbblocks-1.js:5243 dist/gbblocks-1.js:5285
+#: dist/gbblocks-3.js:1425
+msgid "4"
+msgstr ""
+
+#: dist/gbblocks-1.js:690 dist/gbblocks-1.js:692 src/blocks/column/edit.js:407
+#: src/blocks/column/edit.js:410 dist/gbblocks-1.js:717 dist/gbblocks-1.js:720
+msgid "Reset Padding"
+msgstr ""
+
+#: dist/gbblocks-1.js:693 dist/gbblocks-1.js:2196 src/blocks/column/edit.js:414
+#: src/blocks/section/edit.js:542 dist/gbblocks-1.js:724
+#: dist/gbblocks-1.js:2509
+msgid "Background color"
+msgstr ""
+
+#: dist/gbblocks-1.js:706 dist/gbblocks-1.js:2209 src/blocks/column/edit.js:428
+#: src/blocks/section/edit.js:558 dist/gbblocks-1.js:738
+#: dist/gbblocks-1.js:2525
+msgid "Background Color"
+msgstr ""
+
+#: dist/gbblocks-1.js:709 dist/gbblocks-3.js:558 dist/gbblocks-3.js:1465
+#: dist/gbblocks-3.js:1901 dist/gbblocks-3.js:2120 dist/gbblocks-3.js:2461
+#: dist/gbblocks-3.js:2902 dist/gbblocks-3.js:3140 dist/gbblocks-3.js:3611
+#: dist/gbblocks-3.js:3914 dist/gbblocks-3.js:4298 dist/gbblocks-4.js:540
+#: dist/gbblocks-4.js:1335 dist/gbblocks-4.js:1537 dist/gbblocks-4.js:1690
+#: dist/gbblocks-4.js:1866 dist/gbblocks-4.js:2166 dist/gbblocks-4.js:2572
+#: dist/gbblocks-4.js:3330 dist/gbblocks-4.js:3486 dist/gbblocks-4.js:3900
+#: dist/gbblocks-4.js:4073 dist/gbblocks-4.js:4387 dist/gbblocks-5.js:85
+#: dist/gbblocks-5.js:748 dist/gbblocks-6.js:244 dist/gbblocks-6.js:2579
+#: dist/gbblocks-6.js:3503 dist/gbblocks-6.js:3693 dist/gbblocks-6.js:4015
+#: src/blocks/accordion/edit.js:201 src/blocks/button/edit.js:476
+#: src/blocks/cardcollection/edit.js:187 src/blocks/circlepreview/edit.js:214
+#: src/blocks/column/edit.js:434 src/blocks/customerlisting/edit.js:59
+#: src/blocks/customerpreview/edit.js:59 src/blocks/downloadlisting/edit.js:95
+#: src/blocks/form/edit.js:59 src/blocks/headline/edit.js:449
+#: src/blocks/headlinenumbered/edit.js:265 src/blocks/icon/edit.js:293
+#: src/blocks/icontext/edit.js:49 src/blocks/image/edit.js:282
+#: src/blocks/imagebutton/edit.js:308
+#: src/blocks/imageoverlaycollection/edit.js:56
+#: src/blocks/jobscollection/edit.js:54
+#: src/blocks/jobscollection/jobcard/edit.js:27 src/blocks/list/edit.js:106
+#: src/blocks/listlink/edit.js:101 src/blocks/newsletter/edit.js:250
+#: src/blocks/newslisting/edit.js:59 src/blocks/newsslider/edit.js:86
+#: src/blocks/paragraph/edit.js:377 src/blocks/quote/edit.js:88
+#: src/blocks/quoteimage/edit.js:284 src/blocks/visualcircle/edit.js:55
+#: src/blocks/visualcircle/visualcircleitem/edit.js:52
+#: src/blocks/visualimage/edit.js:237 src/blocks/youtube/edit.js:263
+#: dist/gbblocks-1.js:744 dist/gbblocks-3.js:546 dist/gbblocks-3.js:1450
+#: dist/gbblocks-3.js:1891 dist/gbblocks-3.js:2072 dist/gbblocks-3.js:2431
+#: dist/gbblocks-3.js:3016 dist/gbblocks-3.js:3205 dist/gbblocks-3.js:3698
+#: dist/gbblocks-3.js:3955 dist/gbblocks-3.js:4322 dist/gbblocks-4.js:413
+#: dist/gbblocks-4.js:1150 dist/gbblocks-4.js:1292 dist/gbblocks-4.js:1403
+#: dist/gbblocks-4.js:1550 dist/gbblocks-4.js:1867 dist/gbblocks-4.js:2274
+#: dist/gbblocks-4.js:3171 dist/gbblocks-4.js:3294 dist/gbblocks-4.js:3656
+#: dist/gbblocks-4.js:3794 dist/gbblocks-4.js:4130 dist/gbblocks-5.js:59
+#: dist/gbblocks-5.js:732 dist/gbblocks-6.js:214 dist/gbblocks-6.js:3211
+#: dist/gbblocks-6.js:4204 dist/gbblocks-6.js:4338 dist/gbblocks-6.js:4639
+msgid "Additional"
+msgstr ""
+
+#: dist/gbblocks-1.js:712 dist/gbblocks-1.js:1524 dist/gbblocks-1.js:2215
+#: dist/gbblocks-1.js:2848 dist/gbblocks-1.js:3760 dist/gbblocks-1.js:4592
+#: dist/gbblocks-3.js:561 dist/gbblocks-3.js:1468 dist/gbblocks-3.js:1904
+#: dist/gbblocks-3.js:2123 dist/gbblocks-3.js:2464 dist/gbblocks-3.js:2905
+#: dist/gbblocks-3.js:3143 dist/gbblocks-3.js:3614 dist/gbblocks-3.js:3917
+#: dist/gbblocks-3.js:4301 dist/gbblocks-4.js:543 dist/gbblocks-4.js:1338
+#: dist/gbblocks-4.js:1540 dist/gbblocks-4.js:1693 dist/gbblocks-4.js:1869
+#: dist/gbblocks-4.js:2169 dist/gbblocks-4.js:2575 dist/gbblocks-4.js:3333
+#: dist/gbblocks-4.js:3903 dist/gbblocks-4.js:4076 dist/gbblocks-4.js:4390
+#: dist/gbblocks-5.js:88 dist/gbblocks-5.js:751 dist/gbblocks-6.js:247
+#: dist/gbblocks-6.js:1601 dist/gbblocks-6.js:2582 dist/gbblocks-6.js:3156
+#: dist/gbblocks-6.js:3506 dist/gbblocks-6.js:3696 dist/gbblocks-6.js:4018
+#: src/blocks/accordion/edit.js:205 src/blocks/button/edit.js:480
+#: src/blocks/cardcollection/edit.js:189 src/blocks/circlepreview/edit.js:216
+#: src/blocks/column/edit.js:438 src/blocks/customerlisting/edit.js:63
+#: src/blocks/customerpreview/edit.js:63 src/blocks/downloadlisting/edit.js:99
+#: src/blocks/form/edit.js:63 src/blocks/headline/edit.js:453
+#: src/blocks/headlinenumbered/edit.js:269 src/blocks/icon/edit.js:297
+#: src/blocks/icontext/edit.js:53 src/blocks/image/edit.js:286
+#: src/blocks/imagebutton/edit.js:310
+#: src/blocks/imageoverlaycollection/edit.js:60
+#: src/blocks/jobscollection/edit.js:58 src/blocks/list/edit.js:110
+#: src/blocks/listlink/edit.js:105 src/blocks/locations/edit.js:210
+#: src/blocks/newsletter/edit.js:254 src/blocks/newslisting/edit.js:63
+#: src/blocks/newsslider/edit.js:90 src/blocks/paragraph/edit.js:381
+#: src/blocks/quote/edit.js:92 src/blocks/quoteimage/edit.js:286
+#: src/blocks/row/edit.js:577 src/blocks/section/edit.js:569
+#: src/blocks/section/sectionhero/edit.js:310
+#: src/blocks/section/sectionheromain/edit.js:290
+#: src/blocks/section/sectionswipe/edit.js:190
+#: src/blocks/slidervideo/edit.js:140 src/blocks/visualcircle/edit.js:57
+#: src/blocks/visualcircle/visualcircleitem/edit.js:54
+#: src/blocks/visualimage/edit.js:239 src/blocks/youtube/edit.js:265
+#: dist/gbblocks-1.js:748 dist/gbblocks-1.js:1659 dist/gbblocks-1.js:2536
+#: dist/gbblocks-1.js:3393 dist/gbblocks-1.js:4396 dist/gbblocks-1.js:5297
+#: dist/gbblocks-3.js:550 dist/gbblocks-3.js:1454 dist/gbblocks-3.js:1895
+#: dist/gbblocks-3.js:2076 dist/gbblocks-3.js:2435 dist/gbblocks-3.js:3020
+#: dist/gbblocks-3.js:3209 dist/gbblocks-3.js:3702 dist/gbblocks-3.js:3959
+#: dist/gbblocks-3.js:4324 dist/gbblocks-4.js:417 dist/gbblocks-4.js:1152
+#: dist/gbblocks-4.js:1296 dist/gbblocks-4.js:1407 dist/gbblocks-4.js:1554
+#: dist/gbblocks-4.js:1871 dist/gbblocks-4.js:2278 dist/gbblocks-4.js:3175
+#: dist/gbblocks-4.js:3660 dist/gbblocks-4.js:3798 dist/gbblocks-4.js:4132
+#: dist/gbblocks-5.js:63 dist/gbblocks-5.js:734 dist/gbblocks-6.js:216
+#: dist/gbblocks-6.js:2201 dist/gbblocks-6.js:3215 dist/gbblocks-6.js:3855
+#: dist/gbblocks-6.js:4206 dist/gbblocks-6.js:4340 dist/gbblocks-6.js:4641
+msgid "Anchor"
+msgstr ""
+
+#: dist/gbblocks-1.js:713 src/blocks/column/edit.js:439 dist/gbblocks-1.js:749
+msgid "Specify link ID…"
+msgstr ""
+
+#: dist/gbblocks-1.js:720 dist/gbblocks-1.js:2223 dist/gbblocks-1.js:2856
+#: dist/gbblocks-1.js:3768 dist/gbblocks-1.js:4600
+#: src/blocks/column/edit.js:447 src/blocks/section/edit.js:578
+#: src/blocks/section/sectionhero/edit.js:317
+#: src/blocks/section/sectionheromain/edit.js:297
+#: src/blocks/section/sectionswipe/edit.js:199 dist/gbblocks-1.js:757
+#: dist/gbblocks-1.js:2545 dist/gbblocks-1.js:3400 dist/gbblocks-1.js:4403
+#: dist/gbblocks-1.js:5306
+msgid "Hide on Smartphone"
+msgstr ""
+
+#: dist/gbblocks-1.js:726 dist/gbblocks-1.js:2229 dist/gbblocks-1.js:2862
+#: dist/gbblocks-1.js:3774 dist/gbblocks-1.js:4606
+#: src/blocks/column/edit.js:457 src/blocks/section/edit.js:587
+#: src/blocks/section/sectionhero/edit.js:326
+#: src/blocks/section/sectionheromain/edit.js:306
+#: src/blocks/section/sectionswipe/edit.js:208 dist/gbblocks-1.js:767
+#: dist/gbblocks-1.js:2554 dist/gbblocks-1.js:3409 dist/gbblocks-1.js:4412
+#: dist/gbblocks-1.js:5315
+msgid "Hide on Tablet"
+msgstr ""
+
+#: dist/gbblocks-1.js:732 dist/gbblocks-1.js:2235 dist/gbblocks-1.js:2868
+#: dist/gbblocks-1.js:3780 dist/gbblocks-1.js:4612
+#: src/blocks/column/edit.js:467 src/blocks/section/edit.js:596
+#: src/blocks/section/sectionhero/edit.js:335
+#: src/blocks/section/sectionheromain/edit.js:315
+#: src/blocks/section/sectionswipe/edit.js:217 dist/gbblocks-1.js:777
+#: dist/gbblocks-1.js:2563 dist/gbblocks-1.js:3418 dist/gbblocks-1.js:4421
+#: dist/gbblocks-1.js:5324
+msgid "Hide on Desktop"
+msgstr ""
+
+#: dist/gbblocks-1.js:976 src/blocks/postcontent/edit.js:32
+#: dist/gbblocks-1.js:972
+msgid "This content is password protected."
+msgstr ""
+
+#: dist/gbblocks-1.js:1036 src/blocks/postcontent/edit.js:87
+#: dist/gbblocks-1.js:1027
+msgid "Post Content"
+msgstr ""
+
+#: dist/gbblocks-1.js:1041 src/blocks/postcontent/edit.js:97
+#: dist/gbblocks-1.js:1037
+msgid "Block cannot be rendered inside itself."
+msgstr ""
+
+#: dist/gbblocks-1.js:1364 src/blocks/row/edit.js:247 dist/gbblocks-1.js:1329
+msgid "Alignment - Horizontal"
+msgstr ""
+
+#: dist/gbblocks-1.js:1370 src/blocks/row/edit.js:261 dist/gbblocks-1.js:1343
+msgid "Start"
+msgstr ""
+
+#: dist/gbblocks-1.js:1373 dist/gbblocks-3.js:550 dist/gbblocks-3.js:1410
+#: dist/gbblocks-3.js:3581 src/blocks/button/edit.js:450
+#: src/blocks/headline/edit.js:368 src/blocks/paragraph/edit.js:323
+#: src/blocks/row/edit.js:268 dist/gbblocks-1.js:1350 dist/gbblocks-3.js:520
+#: dist/gbblocks-3.js:1369 dist/gbblocks-3.js:3644
+msgid "Center"
+msgstr ""
+
+#: dist/gbblocks-1.js:1376 src/blocks/row/edit.js:275 dist/gbblocks-1.js:1357
+msgid "End"
+msgstr ""
+
+#: dist/gbblocks-1.js:1413 dist/gbblocks-1.js:1425 dist/gbblocks-1.js:1437
+#: dist/gbblocks-1.js:1449 dist/gbblocks-1.js:1461 src/blocks/row/edit.js:381
+#: src/blocks/row/edit.js:408 src/blocks/row/edit.js:435
+#: src/blocks/row/edit.js:462 src/blocks/row/edit.js:489
+#: dist/gbblocks-1.js:1463 dist/gbblocks-1.js:1490 dist/gbblocks-1.js:1517
+#: dist/gbblocks-1.js:1544 dist/gbblocks-1.js:1571
+msgid "Reverse Columns"
+msgstr ""
+
+#: dist/gbblocks-1.js:1477 src/blocks/row/edit.js:517 dist/gbblocks-1.js:1599
+msgid "Same Height"
+msgstr ""
+
+#: dist/gbblocks-1.js:1485 src/blocks/row/edit.js:527 dist/gbblocks-1.js:1609
+msgid "Limited Width"
+msgstr ""
+
+#: dist/gbblocks-1.js:1491 src/blocks/row/edit.js:536 dist/gbblocks-1.js:1618
+msgid "Column Gap"
+msgstr ""
+
+#: dist/gbblocks-1.js:1521 src/blocks/row/edit.js:573 dist/gbblocks-1.js:1655
+msgid "Advanced"
+msgstr ""
+
+#: dist/gbblocks-1.js:1525 src/blocks/row/edit.js:578 dist/gbblocks-1.js:1660
+msgid "Specify ID…"
+msgstr ""
+
+#: dist/gbblocks-1.js:1532 dist/gbblocks-3.js:569 dist/gbblocks-3.js:1476
+#: dist/gbblocks-3.js:1912 dist/gbblocks-3.js:2131 dist/gbblocks-3.js:2472
+#: dist/gbblocks-3.js:2913 dist/gbblocks-3.js:3151 dist/gbblocks-3.js:3622
+#: dist/gbblocks-3.js:3925 dist/gbblocks-3.js:4309 dist/gbblocks-4.js:551
+#: dist/gbblocks-4.js:1346 dist/gbblocks-4.js:1548 dist/gbblocks-4.js:1701
+#: dist/gbblocks-4.js:1877 dist/gbblocks-4.js:2177 dist/gbblocks-4.js:2583
+#: dist/gbblocks-4.js:3341 dist/gbblocks-4.js:3911 dist/gbblocks-4.js:4084
+#: dist/gbblocks-4.js:4398 dist/gbblocks-5.js:96 dist/gbblocks-5.js:759
+#: dist/gbblocks-6.js:255 dist/gbblocks-6.js:1609 dist/gbblocks-6.js:2590
+#: dist/gbblocks-6.js:3514 dist/gbblocks-6.js:3704 dist/gbblocks-6.js:4026
+#: src/blocks/accordion/edit.js:214 src/blocks/button/edit.js:489
+#: src/blocks/cardcollection/edit.js:196 src/blocks/circlepreview/edit.js:223
+#: src/blocks/customerlisting/edit.js:72 src/blocks/customerpreview/edit.js:72
+#: src/blocks/downloadlisting/edit.js:108 src/blocks/form/edit.js:72
+#: src/blocks/headline/edit.js:460 src/blocks/headlinenumbered/edit.js:278
+#: src/blocks/icon/edit.js:306 src/blocks/icontext/edit.js:62
+#: src/blocks/image/edit.js:295 src/blocks/imagebutton/edit.js:317
+#: src/blocks/imageoverlaycollection/edit.js:67
+#: src/blocks/jobscollection/edit.js:67 src/blocks/list/edit.js:117
+#: src/blocks/listlink/edit.js:112 src/blocks/locations/edit.js:217
+#: src/blocks/newsletter/edit.js:263 src/blocks/newslisting/edit.js:72
+#: src/blocks/newsslider/edit.js:99 src/blocks/paragraph/edit.js:388
+#: src/blocks/quote/edit.js:99 src/blocks/quoteimage/edit.js:293
+#: src/blocks/row/edit.js:586 src/blocks/visualcircle/edit.js:64
+#: src/blocks/visualcircle/visualcircleitem/edit.js:61
+#: src/blocks/visualimage/edit.js:246 src/blocks/youtube/edit.js:272
+#: dist/gbblocks-1.js:1668 dist/gbblocks-3.js:559 dist/gbblocks-3.js:1461
+#: dist/gbblocks-3.js:1904 dist/gbblocks-3.js:2085 dist/gbblocks-3.js:2444
+#: dist/gbblocks-3.js:3027 dist/gbblocks-3.js:3216 dist/gbblocks-3.js:3709
+#: dist/gbblocks-3.js:3966 dist/gbblocks-3.js:4331 dist/gbblocks-4.js:426
+#: dist/gbblocks-4.js:1159 dist/gbblocks-4.js:1305 dist/gbblocks-4.js:1416
+#: dist/gbblocks-4.js:1563 dist/gbblocks-4.js:1880 dist/gbblocks-4.js:2285
+#: dist/gbblocks-4.js:3184 dist/gbblocks-4.js:3669 dist/gbblocks-4.js:3807
+#: dist/gbblocks-4.js:4139 dist/gbblocks-5.js:72 dist/gbblocks-5.js:741
+#: dist/gbblocks-6.js:223 dist/gbblocks-6.js:2208 dist/gbblocks-6.js:3224
+#: dist/gbblocks-6.js:4213 dist/gbblocks-6.js:4347 dist/gbblocks-6.js:4648
+msgid "Class"
+msgstr ""
+
+#: dist/gbblocks-1.js:1533 src/blocks/row/edit.js:587 dist/gbblocks-1.js:1669
+msgid "Specify Class…"
+msgstr ""
+
+#: dist/gbblocks-1.js:1885 dist/gbblocks-1.js:2631 dist/gbblocks-1.js:3563
+#: dist/gbblocks-3.js:2302 dist/gbblocks-4.js:2684 dist/gbblocks-4.js:4210
+#: dist/gbblocks-5.js:556 dist/gbblocks-5.js:2713 dist/gbblocks-6.js:581
+#: dist/gbblocks-6.js:2438 dist/gbblocks-6.js:3872
+#: src/blocks/circlepreview/previewitem/edit.js:103 src/blocks/image/edit.js:61
+#: src/blocks/imagebutton/edit.js:85
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:75
+#: src/blocks/newsletter/edit.js:57 src/blocks/quoteimage/edit.js:58
+#: src/blocks/section/edit.js:70 src/blocks/section/sectionhero/edit.js:49
+#: src/blocks/section/sectionheromain/edit.js:52
+#: src/blocks/testimonialslider/testimonialslide/edit.js:174
+#: src/blocks/visualimage/edit.js:58 dist/gbblocks-1.js:2037
+#: dist/gbblocks-1.js:3132 dist/gbblocks-1.js:4158 dist/gbblocks-3.js:2210
+#: dist/gbblocks-4.js:2382 dist/gbblocks-4.js:3904 dist/gbblocks-5.js:509
+#: dist/gbblocks-5.js:2716 dist/gbblocks-6.js:846 dist/gbblocks-6.js:3018
+#: dist/gbblocks-6.js:4460
+msgid "To edit the background image, you need permission to upload media."
+msgstr ""
+
+#: dist/gbblocks-1.js:2032 dist/gbblocks-1.js:2786 dist/gbblocks-1.js:3660
+#: dist/gbblocks-3.js:2394 dist/gbblocks-4.js:2869 dist/gbblocks-4.js:4330
+#: dist/gbblocks-5.js:648 dist/gbblocks-5.js:2745 dist/gbblocks-6.js:677
+#: dist/gbblocks-6.js:2528 dist/gbblocks-6.js:3964
+#: src/blocks/circlepreview/previewitem/edit.js:206
+#: src/blocks/image/edit.js:173 src/blocks/imagebutton/edit.js:188
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:370
+#: src/blocks/newsletter/edit.js:163 src/blocks/quoteimage/edit.js:199
+#: src/blocks/section/edit.js:231 src/blocks/section/sectionhero/edit.js:224
+#: src/blocks/section/sectionheromain/edit.js:159
+#: src/blocks/testimonialslider/testimonialslide/edit.js:212
+#: src/blocks/visualimage/edit.js:161 dist/gbblocks-1.js:2198
+#: dist/gbblocks-1.js:3307 dist/gbblocks-1.js:4265 dist/gbblocks-3.js:2322
+#: dist/gbblocks-4.js:2677 dist/gbblocks-4.js:4045 dist/gbblocks-5.js:612
+#: dist/gbblocks-5.js:2754 dist/gbblocks-6.js:949 dist/gbblocks-6.js:3124
+#: dist/gbblocks-6.js:4563
+msgid "Background Image"
+msgstr ""
+
+#: dist/gbblocks-1.js:2046 src/blocks/section/edit.js:247
+#: dist/gbblocks-1.js:2214
+msgid "Mobile"
+msgstr ""
+
+#: dist/gbblocks-1.js:2048 src/blocks/section/edit.js:249
+#: dist/gbblocks-1.js:2216
+msgid "Device (max. 768px)"
+msgstr ""
+
+#: dist/gbblocks-1.js:2051 src/blocks/section/edit.js:256
+#: dist/gbblocks-1.js:2223
+msgid "Tablet"
+msgstr ""
+
+#: dist/gbblocks-1.js:2053 src/blocks/section/edit.js:258
+#: dist/gbblocks-1.js:2225
+msgid "Device (min. 768px - max. 1440px)"
+msgstr ""
+
+#: dist/gbblocks-1.js:2056 src/blocks/section/edit.js:265
+#: dist/gbblocks-1.js:2232
+msgid "Desktop"
+msgstr ""
+
+#: dist/gbblocks-1.js:2058 src/blocks/section/edit.js:267
+#: dist/gbblocks-1.js:2234
+msgid "Device > 1440px"
+msgstr ""
+
+#: dist/gbblocks-1.js:2115 dist/gbblocks-1.js:2837 dist/gbblocks-1.js:3711
+#: src/blocks/section/edit.js:444 src/blocks/section/sectionhero/edit.js:301
+#: src/blocks/section/sectionheromain/edit.js:236 dist/gbblocks-1.js:2411
+#: dist/gbblocks-1.js:3384 dist/gbblocks-1.js:4342
+msgid "Alt Text"
+msgstr ""
+
+#: dist/gbblocks-1.js:2126 dist/gbblocks-1.js:4519
+#: src/blocks/section/edit.js:458 src/blocks/section/sectionswipe/edit.js:100
+#: dist/gbblocks-1.js:2425 dist/gbblocks-1.js:5207
+msgid "Top Padding"
+msgstr ""
+
+#: dist/gbblocks-1.js:2144 src/blocks/section/edit.js:478
+#: dist/gbblocks-1.js:2445
+msgid "60px"
+msgstr ""
+
+#: dist/gbblocks-1.js:2149 dist/gbblocks-1.js:2184 dist/gbblocks-1.js:2774
+#: dist/gbblocks-1.js:3745 dist/gbblocks-1.js:4542 dist/gbblocks-1.js:4577
+#: src/blocks/section/edit.js:484 src/blocks/section/edit.js:526
+#: src/blocks/section/sectionhero/edit.js:207
+#: src/blocks/section/sectionheromain/edit.js:271
+#: src/blocks/section/sectionswipe/edit.js:126
+#: src/blocks/section/sectionswipe/edit.js:168 dist/gbblocks-1.js:2451
+#: dist/gbblocks-1.js:2493 dist/gbblocks-1.js:3290 dist/gbblocks-1.js:4377
+#: dist/gbblocks-1.js:5233 dist/gbblocks-1.js:5275
+msgid "90px"
+msgstr ""
+
+#: dist/gbblocks-1.js:2154 src/blocks/section/edit.js:490
+#: dist/gbblocks-1.js:2457
+msgid "120px"
+msgstr ""
+
+#: dist/gbblocks-1.js:2159 dist/gbblocks-1.js:2194 dist/gbblocks-1.js:2784
+#: dist/gbblocks-1.js:3755 dist/gbblocks-1.js:4552 dist/gbblocks-1.js:4587
+#: src/blocks/section/edit.js:496 src/blocks/section/edit.js:538
+#: src/blocks/section/sectionhero/edit.js:219
+#: src/blocks/section/sectionheromain/edit.js:283
+#: src/blocks/section/sectionswipe/edit.js:138
+#: src/blocks/section/sectionswipe/edit.js:180 dist/gbblocks-1.js:2463
+#: dist/gbblocks-1.js:2505 dist/gbblocks-1.js:3302 dist/gbblocks-1.js:4389
+#: dist/gbblocks-1.js:5245 dist/gbblocks-1.js:5287
+msgid "240px"
+msgstr ""
+
+#: dist/gbblocks-1.js:2161 dist/gbblocks-1.js:2751 dist/gbblocks-1.js:3722
+#: dist/gbblocks-1.js:4554 src/blocks/section/edit.js:500
+#: src/blocks/section/sectionhero/edit.js:181
+#: src/blocks/section/sectionheromain/edit.js:245
+#: src/blocks/section/sectionswipe/edit.js:142 dist/gbblocks-1.js:2467
+#: dist/gbblocks-1.js:3264 dist/gbblocks-1.js:4351 dist/gbblocks-1.js:5249
+msgid "Bottom Padding"
+msgstr ""
+
+#: dist/gbblocks-1.js:2189 dist/gbblocks-1.js:2779 dist/gbblocks-1.js:3750
+#: dist/gbblocks-1.js:4547 dist/gbblocks-1.js:4582
+#: src/blocks/section/edit.js:532 src/blocks/section/sectionhero/edit.js:213
+#: src/blocks/section/sectionheromain/edit.js:277
+#: src/blocks/section/sectionswipe/edit.js:132
+#: src/blocks/section/sectionswipe/edit.js:174 dist/gbblocks-1.js:2499
+#: dist/gbblocks-1.js:3296 dist/gbblocks-1.js:4383 dist/gbblocks-1.js:5239
+#: dist/gbblocks-1.js:5281
+msgid "120"
+msgstr ""
+
+#: dist/gbblocks-1.js:2212 dist/gbblocks-1.js:2845 dist/gbblocks-1.js:3757
+#: dist/gbblocks-1.js:4589 src/blocks/section/edit.js:565
+#: src/blocks/section/sectionhero/edit.js:308
+#: src/blocks/section/sectionheromain/edit.js:288
+#: src/blocks/section/sectionswipe/edit.js:186 dist/gbblocks-1.js:2532
+#: dist/gbblocks-1.js:3391 dist/gbblocks-1.js:4394 dist/gbblocks-1.js:5293
+msgid "Display"
+msgstr ""
+
+#: dist/gbblocks-1.js:2728 dist/gbblocks-4.js:2090 dist/gbblocks-4.js:4325
+#: dist/gbblocks-6.js:2523 src/blocks/headlinenumbered/edit.js:155
+#: src/blocks/newsletter/edit.js:158 src/blocks/quoteimage/edit.js:196
+#: src/blocks/section/sectionhero/edit.js:155 dist/gbblocks-1.js:3238
+#: dist/gbblocks-4.js:1757 dist/gbblocks-4.js:4042 dist/gbblocks-6.js:3119
+msgid "General"
+msgstr ""
+
+#: dist/gbblocks-1.js:2731 src/blocks/section/sectionhero/edit.js:157
+#: dist/gbblocks-1.js:3240
+msgid "Hero Position"
+msgstr ""
+
+#: dist/gbblocks-1.js:2742 dist/gbblocks-1.js:2744 dist/gbblocks-1.js:4507
+#: dist/gbblocks-1.js:4509 dist/gbblocks-3.js:545 dist/gbblocks-3.js:1405
+#: dist/gbblocks-3.js:3576 dist/gbblocks-5.js:705 src/blocks/button/edit.js:441
+#: src/blocks/headline/edit.js:359 src/blocks/imagebutton/edit.js:270
+#: src/blocks/paragraph/edit.js:314 src/blocks/section/sectionhero/edit.js:169
+#: src/blocks/section/sectionhero/edit.js:171
+#: src/blocks/section/sectionswipe/edit.js:83
+#: src/blocks/section/sectionswipe/edit.js:85 dist/gbblocks-1.js:3252
+#: dist/gbblocks-1.js:3254 dist/gbblocks-1.js:5190 dist/gbblocks-1.js:5192
+#: dist/gbblocks-3.js:511 dist/gbblocks-3.js:1360 dist/gbblocks-3.js:3635
+#: dist/gbblocks-5.js:694
+msgid "Left"
+msgstr ""
+
+#: dist/gbblocks-1.js:2749 dist/gbblocks-1.js:4512 dist/gbblocks-1.js:4514
+#: dist/gbblocks-3.js:555 dist/gbblocks-3.js:1415 dist/gbblocks-3.js:3586
+#: dist/gbblocks-5.js:708 src/blocks/button/edit.js:459
+#: src/blocks/headline/edit.js:377 src/blocks/imagebutton/edit.js:274
+#: src/blocks/paragraph/edit.js:332 src/blocks/section/sectionhero/edit.js:177
+#: src/blocks/section/sectionswipe/edit.js:89
+#: src/blocks/section/sectionswipe/edit.js:91 dist/gbblocks-1.js:3260
+#: dist/gbblocks-1.js:5196 dist/gbblocks-1.js:5198 dist/gbblocks-3.js:529
+#: dist/gbblocks-3.js:1378 dist/gbblocks-3.js:3653 dist/gbblocks-5.js:698
+msgid "Right"
+msgstr ""
+
+#: dist/gbblocks-1.js:4493 src/blocks/section/sectionswipe/edit.js:67
+#: dist/gbblocks-1.js:5174
+msgid "Background"
+msgstr ""
+
+#: dist/gbblocks-1.js:4496 src/blocks/section/sectionswipe/edit.js:71
+#: dist/gbblocks-1.js:5178
+msgid "Orientation"
+msgstr ""
+
+#: dist/gbblocks-2.js:606 src/blocks/navigation/edit.js:22
+#: dist/gbblocks-2.js:514
+msgid "Not set"
+msgstr ""
+
+#: dist/gbblocks-2.js:629 src/blocks/navigation/edit.js:38
+#: dist/gbblocks-2.js:530
+msgid "Select a menu"
+msgstr ""
+
+#: dist/gbblocks-3.js:404 dist/gbblocks-3.js:878 dist/gbblocks-3.js:1316
+#: dist/gbblocks-3.js:2445 dist/gbblocks-3.js:2870 dist/gbblocks-3.js:3487
+#: dist/gbblocks-3.js:3892 src/blocks/button/edit.js:261
+#: src/blocks/divider/edit.js:18 src/blocks/headline/edit.js:253
+#: src/blocks/image/edit.js:260 src/blocks/list/edit.js:73
+#: src/blocks/paragraph/edit.js:208 src/blocks/quote/edit.js:63
+#: dist/gbblocks-3.js:331 dist/gbblocks-3.js:838 dist/gbblocks-3.js:1254
+#: dist/gbblocks-3.js:2409 dist/gbblocks-3.js:2983 dist/gbblocks-3.js:3529
+#: dist/gbblocks-3.js:3930
+msgid "Styles"
+msgstr ""
+
+#: dist/gbblocks-3.js:427 src/blocks/button/edit.js:289 dist/gbblocks-3.js:359
+msgid "Button color"
+msgstr ""
+
+#: dist/gbblocks-3.js:435 src/blocks/button/edit.js:298 dist/gbblocks-3.js:368
+msgid "Button Color"
+msgstr ""
+
+#: dist/gbblocks-3.js:438 src/blocks/button/edit.js:303 dist/gbblocks-3.js:373
+msgid "Button Hover Text"
+msgstr ""
+
+#: dist/gbblocks-3.js:439 src/blocks/button/edit.js:304 dist/gbblocks-3.js:374
+msgid "Ovrwrite button hover text…"
+msgstr ""
+
+#: dist/gbblocks-3.js:446 src/blocks/button/edit.js:315 dist/gbblocks-3.js:385
+msgid "Button With Icon"
+msgstr ""
+
+#: dist/gbblocks-3.js:466 dist/gbblocks-3.js:468 src/blocks/button/edit.js:341
+#: src/blocks/button/edit.js:343 dist/gbblocks-3.js:411 dist/gbblocks-3.js:413
+msgid "Inline"
+msgstr ""
+
+#: dist/gbblocks-3.js:471 dist/gbblocks-3.js:473 src/blocks/button/edit.js:347
+#: src/blocks/button/edit.js:349 dist/gbblocks-3.js:417 dist/gbblocks-3.js:419
+msgid "1/4"
+msgstr ""
+
+#: dist/gbblocks-3.js:476 dist/gbblocks-3.js:478 src/blocks/button/edit.js:353
+#: src/blocks/button/edit.js:355 dist/gbblocks-3.js:423 dist/gbblocks-3.js:425
+msgid "2/4"
+msgstr ""
+
+#: dist/gbblocks-3.js:481 dist/gbblocks-3.js:483 src/blocks/button/edit.js:359
+#: src/blocks/button/edit.js:361 dist/gbblocks-3.js:429 dist/gbblocks-3.js:431
+msgid "3/4"
+msgstr ""
+
+#: dist/gbblocks-3.js:486 dist/gbblocks-3.js:488 src/blocks/button/edit.js:365
+#: src/blocks/button/edit.js:367 dist/gbblocks-3.js:435 dist/gbblocks-3.js:437
+msgid "4/4"
+msgstr ""
+
+#: dist/gbblocks-3.js:536 dist/gbblocks-3.js:1396 dist/gbblocks-3.js:3567
+#: src/blocks/button/edit.js:428 src/blocks/headline/edit.js:346
+#: src/blocks/paragraph/edit.js:301 dist/gbblocks-3.js:498
+#: dist/gbblocks-3.js:1347 dist/gbblocks-3.js:3622
+msgid "Alignment"
+msgstr ""
+
+#: dist/gbblocks-3.js:562 dist/gbblocks-3.js:1469 dist/gbblocks-3.js:1905
+#: dist/gbblocks-3.js:2124 dist/gbblocks-3.js:2465 dist/gbblocks-3.js:2906
+#: dist/gbblocks-3.js:3144 dist/gbblocks-3.js:3615 dist/gbblocks-3.js:3918
+#: dist/gbblocks-3.js:4302 dist/gbblocks-4.js:544 dist/gbblocks-4.js:1339
+#: dist/gbblocks-4.js:1541 dist/gbblocks-4.js:1694 dist/gbblocks-4.js:1870
+#: dist/gbblocks-4.js:2170 dist/gbblocks-4.js:2576 dist/gbblocks-4.js:3334
+#: dist/gbblocks-4.js:3904 dist/gbblocks-4.js:4077 dist/gbblocks-4.js:4391
+#: dist/gbblocks-5.js:89 dist/gbblocks-5.js:752 dist/gbblocks-6.js:248
+#: dist/gbblocks-6.js:1602 dist/gbblocks-6.js:2583 dist/gbblocks-6.js:3507
+#: dist/gbblocks-6.js:3697 dist/gbblocks-6.js:4019
+#: src/blocks/accordion/edit.js:206 src/blocks/button/edit.js:481
+#: src/blocks/cardcollection/edit.js:190 src/blocks/circlepreview/edit.js:217
+#: src/blocks/customerlisting/edit.js:64 src/blocks/customerpreview/edit.js:64
+#: src/blocks/downloadlisting/edit.js:100 src/blocks/form/edit.js:64
+#: src/blocks/headline/edit.js:454 src/blocks/headlinenumbered/edit.js:270
+#: src/blocks/icon/edit.js:298 src/blocks/icontext/edit.js:54
+#: src/blocks/image/edit.js:287 src/blocks/imagebutton/edit.js:311
+#: src/blocks/imageoverlaycollection/edit.js:61
+#: src/blocks/jobscollection/edit.js:59 src/blocks/list/edit.js:111
+#: src/blocks/listlink/edit.js:106 src/blocks/locations/edit.js:211
+#: src/blocks/newsletter/edit.js:255 src/blocks/newslisting/edit.js:64
+#: src/blocks/newsslider/edit.js:91 src/blocks/paragraph/edit.js:382
+#: src/blocks/quote/edit.js:93 src/blocks/quoteimage/edit.js:287
+#: src/blocks/visualcircle/edit.js:58
+#: src/blocks/visualcircle/visualcircleitem/edit.js:55
+#: src/blocks/visualimage/edit.js:240 src/blocks/youtube/edit.js:266
+#: dist/gbblocks-3.js:551 dist/gbblocks-3.js:1455 dist/gbblocks-3.js:1896
+#: dist/gbblocks-3.js:2077 dist/gbblocks-3.js:2436 dist/gbblocks-3.js:3021
+#: dist/gbblocks-3.js:3210 dist/gbblocks-3.js:3703 dist/gbblocks-3.js:3960
+#: dist/gbblocks-3.js:4325 dist/gbblocks-4.js:418 dist/gbblocks-4.js:1153
+#: dist/gbblocks-4.js:1297 dist/gbblocks-4.js:1408 dist/gbblocks-4.js:1555
+#: dist/gbblocks-4.js:1872 dist/gbblocks-4.js:2279 dist/gbblocks-4.js:3176
+#: dist/gbblocks-4.js:3661 dist/gbblocks-4.js:3799 dist/gbblocks-4.js:4133
+#: dist/gbblocks-5.js:64 dist/gbblocks-5.js:735 dist/gbblocks-6.js:217
+#: dist/gbblocks-6.js:2202 dist/gbblocks-6.js:3216 dist/gbblocks-6.js:4207
+#: dist/gbblocks-6.js:4341 dist/gbblocks-6.js:4642
+msgid "Specify Id…"
+msgstr ""
+
+#: dist/gbblocks-3.js:570 dist/gbblocks-3.js:1477 dist/gbblocks-3.js:1913
+#: dist/gbblocks-3.js:2132 dist/gbblocks-3.js:2473 dist/gbblocks-3.js:2914
+#: dist/gbblocks-3.js:3152 dist/gbblocks-3.js:3623 dist/gbblocks-3.js:3926
+#: dist/gbblocks-3.js:4310 dist/gbblocks-4.js:552 dist/gbblocks-4.js:1347
+#: dist/gbblocks-4.js:1549 dist/gbblocks-4.js:1702 dist/gbblocks-4.js:1878
+#: dist/gbblocks-4.js:2178 dist/gbblocks-4.js:2584 dist/gbblocks-4.js:3342
+#: dist/gbblocks-4.js:3912 dist/gbblocks-4.js:4085 dist/gbblocks-4.js:4399
+#: dist/gbblocks-5.js:97 dist/gbblocks-5.js:760 dist/gbblocks-6.js:256
+#: dist/gbblocks-6.js:1610 dist/gbblocks-6.js:2591 dist/gbblocks-6.js:3515
+#: dist/gbblocks-6.js:3705 dist/gbblocks-6.js:4027
+#: src/blocks/accordion/edit.js:215 src/blocks/button/edit.js:490
+#: src/blocks/cardcollection/edit.js:197 src/blocks/circlepreview/edit.js:224
+#: src/blocks/customerlisting/edit.js:73 src/blocks/customerpreview/edit.js:73
+#: src/blocks/downloadlisting/edit.js:109 src/blocks/form/edit.js:73
+#: src/blocks/headline/edit.js:461 src/blocks/headlinenumbered/edit.js:279
+#: src/blocks/icon/edit.js:307 src/blocks/icontext/edit.js:63
+#: src/blocks/image/edit.js:296 src/blocks/imagebutton/edit.js:318
+#: src/blocks/imageoverlaycollection/edit.js:68
+#: src/blocks/jobscollection/edit.js:68 src/blocks/list/edit.js:118
+#: src/blocks/listlink/edit.js:113 src/blocks/locations/edit.js:218
+#: src/blocks/newsletter/edit.js:264 src/blocks/newslisting/edit.js:73
+#: src/blocks/newsslider/edit.js:100 src/blocks/paragraph/edit.js:389
+#: src/blocks/quote/edit.js:100 src/blocks/quoteimage/edit.js:294
+#: src/blocks/visualcircle/edit.js:65
+#: src/blocks/visualcircle/visualcircleitem/edit.js:62
+#: src/blocks/visualimage/edit.js:247 src/blocks/youtube/edit.js:273
+#: dist/gbblocks-3.js:560 dist/gbblocks-3.js:1462 dist/gbblocks-3.js:1905
+#: dist/gbblocks-3.js:2086 dist/gbblocks-3.js:2445 dist/gbblocks-3.js:3028
+#: dist/gbblocks-3.js:3217 dist/gbblocks-3.js:3710 dist/gbblocks-3.js:3967
+#: dist/gbblocks-3.js:4332 dist/gbblocks-4.js:427 dist/gbblocks-4.js:1160
+#: dist/gbblocks-4.js:1306 dist/gbblocks-4.js:1417 dist/gbblocks-4.js:1564
+#: dist/gbblocks-4.js:1881 dist/gbblocks-4.js:2286 dist/gbblocks-4.js:3185
+#: dist/gbblocks-4.js:3670 dist/gbblocks-4.js:3808 dist/gbblocks-4.js:4140
+#: dist/gbblocks-5.js:73 dist/gbblocks-5.js:742 dist/gbblocks-6.js:224
+#: dist/gbblocks-6.js:2209 dist/gbblocks-6.js:3225 dist/gbblocks-6.js:4214
+#: dist/gbblocks-6.js:4348 dist/gbblocks-6.js:4649
+msgid "Specify class…"
+msgstr ""
+
+#: dist/gbblocks-3.js:581 dist/gbblocks-4.js:3529 src/blocks/button/edit.js:505
+#: src/blocks/jobscollection/jobcard/edit.js:76 dist/gbblocks-3.js:575
+#: dist/gbblocks-4.js:3343
+msgid "Link"
+msgstr ""
+
+#: dist/gbblocks-3.js:587 src/blocks/button/edit.js:514 dist/gbblocks-3.js:584
+msgid "Unlink"
+msgstr ""
+
+#: dist/gbblocks-3.js:638 dist/gbblocks-3.js:651 src/blocks/button/edit.js:570
+#: src/blocks/button/edit.js:590 dist/gbblocks-3.js:640 dist/gbblocks-3.js:660
+msgid "Button text"
+msgstr ""
+
+#: dist/gbblocks-3.js:639 dist/gbblocks-3.js:652 src/blocks/button/edit.js:571
+#: src/blocks/button/edit.js:591 dist/gbblocks-3.js:641 dist/gbblocks-3.js:661
+msgid "Add text…"
+msgstr ""
+
+#: dist/gbblocks-3.js:881 dist/gbblocks-3.js:1319 dist/gbblocks-3.js:1852
+#: dist/gbblocks-3.js:2448 dist/gbblocks-3.js:2873 dist/gbblocks-3.js:3490
+#: dist/gbblocks-3.js:4289 dist/gbblocks-6.js:221
+#: src/blocks/circlepreview/edit.js:188 src/blocks/divider/edit.js:20
+#: src/blocks/headline/edit.js:255 src/blocks/icon/edit.js:223
+#: src/blocks/image/edit.js:264 src/blocks/list/edit.js:75
+#: src/blocks/paragraph/edit.js:210 src/blocks/youtube/edit.js:252
+#: dist/gbblocks-3.js:840 dist/gbblocks-3.js:1256 dist/gbblocks-3.js:1821
+#: dist/gbblocks-3.js:2413 dist/gbblocks-3.js:2985 dist/gbblocks-3.js:3531
+#: dist/gbblocks-3.js:4311 dist/gbblocks-6.js:188
+msgid "Style"
+msgstr ""
+
+#: dist/gbblocks-3.js:884 src/blocks/divider/edit.js:24 dist/gbblocks-3.js:844
+msgid "Green"
+msgstr ""
+
+#: dist/gbblocks-3.js:887 src/blocks/divider/edit.js:28 dist/gbblocks-3.js:848
+msgid "Line - Light Grey"
+msgstr ""
+
+#: dist/gbblocks-3.js:890 src/blocks/divider/edit.js:32 dist/gbblocks-3.js:852
+msgid "Line - Grey"
+msgstr ""
+
+#: dist/gbblocks-3.js:893 src/blocks/divider/edit.js:36 dist/gbblocks-3.js:856
+msgid "Line - Light Green"
+msgstr ""
+
+#: dist/gbblocks-3.js:896 src/blocks/divider/edit.js:40 dist/gbblocks-3.js:860
+msgid "Line - Blue"
+msgstr ""
+
+#: dist/gbblocks-3.js:899 src/blocks/divider/edit.js:44 dist/gbblocks-3.js:864
+msgid "Line - White"
+msgstr ""
+
+#: dist/gbblocks-3.js:1332 dist/gbblocks-3.js:1347 dist/gbblocks-3.js:3911
+#: src/blocks/headline/edit.js:268 src/blocks/headline/edit.js:284
+#: src/blocks/quote/edit.js:82 dist/gbblocks-3.js:1269 dist/gbblocks-3.js:1285
+#: dist/gbblocks-3.js:3949
+msgid "Color"
+msgstr ""
+
+#: dist/gbblocks-3.js:1421 dist/gbblocks-3.js:3592
+#: src/blocks/headline/edit.js:395 src/blocks/paragraph/edit.js:353
+#: dist/gbblocks-3.js:1396 dist/gbblocks-3.js:3674
+msgid "Tag"
+msgstr ""
+
+#: dist/gbblocks-3.js:1433 src/blocks/headline/edit.js:408
+#: dist/gbblocks-3.js:1409
+msgid "H1"
+msgstr ""
+
+#: dist/gbblocks-3.js:1438 src/blocks/headline/edit.js:414
+#: dist/gbblocks-3.js:1415
+msgid "H2"
+msgstr ""
+
+#: dist/gbblocks-3.js:1443 src/blocks/headline/edit.js:420
+#: dist/gbblocks-3.js:1421
+msgid "H3"
+msgstr ""
+
+#: dist/gbblocks-3.js:1448 src/blocks/headline/edit.js:426
+#: dist/gbblocks-3.js:1427
+msgid "H4"
+msgstr ""
+
+#: dist/gbblocks-3.js:1451 src/blocks/headline/edit.js:430
+#: dist/gbblocks-3.js:1431
+msgid "5"
+msgstr ""
+
+#: dist/gbblocks-3.js:1453 src/blocks/headline/edit.js:432
+#: dist/gbblocks-3.js:1433
+msgid "H5"
+msgstr ""
+
+#: dist/gbblocks-3.js:1456 src/blocks/headline/edit.js:436
+#: dist/gbblocks-3.js:1437
+msgid "6"
+msgstr ""
+
+#: dist/gbblocks-3.js:1458 src/blocks/headline/edit.js:438
+#: dist/gbblocks-3.js:1439
+msgid "H6"
+msgstr ""
+
+#: dist/gbblocks-3.js:1461 dist/gbblocks-3.js:3607 dist/gbblocks-3.js:3609
+#: src/blocks/headline/edit.js:442 src/blocks/paragraph/edit.js:370
+#: src/blocks/paragraph/edit.js:372 dist/gbblocks-3.js:1443
+#: dist/gbblocks-3.js:3691 dist/gbblocks-3.js:3693
+msgid "SPAN"
+msgstr ""
+
+#: dist/gbblocks-3.js:1463 src/blocks/headline/edit.js:444
+#: dist/gbblocks-3.js:1445
+msgid "Span"
+msgstr ""
+
+#: dist/gbblocks-3.js:1491 dist/gbblocks-4.js:2853
+#: src/blocks/headline/edit.js:479
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:353
+#: dist/gbblocks-3.js:1480 dist/gbblocks-4.js:2660
+msgid "Heading text"
+msgstr ""
+
+#: dist/gbblocks-3.js:1492 dist/gbblocks-4.js:2854
+#: src/blocks/headline/edit.js:480
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:354
+#: dist/gbblocks-3.js:1481 dist/gbblocks-4.js:2661
+msgid "Heading"
+msgstr ""
+
+#: dist/gbblocks-3.js:1808 dist/gbblocks-6.js:747
+#: src/blocks/circlepreview/previewitem/edit.js:298 src/blocks/icon/edit.js:153
+#: dist/gbblocks-3.js:1751 dist/gbblocks-6.js:1041
+msgid "Icon"
+msgstr ""
+
+#: dist/gbblocks-3.js:1812 dist/gbblocks-6.js:751
+#: src/blocks/circlepreview/previewitem/edit.js:301 src/blocks/icon/edit.js:158
+#: dist/gbblocks-3.js:1756 dist/gbblocks-6.js:1044
+msgid "Search"
+msgstr ""
+
+#: dist/gbblocks-3.js:1855 src/blocks/icon/edit.js:227 dist/gbblocks-3.js:1825
+msgid "Icon color"
+msgstr ""
+
+#: dist/gbblocks-3.js:1863 src/blocks/icon/edit.js:236 dist/gbblocks-3.js:1834
+msgid "Icon Color"
+msgstr ""
+
+#: dist/gbblocks-3.js:1866 src/blocks/icon/edit.js:241 dist/gbblocks-3.js:1839
+msgid "Icon Background color"
+msgstr ""
+
+#: dist/gbblocks-3.js:1874 src/blocks/icon/edit.js:250 dist/gbblocks-3.js:1848
+msgid "Icon Background Color"
+msgstr ""
+
+#: dist/gbblocks-3.js:1877 dist/gbblocks-3.js:3112 dist/gbblocks-4.js:2920
+#: src/blocks/icon/edit.js:260
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:457
+#: src/blocks/listlink/edit.js:75 dist/gbblocks-3.js:1858
+#: dist/gbblocks-3.js:3179 dist/gbblocks-4.js:2764
+msgid "Link Settings"
+msgstr ""
+
+#: dist/gbblocks-3.js:2405 dist/gbblocks-3.js:4241 dist/gbblocks-4.js:2880
+#: dist/gbblocks-4.js:4341 dist/gbblocks-5.js:659 dist/gbblocks-5.js:2756
+#: dist/gbblocks-6.js:688 dist/gbblocks-6.js:2539 dist/gbblocks-6.js:3975
+#: src/blocks/circlepreview/previewitem/edit.js:220
+#: src/blocks/image/edit.js:188 src/blocks/imagebutton/edit.js:202
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:385
+#: src/blocks/newsletter/edit.js:178 src/blocks/quoteimage/edit.js:213
+#: src/blocks/testimonialslider/testimonialslide/edit.js:227
+#: src/blocks/visualimage/edit.js:175 src/blocks/youtube/edit.js:183
+#: dist/gbblocks-3.js:2337 dist/gbblocks-3.js:4242 dist/gbblocks-4.js:2692
+#: dist/gbblocks-4.js:4059 dist/gbblocks-5.js:626 dist/gbblocks-5.js:2769
+#: dist/gbblocks-6.js:963 dist/gbblocks-6.js:3139 dist/gbblocks-6.js:4577
+msgid "Set image"
+msgstr ""
+
+#: dist/gbblocks-3.js:2410 dist/gbblocks-3.js:2414 dist/gbblocks-3.js:4230
+#: dist/gbblocks-3.js:4246 dist/gbblocks-3.js:4250 dist/gbblocks-4.js:2885
+#: dist/gbblocks-4.js:2889 dist/gbblocks-4.js:4346 dist/gbblocks-4.js:4350
+#: dist/gbblocks-5.js:664 dist/gbblocks-5.js:668 dist/gbblocks-5.js:2761
+#: dist/gbblocks-5.js:2765 dist/gbblocks-6.js:672 dist/gbblocks-6.js:693
+#: dist/gbblocks-6.js:697 dist/gbblocks-6.js:2544 dist/gbblocks-6.js:2548
+#: dist/gbblocks-6.js:3980 dist/gbblocks-6.js:3984
+#: src/blocks/circlepreview/previewitem/edit.js:203
+#: src/blocks/circlepreview/previewitem/edit.js:228
+#: src/blocks/circlepreview/previewitem/edit.js:239
+#: src/blocks/image/edit.js:200 src/blocks/image/edit.js:214
+#: src/blocks/imagebutton/edit.js:210 src/blocks/imagebutton/edit.js:221
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:397
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:411
+#: src/blocks/newsletter/edit.js:190 src/blocks/newsletter/edit.js:204
+#: src/blocks/quoteimage/edit.js:221 src/blocks/quoteimage/edit.js:232
+#: src/blocks/testimonialslider/testimonialslide/edit.js:239
+#: src/blocks/testimonialslider/testimonialslide/edit.js:253
+#: src/blocks/visualimage/edit.js:183 src/blocks/visualimage/edit.js:194
+#: src/blocks/youtube/edit.js:169 src/blocks/youtube/edit.js:191
+#: src/blocks/youtube/edit.js:202 dist/gbblocks-3.js:2349
+#: dist/gbblocks-3.js:2363 dist/gbblocks-3.js:4228 dist/gbblocks-3.js:4261
+#: dist/gbblocks-4.js:2704 dist/gbblocks-4.js:2718 dist/gbblocks-4.js:4067
+#: dist/gbblocks-4.js:4078 dist/gbblocks-5.js:634 dist/gbblocks-5.js:645
+#: dist/gbblocks-5.js:2781 dist/gbblocks-5.js:2795 dist/gbblocks-6.js:946
+#: dist/gbblocks-6.js:971 dist/gbblocks-6.js:982 dist/gbblocks-6.js:3151
+#: dist/gbblocks-6.js:3165 dist/gbblocks-6.js:4585 dist/gbblocks-6.js:4596
+msgid "Image"
+msgstr ""
+
+#: dist/gbblocks-3.js:2428 dist/gbblocks-3.js:4264 dist/gbblocks-4.js:2903
+#: dist/gbblocks-4.js:4364 dist/gbblocks-5.js:682 dist/gbblocks-5.js:2779
+#: dist/gbblocks-6.js:711 dist/gbblocks-6.js:2562 dist/gbblocks-6.js:3998
+#: src/blocks/circlepreview/previewitem/edit.js:251
+#: src/blocks/image/edit.js:226 src/blocks/imagebutton/edit.js:233
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:423
+#: src/blocks/newsletter/edit.js:216 src/blocks/quoteimage/edit.js:244
+#: src/blocks/testimonialslider/testimonialslide/edit.js:265
+#: src/blocks/visualimage/edit.js:206 src/blocks/youtube/edit.js:214
+#: dist/gbblocks-3.js:2375 dist/gbblocks-3.js:4273 dist/gbblocks-4.js:2730
+#: dist/gbblocks-4.js:4090 dist/gbblocks-5.js:657 dist/gbblocks-5.js:2807
+#: dist/gbblocks-6.js:994 dist/gbblocks-6.js:3177 dist/gbblocks-6.js:4608
+msgid "Replace image"
+msgstr ""
+
+#: dist/gbblocks-3.js:2435 dist/gbblocks-3.js:4271 dist/gbblocks-4.js:2910
+#: dist/gbblocks-4.js:4371 dist/gbblocks-5.js:689 dist/gbblocks-5.js:2786
+#: dist/gbblocks-6.js:718 dist/gbblocks-6.js:2569 dist/gbblocks-6.js:4005
+#: src/blocks/circlepreview/previewitem/edit.js:267
+#: src/blocks/image/edit.js:242 src/blocks/imagebutton/edit.js:249
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:439
+#: src/blocks/newsletter/edit.js:232 src/blocks/quoteimage/edit.js:260
+#: src/blocks/testimonialslider/testimonialslide/edit.js:281
+#: src/blocks/visualimage/edit.js:222 src/blocks/youtube/edit.js:230
+#: dist/gbblocks-3.js:2391 dist/gbblocks-3.js:4289 dist/gbblocks-4.js:2746
+#: dist/gbblocks-4.js:4106 dist/gbblocks-5.js:673 dist/gbblocks-5.js:2823
+#: dist/gbblocks-6.js:1010 dist/gbblocks-6.js:3193 dist/gbblocks-6.js:4624
+msgid "Remove image"
+msgstr ""
+
+#: dist/gbblocks-3.js:2437 dist/gbblocks-3.js:4273 dist/gbblocks-4.js:2912
+#: dist/gbblocks-4.js:4373 dist/gbblocks-5.js:691 dist/gbblocks-5.js:2788
+#: dist/gbblocks-6.js:720 dist/gbblocks-6.js:2571 dist/gbblocks-6.js:4007
+#: src/blocks/circlepreview/previewitem/edit.js:275
+#: src/blocks/image/edit.js:250 src/blocks/imagebutton/edit.js:257
+#: src/blocks/imageoverlaycollection/imageoverlay/edit.js:447
+#: src/blocks/newsletter/edit.js:240 src/blocks/quoteimage/edit.js:268
+#: src/blocks/testimonialslider/testimonialslide/edit.js:289
+#: src/blocks/visualimage/edit.js:230 src/blocks/youtube/edit.js:238
+#: dist/gbblocks-3.js:2399 dist/gbblocks-3.js:4297 dist/gbblocks-4.js:2754
+#: dist/gbblocks-4.js:4114 dist/gbblocks-5.js:681 dist/gbblocks-5.js:2831
+#: dist/gbblocks-6.js:1018 dist/gbblocks-6.js:3201 dist/gbblocks-6.js:4632
+msgid "Image Alt - Text"
+msgstr ""
+
+#: dist/gbblocks-3.js:2451 src/blocks/image/edit.js:268 dist/gbblocks-3.js:2417
+msgid "One"
+msgstr ""
+
+#: dist/gbblocks-3.js:2454 src/blocks/image/edit.js:272 dist/gbblocks-3.js:2421
+msgid "Two"
+msgstr ""
+
+#: dist/gbblocks-3.js:2886 dist/gbblocks-3.js:2899 src/blocks/list/edit.js:88
+#: src/blocks/list/edit.js:100 dist/gbblocks-3.js:2998 dist/gbblocks-3.js:3010
+msgid "List Color"
+msgstr ""
+
+#: dist/gbblocks-3.js:2929 src/blocks/list/edit.js:137 dist/gbblocks-3.js:3047
+msgid "List text"
+msgstr ""
+
+#: dist/gbblocks-3.js:2930 src/blocks/list/edit.js:138 dist/gbblocks-3.js:3048
+msgid "List"
+msgstr ""
+
+#: dist/gbblocks-3.js:3503 dist/gbblocks-3.js:3518 dist/gbblocks-3.js:3895
+#: src/blocks/paragraph/edit.js:223 src/blocks/paragraph/edit.js:239
+#: src/blocks/quote/edit.js:65 dist/gbblocks-3.js:3544 dist/gbblocks-3.js:3560
+#: dist/gbblocks-3.js:3932
+msgid "Text Color"
+msgstr ""
+
+#: dist/gbblocks-3.js:3602 dist/gbblocks-3.js:3604
+#: src/blocks/paragraph/edit.js:364 src/blocks/paragraph/edit.js:366
+#: dist/gbblocks-3.js:3685 dist/gbblocks-3.js:3687
+msgid "P"
+msgstr ""
+
+#: dist/gbblocks-3.js:3656 src/blocks/paragraph/edit.js:430
+#: dist/gbblocks-3.js:3751
+msgid "Paragraph text"
+msgstr ""
+
+#: dist/gbblocks-3.js:3657 dist/gbblocks-3.js:3945
+#: src/blocks/paragraph/edit.js:431 src/blocks/quote/edit.js:121
+#: dist/gbblocks-3.js:3752 dist/gbblocks-3.js:3988
+msgid "Add text here..."
+msgstr ""
+
+#: dist/gbblocks-3.js:3944 src/blocks/quote/edit.js:120 dist/gbblocks-3.js:3987
+msgid "Quote text"
+msgstr ""
+
+#: dist/gbblocks-3.js:4138 src/blocks/youtube/edit.js:63
+#: dist/gbblocks-3.js:4122
+msgid "To edit the image, you need permission to upload media."
+msgstr ""
+
+#: dist/gbblocks-3.js:4281 src/blocks/youtube/edit.js:245
+#: dist/gbblocks-3.js:4304
+msgid "Youtube Id"
+msgstr ""
+
+#: dist/gbblocks-3.js:4292 src/blocks/youtube/edit.js:254
+#: dist/gbblocks-3.js:4313
+msgid "Show or Hide Description"
+msgstr ""
+
+#: dist/gbblocks-4.js:1327 src/blocks/cardcollection/edit.js:170
+#: dist/gbblocks-4.js:1133
+msgid "Column Count"
+msgstr ""
+
+#: dist/gbblocks-4.js:2093 src/blocks/headlinenumbered/edit.js:159
+#: dist/gbblocks-4.js:1761
+msgid "Number"
+msgstr ""
+
+#: dist/gbblocks-4.js:2154 src/blocks/headlinenumbered/edit.js:246
+#: dist/gbblocks-4.js:1848
+msgid "Show / Hide Description"
+msgstr ""
+
+#: dist/gbblocks-4.js:2160 dist/gbblocks-4.js:4381 dist/gbblocks-5.js:2174
+#: src/blocks/headlinenumbered/edit.js:255 src/blocks/quoteimage/edit.js:275
+#: src/blocks/testimonialslider/edit.js:173 dist/gbblocks-4.js:1857
+#: dist/gbblocks-4.js:4121 dist/gbblocks-5.js:2152
+msgid "Show / Hide Button"
+msgstr ""
+
+#: dist/gbblocks-4.js:3489 src/blocks/jobscollection/jobcard/edit.js:31
+#: dist/gbblocks-4.js:3298
+msgid "Title"
+msgstr ""
+
+#: dist/gbblocks-4.js:3490 src/blocks/jobscollection/jobcard/edit.js:32
+#: dist/gbblocks-4.js:3299
+msgid "Lorem ipsum…"
+msgstr ""
+
+#: dist/gbblocks-4.js:3497 src/blocks/jobscollection/jobcard/edit.js:40
+#: dist/gbblocks-4.js:3307
+msgid "Location"
+msgstr ""
+
+#: dist/gbblocks-4.js:3498 src/blocks/jobscollection/jobcard/edit.js:41
+#: dist/gbblocks-4.js:3308
+msgid "Hamburg"
+msgstr ""
+
+#: dist/gbblocks-4.js:3505 src/blocks/jobscollection/jobcard/edit.js:49
+#: dist/gbblocks-4.js:3316
+msgid "Entry level"
+msgstr ""
+
+#: dist/gbblocks-4.js:3506 src/blocks/jobscollection/jobcard/edit.js:50
+#: dist/gbblocks-4.js:3317
+msgid "Career starter"
+msgstr ""
+
+#: dist/gbblocks-4.js:3513 src/blocks/jobscollection/jobcard/edit.js:58
+#: dist/gbblocks-4.js:3325
+msgid "Employment"
+msgstr ""
+
+#: dist/gbblocks-4.js:3514 src/blocks/jobscollection/jobcard/edit.js:59
+#: dist/gbblocks-4.js:3326
+msgid "Full Time"
+msgstr ""
+
+#: dist/gbblocks-4.js:3521 src/blocks/jobscollection/jobcard/edit.js:67
+#: dist/gbblocks-4.js:3334
+msgid "Sector"
+msgstr ""
+
+#: dist/gbblocks-4.js:3522 src/blocks/jobscollection/jobcard/edit.js:68
+#: dist/gbblocks-4.js:3335
+msgid "Consulting"
+msgstr ""
+
+#: dist/gbblocks-4.js:3530 src/blocks/jobscollection/jobcard/edit.js:77
+#: dist/gbblocks-4.js:3344
+msgid "https://www..."
+msgstr ""
+
+#: dist/gbblocks-5.js:69 src/blocks/form/edit.js:34 dist/gbblocks-5.js:34
+msgid "Mail Recipients"
+msgstr ""
+
+#: dist/gbblocks-5.js:70 src/blocks/form/edit.js:35 dist/gbblocks-5.js:35
+msgid "Specify Email with comma seprated…"
+msgstr ""
+
+#: dist/gbblocks-5.js:77 src/blocks/form/edit.js:46 dist/gbblocks-5.js:46
+msgid "Mail Subject"
+msgstr ""
+
+#: dist/gbblocks-5.js:78 src/blocks/form/edit.js:47 dist/gbblocks-5.js:47
+msgid "Specify Mail Subject…"
+msgstr ""
+
+#: dist/gbblocks-5.js:643 src/blocks/imagebutton/edit.js:185
+#: dist/gbblocks-5.js:609
+msgid "Image Setting"
+msgstr ""
+
+#: dist/gbblocks-5.js:699 dist/gbblocks-6.js:728
+#: src/blocks/circlepreview/previewitem/edit.js:282
+#: src/blocks/imagebutton/edit.js:264 dist/gbblocks-5.js:688
+#: dist/gbblocks-6.js:1025
+msgid "Setting"
+msgstr ""
+
+#: dist/gbblocks-5.js:702 src/blocks/imagebutton/edit.js:266
+#: dist/gbblocks-5.js:690
+msgid "Position"
+msgstr ""
+
+#: dist/gbblocks-5.js:715 src/blocks/imagebutton/edit.js:281
+#: dist/gbblocks-5.js:705
+msgid "Button Text"
+msgstr ""
+
+#: dist/gbblocks-5.js:1304 dist/gbblocks-5.js:1306 dist/gbblocks-5.js:1497
+#: dist/gbblocks-5.js:1503 src/blocks/tabs/edit.js:184
+#: src/blocks/tabs/edit.js:187 src/blocks/tabs/navigation.js:49
+#: src/blocks/tabs/navigation.js:56 dist/gbblocks-5.js:1367
+#: dist/gbblocks-5.js:1370 dist/gbblocks-5.js:1557 dist/gbblocks-5.js:1564
+msgid "Add Tab Content"
+msgstr ""
+
+#. translators: %d is a counter 1, 2, 3
+#: dist/gbblocks-5.js:1484 src/blocks/tabs/navigation.js:36
+#: dist/gbblocks-5.js:1544
+msgid "Tab Content %d"
+msgstr ""
+
+#: dist/gbblocks-5.js:1514 dist/gbblocks-5.js:1521
+#: src/blocks/tabs/navigation.js:72 src/blocks/tabs/navigation.js:80
+#: dist/gbblocks-5.js:1580 dist/gbblocks-5.js:1588
+msgid "Edit Tab Content"
+msgstr ""
+
+#: dist/gbblocks-5.js:1524 dist/gbblocks-5.js:2426 dist/gbblocks-5.js:3597
+#: dist/gbblocks-6.js:2205 src/blocks/locations/navigation.js:85
+#: src/blocks/tabs/navigation.js:85
+#: src/blocks/testimonialslider/navigation.js:88
+#: src/blocks/timelineslider/navigation.js:88 dist/gbblocks-5.js:1593
+#: dist/gbblocks-5.js:2418 dist/gbblocks-5.js:3619 dist/gbblocks-6.js:2790
+msgid "Previous"
+msgstr ""
+
+#: dist/gbblocks-5.js:1532 dist/gbblocks-5.js:2434 dist/gbblocks-5.js:3605
+#: dist/gbblocks-6.js:2213 src/blocks/locations/navigation.js:94
+#: src/blocks/tabs/navigation.js:94
+#: src/blocks/testimonialslider/navigation.js:97
+#: src/blocks/timelineslider/navigation.js:97 dist/gbblocks-5.js:1602
+#: dist/gbblocks-5.js:2427 dist/gbblocks-5.js:3628 dist/gbblocks-6.js:2799
+msgid "Next"
+msgstr ""
+
+#: dist/gbblocks-5.js:1555 src/blocks/tabs/navigation.js:116
+#: dist/gbblocks-5.js:1624
+msgid "Tab Content %1$d of %2$d"
+msgstr ""
+
+#: dist/gbblocks-5.js:1728 dist/gbblocks-5.js:1732
+#: src/blocks/tabs/tabcontent/edit.js:79 src/blocks/tabs/tabcontent/edit.js:84
+#: dist/gbblocks-5.js:1790 dist/gbblocks-5.js:1795
+msgid "Add Tab Content Before"
+msgstr ""
+
+#: dist/gbblocks-5.js:1733 dist/gbblocks-5.js:1737
+#: src/blocks/tabs/tabcontent/edit.js:87 src/blocks/tabs/tabcontent/edit.js:92
+#: dist/gbblocks-5.js:1798 dist/gbblocks-5.js:1803
+msgid "Add Tab Content After"
+msgstr ""
+
+#: dist/gbblocks-5.js:1776 dist/gbblocks-6.js:731
+#: src/blocks/circlepreview/previewitem/edit.js:284
+#: src/blocks/tabs/tabcontent/edit.js:132 dist/gbblocks-5.js:1843
+#: dist/gbblocks-6.js:1027
+msgid "Tab Headline"
+msgstr ""
+
+#: dist/gbblocks-5.js:1785 src/blocks/tabs/tabcontent/edit.js:140
+#: dist/gbblocks-5.js:1851
+msgid "Tab Text"
+msgstr ""
+
+#: dist/gbblocks-5.js:1925 dist/gbblocks-5.js:2992 dist/gbblocks-5.js:4014
+#: dist/gbblocks-6.js:2108 src/blocks/locations/locationitem/placeholder.js:25
+#: src/blocks/tabs/tabcontent/placeholder.js:25
+#: src/blocks/testimonialslider/testimonialslide/placeholder.js:25
+#: src/blocks/timelineslider/timelineslide/placeholder.js:25
+#: dist/gbblocks-5.js:1946 dist/gbblocks-5.js:3037 dist/gbblocks-5.js:4013
+#: dist/gbblocks-6.js:2694
+msgid "Slide"
+msgstr ""
+
+#: dist/gbblocks-5.js:1926 dist/gbblocks-5.js:2993 dist/gbblocks-5.js:4015
+#: dist/gbblocks-6.js:2109 src/blocks/locations/locationitem/placeholder.js:26
+#: src/blocks/tabs/tabcontent/placeholder.js:26
+#: src/blocks/testimonialslider/testimonialslide/placeholder.js:26
+#: src/blocks/timelineslider/timelineslide/placeholder.js:26
+#: dist/gbblocks-5.js:1947 dist/gbblocks-5.js:3038 dist/gbblocks-5.js:4014
+#: dist/gbblocks-6.js:2695
+msgid "Add any block to slide"
+msgstr ""
+
+#: dist/gbblocks-5.js:2180 src/blocks/testimonialslider/edit.js:183
+#: dist/gbblocks-5.js:2162
+msgid "Button Link"
+msgstr ""
+
+#: dist/gbblocks-5.js:2191 dist/gbblocks-5.js:2193 dist/gbblocks-5.js:2399
+#: dist/gbblocks-5.js:2405 dist/gbblocks-5.js:3570 dist/gbblocks-5.js:3576
+#: src/blocks/testimonialslider/edit.js:198
+#: src/blocks/testimonialslider/edit.js:201
+#: src/blocks/testimonialslider/navigation.js:52
+#: src/blocks/testimonialslider/navigation.js:59
+#: src/blocks/timelineslider/navigation.js:52
+#: src/blocks/timelineslider/navigation.js:59 dist/gbblocks-5.js:2177
+#: dist/gbblocks-5.js:2180 dist/gbblocks-5.js:2382 dist/gbblocks-5.js:2389
+#: dist/gbblocks-5.js:3583 dist/gbblocks-5.js:3590
+msgid "Add Testimonial Slide"
+msgstr ""
+
+#. translators: %d is a counter 1, 2, 3
+#: dist/gbblocks-5.js:2386 dist/gbblocks-5.js:3557
+#: src/blocks/testimonialslider/navigation.js:37
+#: src/blocks/timelineslider/navigation.js:37 dist/gbblocks-5.js:2367
+#: dist/gbblocks-5.js:3568
+msgid "Testimonial Slide %d"
+msgstr ""
+
+#: dist/gbblocks-5.js:2416 dist/gbblocks-5.js:2423 dist/gbblocks-5.js:3587
+#: dist/gbblocks-5.js:3594 src/blocks/testimonialslider/navigation.js:75
+#: src/blocks/testimonialslider/navigation.js:83
+#: src/blocks/timelineslider/navigation.js:75
+#: src/blocks/timelineslider/navigation.js:83 dist/gbblocks-5.js:2405
+#: dist/gbblocks-5.js:2413 dist/gbblocks-5.js:3606 dist/gbblocks-5.js:3614
+msgid "Edit Testimonial Slide"
+msgstr ""
+
+#: dist/gbblocks-5.js:2457 dist/gbblocks-5.js:3628
+#: src/blocks/testimonialslider/navigation.js:119
+#: src/blocks/timelineslider/navigation.js:119 dist/gbblocks-5.js:2449
+#: dist/gbblocks-5.js:3650
+msgid "Testimonial Slide %1$d of %2$d"
+msgstr ""
+
+#: dist/gbblocks-5.js:2610
+#: src/blocks/testimonialslider/testimonialslide/edit.js:50
+#: dist/gbblocks-5.js:2592
+msgid "Add Name"
+msgstr ""
+
+#: dist/gbblocks-5.js:2617
+#: src/blocks/testimonialslider/testimonialslide/edit.js:61
+#: dist/gbblocks-5.js:2603
+msgid "Add Position"
+msgstr ""
+
+#: dist/gbblocks-5.js:2624
+#: src/blocks/testimonialslider/testimonialslide/edit.js:72
+#: dist/gbblocks-5.js:2614
+msgid "Add Bio"
+msgstr ""
+
+#: dist/gbblocks-5.js:2668 dist/gbblocks-5.js:2672
+#: src/blocks/testimonialslider/testimonialslide/edit.js:125
+#: src/blocks/testimonialslider/testimonialslide/edit.js:130
+#: dist/gbblocks-5.js:2667
+msgid "Add Testimonial Slide Before"
+msgstr ""
+
+#: dist/gbblocks-5.js:2673 dist/gbblocks-5.js:2677
+#: src/blocks/testimonialslider/testimonialslide/edit.js:133
+#: src/blocks/testimonialslider/testimonialslide/edit.js:138
+#: dist/gbblocks-5.js:2675 dist/gbblocks-5.js:2680
+msgid "Add Testimonial Slide After"
+msgstr ""
+
+#: dist/gbblocks-5.js:3363 dist/gbblocks-5.js:3365
+#: src/blocks/timelineslider/edit.js:193 src/blocks/timelineslider/edit.js:196
+#: dist/gbblocks-5.js:3377 dist/gbblocks-5.js:3380
+msgid "Add Timeline Slide"
+msgstr ""
+
+#: dist/gbblocks-5.js:3775 src/blocks/timelineslider/timelineslide/edit.js:52
+#: dist/gbblocks-5.js:3797
+msgid "Add Title"
+msgstr ""
+
+#: dist/gbblocks-5.js:3781 src/blocks/timelineslider/timelineslide/edit.js:62
+#: dist/gbblocks-5.js:3807
+msgid "Add Description"
+msgstr ""
+
+#: dist/gbblocks-5.js:3825 dist/gbblocks-5.js:3829
+#: src/blocks/timelineslider/timelineslide/edit.js:115
+#: src/blocks/timelineslider/timelineslide/edit.js:120 dist/gbblocks-5.js:3860
+#: dist/gbblocks-5.js:3865
+msgid "Add Timeline Slide Before"
+msgstr ""
+
+#: dist/gbblocks-5.js:3830 dist/gbblocks-5.js:3834
+#: src/blocks/timelineslider/timelineslide/edit.js:123
+#: src/blocks/timelineslider/timelineslide/edit.js:128 dist/gbblocks-5.js:3868
+#: dist/gbblocks-5.js:3873
+msgid "Add Timeline Slide After"
+msgstr ""
+
+#: dist/gbblocks-5.js:3872 src/blocks/timelineslider/timelineslide/edit.js:171
+#: dist/gbblocks-5.js:3916
+msgid "Year"
+msgstr ""
+
+#: dist/gbblocks-6.js:224 src/blocks/circlepreview/edit.js:190
+#: dist/gbblocks-6.js:190
+msgid "Preview Style"
+msgstr ""
+
+#: dist/gbblocks-6.js:235 dist/gbblocks-6.js:237
+#: src/blocks/circlepreview/edit.js:202 src/blocks/circlepreview/edit.js:204
+#: dist/gbblocks-6.js:202 dist/gbblocks-6.js:204
+msgid "Big"
+msgstr ""
+
+#: dist/gbblocks-6.js:732 dist/gbblocks-6.js:740
+#: src/blocks/circlepreview/previewitem/edit.js:285
+#: src/blocks/circlepreview/previewitem/edit.js:292 dist/gbblocks-6.js:1028
+#: dist/gbblocks-6.js:1035
+msgid "Lorem ipsum..."
+msgstr ""
+
+#: dist/gbblocks-6.js:739 src/blocks/circlepreview/previewitem/edit.js:291
+#: dist/gbblocks-6.js:1034
+msgid "Tab Description"
+msgstr ""
+
+#: dist/gbblocks-6.js:1598 dist/gbblocks-6.js:3153
+#: src/blocks/locations/edit.js:206 src/blocks/slidervideo/edit.js:136
+#: dist/gbblocks-6.js:2197 dist/gbblocks-6.js:3851
+msgid "Additional Settings"
+msgstr ""
+
+#: dist/gbblocks-6.js:1621 dist/gbblocks-6.js:1623 dist/gbblocks-6.js:2178
+#: dist/gbblocks-6.js:2184 src/blocks/locations/edit.js:236
+#: src/blocks/locations/edit.js:239 src/blocks/locations/navigation.js:49
+#: src/blocks/locations/navigation.js:56 dist/gbblocks-6.js:2227
+#: dist/gbblocks-6.js:2230 dist/gbblocks-6.js:2754 dist/gbblocks-6.js:2761
+msgid "Add Location"
+msgstr ""
+
+#: dist/gbblocks-6.js:1665 dist/gbblocks-6.js:2348
+#: src/blocks/locations/edit.js:294 src/blocks/locations/save.js:77
+#: dist/gbblocks-6.js:2285 dist/gbblocks-6.js:2937
+msgid "Contact Details"
+msgstr ""
+
+#: dist/gbblocks-6.js:1844 src/blocks/locations/locationitem/edit.js:42
+#: dist/gbblocks-6.js:2441
+msgid "Add Address"
+msgstr ""
+
+#: dist/gbblocks-6.js:1851 src/blocks/locations/locationitem/edit.js:53
+#: dist/gbblocks-6.js:2452
+msgid "Add Telephone"
+msgstr ""
+
+#: dist/gbblocks-6.js:1895 dist/gbblocks-6.js:1899
+#: src/blocks/locations/locationitem/edit.js:106
+#: src/blocks/locations/locationitem/edit.js:111 dist/gbblocks-6.js:2505
+#: dist/gbblocks-6.js:2510
+msgid "Add Location Before"
+msgstr ""
+
+#: dist/gbblocks-6.js:1900 dist/gbblocks-6.js:1904
+#: src/blocks/locations/locationitem/edit.js:114
+#: src/blocks/locations/locationitem/edit.js:119 dist/gbblocks-6.js:2513
+#: dist/gbblocks-6.js:2518
+msgid "Add Location After"
+msgstr ""
+
+#: dist/gbblocks-6.js:1946 src/blocks/locations/locationitem/edit.js:163
+#: dist/gbblocks-6.js:2562
+msgid "Direction Link"
+msgstr ""
+
+#: dist/gbblocks-6.js:1952 src/blocks/locations/locationitem/edit.js:170
+#: dist/gbblocks-6.js:2569
+msgid "Marker X Position"
+msgstr ""
+
+#: dist/gbblocks-6.js:1961 src/blocks/locations/locationitem/edit.js:180
+#: dist/gbblocks-6.js:2579
+msgid "Marker Y Position"
+msgstr ""
+
+#. translators: %d is a counter 1, 2, 3
+#: dist/gbblocks-6.js:2165 src/blocks/locations/navigation.js:36
+#: dist/gbblocks-6.js:2741
+msgid "Location %d"
+msgstr ""
+
+#: dist/gbblocks-6.js:2195 dist/gbblocks-6.js:2202
+#: src/blocks/locations/navigation.js:72 src/blocks/locations/navigation.js:80
+#: dist/gbblocks-6.js:2777 dist/gbblocks-6.js:2785
+msgid "Edit Location"
+msgstr ""
+
+#: dist/gbblocks-6.js:2236 src/blocks/locations/navigation.js:116
+#: dist/gbblocks-6.js:2821
+msgid "Location %1$d of %2$d"
+msgstr ""
+
+#: dist/gbblocks-6.js:3043 src/blocks/slidervideo/edit.js:44
+#: dist/gbblocks-6.js:3759
+msgid "Video Settings"
+msgstr ""
+
+#: dist/gbblocks-6.js:3046 src/blocks/slidervideo/edit.js:48
+#: dist/gbblocks-6.js:3763
+msgid "Video Link"
+msgstr ""
+
+#: dist/gbblocks-6.js:3047 src/blocks/slidervideo/edit.js:49
+#: dist/gbblocks-6.js:3764
+msgid "Link of video..."
+msgstr ""
+
+#: dist/gbblocks-6.js:3056 dist/gbblocks-6.js:3077 dist/gbblocks-6.js:3097
+#: dist/gbblocks-6.js:3117 dist/gbblocks-6.js:3137
+#: src/blocks/slidervideo/edit.js:56 src/blocks/slidervideo/edit.js:73
+#: src/blocks/slidervideo/edit.js:89 src/blocks/slidervideo/edit.js:105
+#: src/blocks/slidervideo/edit.js:121 dist/gbblocks-6.js:3771
+#: dist/gbblocks-6.js:3788 dist/gbblocks-6.js:3804 dist/gbblocks-6.js:3820
+#: dist/gbblocks-6.js:3836
+msgid "Label"
+msgstr ""
+
+#: dist/gbblocks-6.js:3057 dist/gbblocks-6.js:3078 dist/gbblocks-6.js:3098
+#: dist/gbblocks-6.js:3118 dist/gbblocks-6.js:3138
+#: src/blocks/slidervideo/edit.js:57 src/blocks/slidervideo/edit.js:74
+#: src/blocks/slidervideo/edit.js:90 src/blocks/slidervideo/edit.js:106
+#: src/blocks/slidervideo/edit.js:122 dist/gbblocks-6.js:3772
+#: dist/gbblocks-6.js:3789 dist/gbblocks-6.js:3805 dist/gbblocks-6.js:3821
+#: dist/gbblocks-6.js:3837
+msgid "label of navigation..."
+msgstr ""
+
+#: dist/gbblocks-6.js:3064 dist/gbblocks-6.js:3085 dist/gbblocks-6.js:3105
+#: dist/gbblocks-6.js:3125 dist/gbblocks-6.js:3145
+#: src/blocks/slidervideo/edit.js:63 src/blocks/slidervideo/edit.js:80
+#: src/blocks/slidervideo/edit.js:96 src/blocks/slidervideo/edit.js:112
+#: src/blocks/slidervideo/edit.js:128 dist/gbblocks-6.js:3778
+#: dist/gbblocks-6.js:3795 dist/gbblocks-6.js:3811 dist/gbblocks-6.js:3827
+#: dist/gbblocks-6.js:3843
+msgid "Timestamp"
+msgstr ""
+
+#: dist/gbblocks-6.js:3065 dist/gbblocks-6.js:3086 dist/gbblocks-6.js:3106
+#: dist/gbblocks-6.js:3126 dist/gbblocks-6.js:3146
+#: src/blocks/slidervideo/edit.js:64 src/blocks/slidervideo/edit.js:81
+#: src/blocks/slidervideo/edit.js:97 src/blocks/slidervideo/edit.js:113
+#: src/blocks/slidervideo/edit.js:129 dist/gbblocks-6.js:3779
+#: dist/gbblocks-6.js:3796 dist/gbblocks-6.js:3812 dist/gbblocks-6.js:3828
+#: dist/gbblocks-6.js:3844
+msgid "Time stamp for jump video..."
+msgstr ""
+
+#: dist/gbblocks-6.js:3157 src/blocks/slidervideo/edit.js:141
+#: dist/gbblocks-6.js:3856
+msgid "Specify Id..."
+msgstr ""
+
+#: dist/gbblocks-6.js:3164 src/blocks/slidervideo/edit.js:147
+#: dist/gbblocks-6.js:3862
+msgid "Extra Class"
+msgstr ""
+
+#: dist/gbblocks-6.js:3165 src/blocks/slidervideo/edit.js:148
+#: dist/gbblocks-6.js:3863
+msgid "Add extra class..."
+msgstr ""
+
+#: dist/gbblocks-6.js:3677 src/blocks/visualcircle/visualcircleitem/edit.js:35
+#: dist/gbblocks-6.js:4321
+msgid "Circle Headline"
+msgstr ""
+
+#: dist/gbblocks-6.js:3685 src/blocks/visualcircle/visualcircleitem/edit.js:42
+#: dist/gbblocks-6.js:4328
+msgid "Circle Text"
+msgstr ""
+
+#: dist/gbblocks-6.js:4359 src/seo-plugin/edit.js:27 dist/gbblocks-6.js:5045
+msgid "SEO Settings"
+msgstr ""
+
+#: dist/gbblocks-6.js:4365 src/seo-plugin/edit.js:35 dist/gbblocks-6.js:5053
+msgid "Meta Title"
+msgstr ""
+
+#: dist/gbblocks-6.js:4372 src/seo-plugin/edit.js:43 dist/gbblocks-6.js:5061
+msgid "Meta Description"
+msgstr ""
+
+#: dist/gbblocks-6.js:4378 src/seo-plugin/edit.js:52 dist/gbblocks-6.js:5070
+msgid "No Index"
+msgstr ""
+
+#: dist/gbblocks-6.js:4384 src/seo-plugin/edit.js:59 dist/gbblocks-6.js:5077
+msgid "No Follow"
+msgstr ""
+
+#: dist/blocks/accordion/accordioncontent/block.json
+#: src/blocks/accordion/accordioncontent/block.json
+msgctxt "block title"
+msgid "Accordion Content"
+msgstr ""
+
+#: dist/blocks/accordion/accordioncontent/block.json
+#: src/blocks/accordion/accordioncontent/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Accordion Content."
+msgstr ""
+
+#: dist/blocks/accordion/accordionitem/block.json
+#: src/blocks/accordion/accordionitem/block.json
+msgctxt "block title"
+msgid "Accordion Item"
+msgstr ""
+
+#: dist/blocks/accordion/accordionitem/block.json
+#: dist/blocks/accordion/block.json
+#: src/blocks/accordion/accordionitem/block.json
+#: src/blocks/accordion/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr ""
+
+#: dist/blocks/accordion/accordionitem/block.json
+#: src/blocks/accordion/accordionitem/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Accordion Item."
+msgstr ""
+
+#: dist/blocks/accordion/block.json src/blocks/accordion/block.json
+msgctxt "block title"
+msgid "Accordion"
+msgstr ""
+
+#: dist/blocks/accordion/block.json src/blocks/accordion/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Accordion."
+msgstr ""
+
+#: dist/blocks/button/block.json src/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr ""
+
+#: dist/blocks/button/block.json dist/blocks/imagebutton/block.json
+#: src/blocks/button/block.json src/blocks/imagebutton/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr ""
+
+#: dist/blocks/button/block.json src/blocks/button/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr ""
+
+#: dist/blocks/button/block.json dist/blocks/column/block.json
+#: dist/blocks/customerlisting/block.json
+#: dist/blocks/customerpreview/block.json dist/blocks/divider/block.json
+#: dist/blocks/downloadlisting/block.json
+#: dist/blocks/headlinenumbered/block.json dist/blocks/icon/block.json
+#: dist/blocks/icontext/block.json dist/blocks/jobscollection/block.json
+#: dist/blocks/jobscollection/jobcard/block.json
+#: dist/blocks/languagedropdown/block.json dist/blocks/newsletter/block.json
+#: dist/blocks/quoteimage/block.json dist/blocks/visualcircle/block.json
+#: dist/blocks/visualcircle/visualcircleitem/block.json
+#: dist/blocks/youtube/block.json dist/blocks/youtubelightbox/block.json
+#: src/blocks/button/block.json src/blocks/column/block.json
+#: src/blocks/customerlisting/block.json src/blocks/customerpreview/block.json
+#: src/blocks/divider/block.json src/blocks/downloadlisting/block.json
+#: src/blocks/headlinenumbered/block.json src/blocks/icon/block.json
+#: src/blocks/icontext/block.json src/blocks/jobscollection/block.json
+#: src/blocks/jobscollection/jobcard/block.json
+#: src/blocks/languagedropdown/block.json src/blocks/newsletter/block.json
+#: src/blocks/quoteimage/block.json src/blocks/visualcircle/block.json
+#: src/blocks/visualcircle/visualcircleitem/block.json
+#: src/blocks/youtube/block.json src/blocks/youtubelightbox/block.json
+msgctxt "block keyword"
+msgid "gbblocks"
+msgstr ""
+
+#: dist/blocks/button/block.json src/blocks/button/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Button."
+msgstr ""
+
+#: dist/blocks/cardcollection/block.json src/blocks/cardcollection/block.json
+msgctxt "block title"
+msgid "Card Collection"
+msgstr ""
+
+#: dist/blocks/cardcollection/block.json
+#: dist/blocks/cardcollection/card/block.json
+#: src/blocks/cardcollection/block.json
+#: src/blocks/cardcollection/card/block.json
+msgctxt "block keyword"
+msgid "card"
+msgstr ""
+
+#: dist/blocks/cardcollection/block.json src/blocks/cardcollection/block.json
+msgctxt "block keyword"
+msgid "Card"
+msgstr ""
+
+#: dist/blocks/cardcollection/block.json
+#: dist/blocks/cardcollection/card/block.json
+#: dist/blocks/imageoverlaycollection/block.json
+#: dist/blocks/imageoverlaycollection/imageoverlay/block.json
+#: src/blocks/cardcollection/block.json
+#: src/blocks/cardcollection/card/block.json
+#: src/blocks/imageoverlaycollection/block.json
+#: src/blocks/imageoverlaycollection/imageoverlay/block.json
+msgctxt "block keyword"
+msgid "Collection"
+msgstr ""
+
+#: dist/blocks/cardcollection/block.json src/blocks/cardcollection/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Card Collection."
+msgstr ""
+
+#: dist/blocks/cardcollection/card/block.json
+#: src/blocks/cardcollection/card/block.json
+msgctxt "block title"
+msgid "Card"
+msgstr ""
+
+#: dist/blocks/cardcollection/card/block.json dist/blocks/icon/block.json
+#: dist/blocks/icontext/block.json src/blocks/cardcollection/card/block.json
+#: src/blocks/icon/block.json src/blocks/icontext/block.json
+msgctxt "block keyword"
+msgid "icon"
+msgstr ""
+
+#: dist/blocks/cardcollection/card/block.json
+#: src/blocks/cardcollection/card/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for card."
+msgstr ""
+
+#: dist/blocks/circlepreview/block.json src/blocks/circlepreview/block.json
+msgctxt "block title"
+msgid "Circle Preview"
+msgstr ""
+
+#: dist/blocks/circlepreview/block.json
+#: dist/blocks/circlepreview/previewitem/block.json
+#: dist/blocks/visualcircle/block.json src/blocks/circlepreview/block.json
+#: src/blocks/circlepreview/previewitem/block.json
+#: src/blocks/visualcircle/block.json
+msgctxt "block keyword"
+msgid "circle"
+msgstr ""
+
+#: dist/blocks/circlepreview/block.json
+#: dist/blocks/circlepreview/previewitem/block.json
+#: dist/blocks/customerpreview/block.json src/blocks/circlepreview/block.json
+#: src/blocks/circlepreview/previewitem/block.json
+#: src/blocks/customerpreview/block.json
+msgctxt "block keyword"
+msgid "preview"
+msgstr ""
+
+#: dist/blocks/circlepreview/block.json src/blocks/circlepreview/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Circle Preview."
+msgstr ""
+
+#: dist/blocks/circlepreview/previewitem/block.json
+#: src/blocks/circlepreview/previewitem/block.json
+msgctxt "block title"
+msgid "Circle Preview Item"
+msgstr ""
+
+#: dist/blocks/circlepreview/previewitem/block.json dist/blocks/list/block.json
+#: dist/blocks/listlink/block.json
+#: src/blocks/circlepreview/previewitem/block.json src/blocks/list/block.json
+#: src/blocks/listlink/block.json
+msgctxt "block keyword"
+msgid "item"
+msgstr ""
+
+#: dist/blocks/circlepreview/previewitem/block.json
+#: src/blocks/circlepreview/previewitem/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Circle Preview Item."
+msgstr ""
+
+#: dist/blocks/column/block.json src/blocks/column/block.json
+msgctxt "block title"
+msgid "Grid - Column"
+msgstr ""
+
+#: dist/blocks/column/block.json src/blocks/column/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use Column."
+msgstr ""
+
+#: dist/blocks/column/block.json src/blocks/column/block.json
+msgctxt "block keyword"
+msgid "column"
+msgstr ""
+
+#: dist/blocks/customerlisting/block.json src/blocks/customerlisting/block.json
+msgctxt "block title"
+msgid "Customer Listing"
+msgstr ""
+
+#: dist/blocks/customerlisting/block.json
+#: dist/blocks/customerpreview/block.json src/blocks/customerlisting/block.json
+#: src/blocks/customerpreview/block.json
+msgctxt "block keyword"
+msgid "customer"
+msgstr ""
+
+#: dist/blocks/customerlisting/block.json
+#: dist/blocks/downloadlisting/block.json dist/blocks/jobscollection/block.json
+#: dist/blocks/jobscollection/jobcard/block.json dist/blocks/list/block.json
+#: dist/blocks/listlink/block.json dist/blocks/newslisting/block.json
+#: src/blocks/customerlisting/block.json src/blocks/downloadlisting/block.json
+#: src/blocks/jobscollection/block.json
+#: src/blocks/jobscollection/jobcard/block.json src/blocks/list/block.json
+#: src/blocks/listlink/block.json src/blocks/newslisting/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr ""
+
+#: dist/blocks/customerlisting/block.json src/blocks/customerlisting/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Customer Listing."
+msgstr ""
+
+#: dist/blocks/customerpreview/block.json src/blocks/customerpreview/block.json
+msgctxt "block title"
+msgid "Customer Preview"
+msgstr ""
+
+#: dist/blocks/customerpreview/block.json src/blocks/customerpreview/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Customer Preview."
+msgstr ""
+
+#: dist/blocks/divider/block.json src/blocks/divider/block.json
+msgctxt "block title"
+msgid "Divider"
+msgstr ""
+
+#: dist/blocks/divider/block.json src/blocks/divider/block.json
+msgctxt "block keyword"
+msgid "divider"
+msgstr ""
+
+#: dist/blocks/divider/block.json src/blocks/divider/block.json
+msgctxt "block keyword"
+msgid "spacer"
+msgstr ""
+
+#: dist/blocks/divider/block.json src/blocks/divider/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Divider."
+msgstr ""
+
+#: dist/blocks/downloadlisting/block.json src/blocks/downloadlisting/block.json
+msgctxt "block title"
+msgid "Download Listing"
+msgstr ""
+
+#: dist/blocks/downloadlisting/block.json src/blocks/downloadlisting/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr ""
+
+#: dist/blocks/downloadlisting/block.json src/blocks/downloadlisting/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Download Listing."
+msgstr ""
+
+#: dist/blocks/footer/block.json src/blocks/footer/block.json
+msgctxt "block title"
+msgid "Footer"
+msgstr ""
+
+#: dist/blocks/footer/block.json src/blocks/footer/block.json
+msgctxt "block description"
+msgid "A gutenberg block for footer."
+msgstr ""
+
+#: dist/blocks/footer/footerCol/block.json
+#: src/blocks/footer/footerCol/block.json
+msgctxt "block title"
+msgid "Footer Column"
+msgstr ""
+
+#: dist/blocks/footer/footerCol/block.json
+#: src/blocks/footer/footerCol/block.json
+msgctxt "block description"
+msgid "A gutenberg block for footer Column."
+msgstr ""
+
+#: dist/blocks/form/block.json src/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr ""
+
+#: dist/blocks/form/block.json src/blocks/form/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Form."
+msgstr ""
+
+#: dist/blocks/form/block.json dist/blocks/newsletter/block.json
+#: src/blocks/form/block.json src/blocks/newsletter/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr ""
+
+#: dist/blocks/form/block.json src/blocks/form/block.json
+msgctxt "block keyword"
+msgid "general"
+msgstr ""
+
+#: dist/blocks/form/block.json dist/blocks/header/block.json
+#: dist/blocks/row/block.json dist/blocks/section/block.json
+#: dist/blocks/section/sectionhero/block.json
+#: dist/blocks/section/sectionheromain/block.json src/blocks/form/block.json
+#: src/blocks/header/block.json src/blocks/row/block.json
+#: src/blocks/section/block.json src/blocks/section/sectionhero/block.json
+#: src/blocks/section/sectionheromain/block.json
+msgctxt "block keyword"
+msgid "GbBlocks"
+msgstr ""
+
+#: dist/blocks/header/block.json src/blocks/header/block.json
+msgctxt "block title"
+msgid "Header"
+msgstr ""
+
+#: dist/blocks/header/block.json src/blocks/header/block.json
+msgctxt "block description"
+msgid "A gutenberg block for header."
+msgstr ""
+
+#: dist/blocks/header/block.json src/blocks/header/block.json
+msgctxt "block keyword"
+msgid "Header"
+msgstr ""
+
+#: dist/blocks/headline/block.json src/blocks/headline/block.json
+msgctxt "block title"
+msgid "Headline"
+msgstr ""
+
+#: dist/blocks/headline/block.json src/blocks/headline/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr ""
+
+#: dist/blocks/headline/block.json src/blocks/headline/block.json
+msgctxt "block keyword"
+msgid "subtitle"
+msgstr ""
+
+#: dist/blocks/headline/block.json src/blocks/headline/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Heading."
+msgstr ""
+
+#: dist/blocks/headlinenumbered/block.json
+#: src/blocks/headlinenumbered/block.json
+msgctxt "block title"
+msgid "Headline Numbered"
+msgstr ""
+
+#: dist/blocks/headlinenumbered/block.json
+#: src/blocks/headlinenumbered/block.json
+msgctxt "block keyword"
+msgid "headline"
+msgstr ""
+
+#: dist/blocks/headlinenumbered/block.json
+#: src/blocks/headlinenumbered/block.json
+msgctxt "block keyword"
+msgid "numbered"
+msgstr ""
+
+#: dist/blocks/headlinenumbered/block.json
+#: src/blocks/headlinenumbered/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Headline Numbered."
+msgstr ""
+
+#: dist/blocks/icon/block.json src/blocks/icon/block.json
+msgctxt "block title"
+msgid "Icon"
+msgstr ""
+
+#: dist/blocks/icon/block.json src/blocks/icon/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Icon."
+msgstr ""
+
+#: dist/blocks/icontext/block.json src/blocks/icontext/block.json
+msgctxt "block title"
+msgid "Icon - Text"
+msgstr ""
+
+#: dist/blocks/icontext/block.json dist/blocks/quote/block.json
+#: src/blocks/icontext/block.json src/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr ""
+
+#: dist/blocks/icontext/block.json src/blocks/icontext/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Icon - Text."
+msgstr ""
+
+#: dist/blocks/image/block.json src/blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr ""
+
+#: dist/blocks/image/block.json dist/blocks/imagebutton/block.json
+#: dist/blocks/imageoverlaycollection/block.json
+#: dist/blocks/imageoverlaycollection/imageoverlay/block.json
+#: dist/blocks/quoteimage/block.json dist/blocks/visualimage/block.json
+#: src/blocks/image/block.json src/blocks/imagebutton/block.json
+#: src/blocks/imageoverlaycollection/block.json
+#: src/blocks/imageoverlaycollection/imageoverlay/block.json
+#: src/blocks/quoteimage/block.json src/blocks/visualimage/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr ""
+
+#: dist/blocks/image/block.json dist/blocks/imagebutton/block.json
+#: src/blocks/image/block.json src/blocks/imagebutton/block.json
+msgctxt "block keyword"
+msgid "picture"
+msgstr ""
+
+#: dist/blocks/image/block.json src/blocks/image/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Image."
+msgstr ""
+
+#: dist/blocks/imagebutton/block.json src/blocks/imagebutton/block.json
+msgctxt "block title"
+msgid "Image + CTA"
+msgstr ""
+
+#: dist/blocks/imagebutton/block.json src/blocks/imagebutton/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Image with Button."
+msgstr ""
+
+#: dist/blocks/imageoverlaycollection/block.json
+#: src/blocks/imageoverlaycollection/block.json
+msgctxt "block title"
+msgid "Image Overlay Collection"
+msgstr ""
+
+#: dist/blocks/imageoverlaycollection/block.json
+#: dist/blocks/imageoverlaycollection/imageoverlay/block.json
+#: src/blocks/imageoverlaycollection/block.json
+#: src/blocks/imageoverlaycollection/imageoverlay/block.json
+msgctxt "block keyword"
+msgid "overlay"
+msgstr ""
+
+#: dist/blocks/imageoverlaycollection/block.json
+#: src/blocks/imageoverlaycollection/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Image Overlay."
+msgstr ""
+
+#: dist/blocks/imageoverlaycollection/imageoverlay/block.json
+#: src/blocks/imageoverlaycollection/imageoverlay/block.json
+msgctxt "block title"
+msgid "Image Overlay"
+msgstr ""
+
+#: dist/blocks/imageoverlaycollection/imageoverlay/block.json
+#: src/blocks/imageoverlaycollection/imageoverlay/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for image overlay."
+msgstr ""
+
+#: dist/blocks/jobscollection/block.json
+#: dist/blocks/jobscollection/jobcard/block.json
+#: src/blocks/jobscollection/block.json
+#: src/blocks/jobscollection/jobcard/block.json
+msgctxt "block title"
+msgid "Jobs"
+msgstr ""
+
+#: dist/blocks/jobscollection/block.json
+#: dist/blocks/jobscollection/jobcard/block.json
+#: src/blocks/jobscollection/block.json
+#: src/blocks/jobscollection/jobcard/block.json
+msgctxt "block keyword"
+msgid "jobs"
+msgstr ""
+
+#: dist/blocks/jobscollection/block.json
+#: dist/blocks/jobscollection/jobcard/block.json
+#: src/blocks/jobscollection/block.json
+#: src/blocks/jobscollection/jobcard/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Jobs."
+msgstr ""
+
+#: dist/blocks/languagedropdown/block.json
+#: src/blocks/languagedropdown/block.json
+msgctxt "block title"
+msgid "Language Dropdown"
+msgstr ""
+
+#: dist/blocks/languagedropdown/block.json
+#: src/blocks/languagedropdown/block.json
+msgctxt "block keyword"
+msgid "Language"
+msgstr ""
+
+#: dist/blocks/languagedropdown/block.json
+#: src/blocks/languagedropdown/block.json
+msgctxt "block keyword"
+msgid "Dropdown"
+msgstr ""
+
+#: dist/blocks/languagedropdown/block.json
+#: src/blocks/languagedropdown/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Language Dropdown."
+msgstr ""
+
+#: dist/blocks/list/block.json src/blocks/list/block.json
+msgctxt "block title"
+msgid "List"
+msgstr ""
+
+#: dist/blocks/list/block.json src/blocks/list/block.json
+msgctxt "block keyword"
+msgid "list item"
+msgstr ""
+
+#: dist/blocks/list/block.json src/blocks/list/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for List."
+msgstr ""
+
+#: dist/blocks/listlink/block.json src/blocks/listlink/block.json
+msgctxt "block title"
+msgid "List Link"
+msgstr ""
+
+#: dist/blocks/listlink/block.json src/blocks/listlink/block.json
+msgctxt "block keyword"
+msgid "list link"
+msgstr ""
+
+#: dist/blocks/listlink/block.json src/blocks/listlink/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for List with Link."
+msgstr ""
+
+#: dist/blocks/locations/block.json src/blocks/locations/block.json
+msgctxt "block title"
+msgid "Locations"
+msgstr ""
+
+#: dist/blocks/locations/block.json
+#: dist/blocks/locations/locationitem/block.json
+#: src/blocks/locations/block.json src/blocks/locations/locationitem/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Location Map Slide."
+msgstr ""
+
+#: dist/blocks/locations/locationitem/block.json
+#: src/blocks/locations/locationitem/block.json
+msgctxt "block title"
+msgid "Location Map Slide"
+msgstr ""
+
+#: dist/blocks/navigation/block.json src/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation"
+msgstr ""
+
+#: dist/blocks/navigation/block.json src/blocks/navigation/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use classic menus."
+msgstr ""
+
+#: dist/blocks/newsletter/block.json src/blocks/newsletter/block.json
+msgctxt "block title"
+msgid "Newsletter"
+msgstr ""
+
+#: dist/blocks/newsletter/block.json src/blocks/newsletter/block.json
+msgctxt "block keyword"
+msgid "Newsletter"
+msgstr ""
+
+#: dist/blocks/newsletter/block.json src/blocks/newsletter/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Newsletter."
+msgstr ""
+
+#: dist/blocks/newslisting/block.json src/blocks/newslisting/block.json
+msgctxt "block title"
+msgid "News Listing"
+msgstr ""
+
+#: dist/blocks/newslisting/block.json dist/blocks/newsslider/block.json
+#: src/blocks/newslisting/block.json src/blocks/newsslider/block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr ""
+
+#: dist/blocks/newslisting/block.json dist/blocks/newsslider/block.json
+#: src/blocks/newslisting/block.json src/blocks/newsslider/block.json
+msgctxt "block keyword"
+msgid "taxonomy"
+msgstr ""
+
+#: dist/blocks/newslisting/block.json src/blocks/newslisting/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for News Listing."
+msgstr ""
+
+#: dist/blocks/newsslider/block.json src/blocks/newsslider/block.json
+msgctxt "block title"
+msgid "News Slider"
+msgstr ""
+
+#: dist/blocks/newsslider/block.json src/blocks/newsslider/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for News slider."
+msgstr ""
+
+#: dist/blocks/paragraph/block.json src/blocks/paragraph/block.json
+msgctxt "block title"
+msgid "Paragraph"
+msgstr ""
+
+#: dist/blocks/paragraph/block.json src/blocks/paragraph/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr ""
+
+#: dist/blocks/paragraph/block.json src/blocks/paragraph/block.json
+msgctxt "block keyword"
+msgid "detail"
+msgstr ""
+
+#: dist/blocks/paragraph/block.json src/blocks/paragraph/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Paragraph."
+msgstr ""
+
+#: dist/blocks/quote/block.json src/blocks/quote/block.json
+msgctxt "block title"
+msgid "Quote"
+msgstr ""
+
+#: dist/blocks/quote/block.json src/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "Quote"
+msgstr ""
+
+#: dist/blocks/quote/block.json src/blocks/quote/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Quote."
+msgstr ""
+
+#: dist/blocks/quoteimage/block.json src/blocks/quoteimage/block.json
+msgctxt "block title"
+msgid "Quote Image"
+msgstr ""
+
+#: dist/blocks/quoteimage/block.json src/blocks/quoteimage/block.json
+msgctxt "block keyword"
+msgid "quote"
+msgstr ""
+
+#: dist/blocks/quoteimage/block.json src/blocks/quoteimage/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Quote Image."
+msgstr ""
+
+#: dist/blocks/row/block.json src/blocks/row/block.json
+msgctxt "block title"
+msgid "Grid - Row"
+msgstr ""
+
+#: dist/blocks/row/block.json src/blocks/row/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use Row."
+msgstr ""
+
+#: dist/blocks/row/block.json src/blocks/row/block.json
+msgctxt "block keyword"
+msgid "row"
+msgstr ""
+
+#: dist/blocks/section/block.json src/blocks/section/block.json
+msgctxt "block title"
+msgid "Section - General"
+msgstr ""
+
+#: dist/blocks/section/block.json src/blocks/section/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use Section."
+msgstr ""
+
+#: dist/blocks/section/block.json dist/blocks/section/sectionhero/block.json
+#: dist/blocks/section/sectionheromain/block.json
+#: dist/blocks/section/sectionswipe/block.json src/blocks/section/block.json
+#: src/blocks/section/sectionhero/block.json
+#: src/blocks/section/sectionheromain/block.json
+#: src/blocks/section/sectionswipe/block.json
+msgctxt "block keyword"
+msgid "section"
+msgstr ""
+
+#: dist/blocks/section/block.json src/blocks/section/block.json
+msgctxt "block keyword"
+msgid "block"
+msgstr ""
+
+#: dist/blocks/section/sectionhero/block.json
+#: src/blocks/section/sectionhero/block.json
+msgctxt "block title"
+msgid "Section - Hero Left | Right"
+msgstr ""
+
+#: dist/blocks/section/sectionhero/block.json
+#: dist/blocks/section/sectionheromain/block.json
+#: src/blocks/section/sectionhero/block.json
+#: src/blocks/section/sectionheromain/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use Hero Section."
+msgstr ""
+
+#: dist/blocks/section/sectionhero/block.json
+#: dist/blocks/section/sectionheromain/block.json
+#: src/blocks/section/sectionhero/block.json
+#: src/blocks/section/sectionheromain/block.json
+msgctxt "block keyword"
+msgid "hero"
+msgstr ""
+
+#: dist/blocks/section/sectionhero/block.json
+#: dist/blocks/section/sectionheromain/block.json
+#: src/blocks/section/sectionhero/block.json
+#: src/blocks/section/sectionheromain/block.json
+msgctxt "block keyword"
+msgid "main"
+msgstr ""
+
+#: dist/blocks/section/sectionhero/sectionherocontent/block.json
+#: src/blocks/section/sectionhero/sectionherocontent/block.json
+msgctxt "block title"
+msgid "Section Hero Left | Right - Content"
+msgstr ""
+
+#: dist/blocks/section/sectionhero/sectionherocontent/block.json
+#: dist/blocks/section/sectionheromain/sectioncontent/block.json
+#: src/blocks/section/sectionhero/sectionherocontent/block.json
+#: src/blocks/section/sectionheromain/sectioncontent/block.json
+msgctxt "block keyword"
+msgid "Hero"
+msgstr ""
+
+#: dist/blocks/section/sectionhero/sectionherocontent/block.json
+#: src/blocks/section/sectionhero/sectionherocontent/block.json
+msgctxt "block keyword"
+msgid "Left"
+msgstr ""
+
+#: dist/blocks/section/sectionhero/sectionherocontent/block.json
+#: src/blocks/section/sectionhero/sectionherocontent/block.json
+msgctxt "block keyword"
+msgid "Right"
+msgstr ""
+
+#: dist/blocks/section/sectionhero/sectionherocontent/block.json
+#: dist/blocks/section/sectionheromain/sectioncontent/block.json
+#: src/blocks/section/sectionhero/sectionherocontent/block.json
+#: src/blocks/section/sectionheromain/sectioncontent/block.json
+msgctxt "block keyword"
+msgid "Content"
+msgstr ""
+
+#: dist/blocks/section/sectionhero/sectionherocontent/block.json
+#: dist/blocks/section/sectionheromain/sectioncontent/block.json
+#: src/blocks/section/sectionhero/sectionherocontent/block.json
+#: src/blocks/section/sectionheromain/sectioncontent/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Hero Section."
+msgstr ""
+
+#: dist/blocks/section/sectionheromain/block.json
+#: src/blocks/section/sectionheromain/block.json
+msgctxt "block title"
+msgid "Section - Hero Main"
+msgstr ""
+
+#: dist/blocks/section/sectionheromain/sectioncontent/block.json
+#: src/blocks/section/sectionheromain/sectioncontent/block.json
+msgctxt "block title"
+msgid "Section Content"
+msgstr ""
+
+#: dist/blocks/section/sectionheromain/sectioncontent/block.json
+#: src/blocks/section/sectionheromain/sectioncontent/block.json
+msgctxt "block keyword"
+msgid "Main"
+msgstr ""
+
+#: dist/blocks/section/sectionswipe/block.json
+#: src/blocks/section/sectionswipe/block.json
+msgctxt "block title"
+msgid "Swipe Section"
+msgstr ""
+
+#: dist/blocks/section/sectionswipe/block.json
+#: src/blocks/section/sectionswipe/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use Swipe Section."
+msgstr ""
+
+#: dist/blocks/section/sectionswipe/block.json
+#: src/blocks/section/sectionswipe/block.json
+msgctxt "block keyword"
+msgid "swipe section"
+msgstr ""
+
+#: dist/blocks/section/sectionswipe/block.json
+#: src/blocks/section/sectionswipe/block.json
+msgctxt "block keyword"
+msgid "swipe"
+msgstr ""
+
+#: dist/blocks/slidervideo/block.json src/blocks/slidervideo/block.json
+msgctxt "block title"
+msgid "Video Slider"
+msgstr ""
+
+#: dist/blocks/slidervideo/block.json src/blocks/slidervideo/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Video Slider."
+msgstr ""
+
+#: dist/blocks/tabs/block.json src/blocks/tabs/block.json
+msgctxt "block title"
+msgid "Tabs"
+msgstr ""
+
+#: dist/blocks/tabs/block.json src/blocks/tabs/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Tabs."
+msgstr ""
+
+#: dist/blocks/tabs/tabcontent/block.json src/blocks/tabs/tabcontent/block.json
+msgctxt "block title"
+msgid "Tab Content"
+msgstr ""
+
+#: dist/blocks/tabs/tabcontent/block.json src/blocks/tabs/tabcontent/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Tab Content."
+msgstr ""
+
+#: dist/blocks/testimonialslider/block.json
+#: src/blocks/testimonialslider/block.json
+msgctxt "block title"
+msgid "Testimonial Slider"
+msgstr ""
+
+#: dist/blocks/testimonialslider/block.json
+#: src/blocks/testimonialslider/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Testimonial Slider."
+msgstr ""
+
+#: dist/blocks/testimonialslider/testimonialslide/block.json
+#: src/blocks/testimonialslider/testimonialslide/block.json
+msgctxt "block title"
+msgid "Testimonial Slide"
+msgstr ""
+
+#: dist/blocks/testimonialslider/testimonialslide/block.json
+#: src/blocks/testimonialslider/testimonialslide/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Testimonial Slide."
+msgstr ""
+
+#: dist/blocks/timelineslider/block.json src/blocks/timelineslider/block.json
+msgctxt "block title"
+msgid "Timeline Slider"
+msgstr ""
+
+#: dist/blocks/timelineslider/block.json src/blocks/timelineslider/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Timeline Slider."
+msgstr ""
+
+#: dist/blocks/timelineslider/timelineslide/block.json
+#: src/blocks/timelineslider/timelineslide/block.json
+msgctxt "block title"
+msgid "Timeline Slide"
+msgstr ""
+
+#: dist/blocks/timelineslider/timelineslide/block.json
+#: src/blocks/timelineslider/timelineslide/block.json
+msgctxt "block description"
+msgid "A gutenberg block for Timeline Slide."
+msgstr ""
+
+#: dist/blocks/visualcircle/block.json src/blocks/visualcircle/block.json
+msgctxt "block title"
+msgid "Visualcircle"
+msgstr ""
+
+#: dist/blocks/visualcircle/block.json
+#: dist/blocks/visualcircle/visualcircleitem/block.json
+#: dist/blocks/visualimage/block.json src/blocks/visualcircle/block.json
+#: src/blocks/visualcircle/visualcircleitem/block.json
+#: src/blocks/visualimage/block.json
+msgctxt "block keyword"
+msgid "visual"
+msgstr ""
+
+#: dist/blocks/visualcircle/block.json src/blocks/visualcircle/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Visual Circle."
+msgstr ""
+
+#: dist/blocks/visualcircle/visualcircleitem/block.json
+#: src/blocks/visualcircle/visualcircleitem/block.json
+msgctxt "block title"
+msgid "Visual Circle Item"
+msgstr ""
+
+#: dist/blocks/visualcircle/visualcircleitem/block.json
+#: src/blocks/visualcircle/visualcircleitem/block.json
+msgctxt "block keyword"
+msgid "circle item"
+msgstr ""
+
+#: dist/blocks/visualcircle/visualcircleitem/block.json
+#: src/blocks/visualcircle/visualcircleitem/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Visual Circle Item."
+msgstr ""
+
+#: dist/blocks/visualimage/block.json src/blocks/visualimage/block.json
+msgctxt "block title"
+msgid "Visual Image"
+msgstr ""
+
+#: dist/blocks/visualimage/block.json src/blocks/visualimage/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for Visual Image."
+msgstr ""
+
+#: dist/blocks/youtube/block.json src/blocks/youtube/block.json
+msgctxt "block title"
+msgid "YouTube"
+msgstr ""
+
+#: dist/blocks/youtube/block.json dist/blocks/youtubelightbox/block.json
+#: src/blocks/youtube/block.json src/blocks/youtubelightbox/block.json
+msgctxt "block keyword"
+msgid "youtube"
+msgstr ""
+
+#: dist/blocks/youtube/block.json src/blocks/youtube/block.json
+msgctxt "block keyword"
+msgid "video"
+msgstr ""
+
+#: dist/blocks/youtube/block.json src/blocks/youtube/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for YouTube Video."
+msgstr ""
+
+#: dist/blocks/youtubelightbox/block.json src/blocks/youtubelightbox/block.json
+msgctxt "block title"
+msgid "YouTube Lightbox"
+msgstr ""
+
+#: dist/blocks/youtubelightbox/block.json src/blocks/youtubelightbox/block.json
+msgctxt "block keyword"
+msgid "lightbox"
+msgstr ""
+
+#: dist/blocks/youtubelightbox/block.json src/blocks/youtubelightbox/block.json
+msgctxt "block description"
+msgid "A gutenberg block to use for YouTube Lightbox."
+msgstr ""

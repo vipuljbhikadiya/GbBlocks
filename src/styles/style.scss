@@ -1,0 +1,54 @@
+//typography
+@import "fonts";
+@import "font-awesome/css/font-awesome.min.css";
+@import "@splidejs/splide/css/core";
+
+// layout css
+@import "./grid";
+@import "./section";
+
+@import "./global";
+@import "../blocks/header/styles/style.scss";
+@import "../blocks/footer/styles/style.scss";
+@import "../blocks/navigation/styles/style.scss";
+
+@import "../blocks/section/styles/style.scss";
+@import "../blocks/section/sectionswipe/styles/style.scss";
+@import "../blocks/section/sectionheromain/styles/style.scss";
+@import "../blocks/section/sectionhero/styles/style.scss";
+@import "../blocks/headline/styles/style.scss";
+@import "../blocks/paragraph/styles/style.scss";
+@import "../blocks/list/styles/style.scss";
+@import "../blocks/button/styles/style.scss";
+@import "../blocks/divider/styles/style.scss";
+@import "../blocks/youtube/styles/style.scss";
+@import "../blocks/icon/styles/style.scss";
+@import "../blocks/icontext/styles/style.scss";
+@import "../blocks/image/styles/style.scss";
+@import "../blocks/quote/styles/style.scss";
+@import "../blocks/listlink/styles/style.scss";
+@import "../blocks/accordion/styles/style.scss";
+@import "../blocks/cardcollection/styles/style.scss";
+@import "../blocks/imageoverlaycollection/styles/style.scss";
+@import "../blocks/headlinenumbered/styles/style.scss";
+@import "../blocks/newsslider/styles/style.scss";
+@import "../blocks/newslisting/styles/style.scss";
+@import "../blocks/quoteimage/styles/style.scss";
+@import "../blocks/customerlisting/styles/style.scss";
+@import "../blocks/locations/styles/style.scss";
+@import "../blocks/downloadlisting/styles/style.scss";
+@import "../blocks/jobscollection/styles/style.scss";
+@import "../blocks/testimonialslider/styles/style.scss";
+@import "../blocks/timelineslider/styles/style.scss";
+@import "../blocks/form/styles/style.scss";
+@import "../blocks/tabs/styles/style.scss";
+@import "../blocks/imagebutton/styles/style.scss";
+@import "../blocks/visualcircle/styles/style.scss";
+@import "../blocks/visualimage/styles/style.scss";
+@import "../blocks/circlepreview/styles/style.scss";
+@import "../blocks/slidervideo/styles/style.scss";
+@import "../blocks/newsletter/styles/style.scss";
+
+
+//media global
+@import "./media";

@@ -1,0 +1,68 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/quoteimage",
+	"version": "0.1.0",
+	"title": "Quote Image",
+	"category": "theme",
+	"keywords": ["quote", "image", "gbblocks"],
+	"description": "A gutenberg block to use for Quote Image.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"imageId": {
+			"type": "number"
+		},
+		"xlImageSrc": {
+			"type": "string",
+			"default": ""
+		},
+		"webpImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"mdImageSrc": {
+			"type": "string",
+			"default": ""
+		},
+		"webpmdImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"xsImageSrc": {
+			"type": "string",
+			"default": ""
+		},
+		"webpxsImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"bgAlt": {
+			"type": "string",
+			"default": ""
+		},
+		"showButton": {
+			"type": "boolean",
+			"default": true
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": [
+		"gbblocks/section",
+		"gbblocks/swipesection",
+		"gbblocks/heromainsection",
+		"gbblocks/herosection"
+	],
+	"editorScript": "blocks-4"
+}

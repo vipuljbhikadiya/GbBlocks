@@ -1,0 +1,26 @@
+.section {
+	&.section--bg {
+		&-left,
+		&-right {
+			.section__background {
+				img {
+					object-fit: contain;
+				}
+			}
+		}
+		&-left {
+			.section__background {
+				img {
+					object-position: top left;
+				}
+			}
+		}
+		&-right {
+			.section__background {
+				img {
+					object-position: top right;
+				}
+			}
+		}
+	}
+}

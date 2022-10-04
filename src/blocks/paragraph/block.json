@@ -1,0 +1,81 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/paragraph",
+	"version": "0.1.5",
+	"title": "Paragraph",
+	"category": "theme",
+	"keywords": ["paragraph", "detail"],
+	"description": "A gutenberg block to use for Paragraph.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p,span",
+			"default": ""
+		},
+		"tag": {
+			"type": "string",
+			"default": "p"
+		},
+		"placeholder": {
+			"type": "string",
+			"default": "Add text here..."
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"textColorClass": {
+			"type": "string"
+		},
+		"textStyle": {
+			"type": "string",
+			"default": "two"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"textExtraClass": {
+			"type": "string",
+			"default": ""
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		},
+		"responsiveMode": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignXs": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignSm": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignMd": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignLg": {
+			"type": "string",
+			"default": ""
+		},
+		"AlignXl": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-3.js"
+}

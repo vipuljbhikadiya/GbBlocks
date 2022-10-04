@@ -1,0 +1,90 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/section",
+	"version": "0.1.5",
+	"title": "Section - General",
+	"category": "theme",
+	"description": "A gutenberg block to use Section.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"topPadding": {
+			"type": "number",
+			"default": "1"
+		},
+		"bottomPadding": {
+			"type": "number",
+			"default": "1"
+		},
+		"backgroundAlt": {
+			"type": "string",
+			"default": ""
+		},
+		"bgResponsiveMode": {
+			"type": "string",
+			"default": "xs"
+		},
+		"xlbackgroundImageId": {
+			"type": "number"
+		},
+		"xlbackgroundImagesrc": {
+			"type": "string"
+		},
+		"webpImageUrl": {
+			"type": "string"
+		},
+		"mdbackgroundImageId": {
+			"type": "number"
+		},
+		"mdbackgroundImagesrc": {
+			"type": "string"
+		},
+		"webpmdImageUrl": {
+			"type": "string"
+		},
+		"xsbackgroundImageId": {
+			"type": "number"
+		},
+		"xsbackgroundImagesrc": {
+			"type": "string"
+		},
+		"webpxsImageUrl": {
+			"type": "string"
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": ""
+		},
+		"backgroundColorClass": {
+			"type": "string",
+			"default": ""
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"hideLG": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideMD": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideXS": {
+			"type": "boolean",
+			"default": false
+		},
+		"extraClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"keywords": ["section", "block", "GbBlocks"],
+	"textdomain": "gbblocks",
+	"editorScript": "file:./blocks-1.js"
+}

@@ -1,0 +1,31 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/locationitem",
+	"version": "0.1.5",
+	"title": "Location Map Slide",
+	"category": "theme",
+	"description": "A gutenberg block for Location Map Slide.",
+	"supports": {
+		"multiple": true,
+		"reusable": false,
+		"html": false
+	},
+	"attributes": {
+		"markerXPosition": {
+			"type": "number",
+			"default": 0
+		},
+		"markerYPosition": {
+			"type": "number",
+			"default": 0
+		},
+		"ButtonLink": {
+			"type": "string",
+			"default": "#"
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/locations"],
+	"editorScript": "blocks-6"
+}

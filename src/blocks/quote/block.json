@@ -1,0 +1,42 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/quote",
+	"version": "0.1.5",
+	"title": "Quote",
+	"category": "theme",
+	"keywords": ["Quote", "text"],
+	"description": "A gutenberg block to use for Quote.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"quoteColor": {
+			"type": "string",
+			"default": "#49725B"
+		},
+		"quoteColorClass": {
+			"type": "string",
+			"default": "one"
+		},
+		"anchor": {
+			"type": "string",
+			"default": ""
+		},
+		"quoteExtraClass": {
+			"type": "string",
+			"default": ""
+		},
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p",
+			"default": ""
+		}
+	},
+	"textdomain": "gbblocks",
+	"parent": ["gbblocks/column"],
+	"editorScript": "blocks-3.js"
+}

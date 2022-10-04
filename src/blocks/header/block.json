@@ -1,0 +1,23 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "gbblocks/header",
+	"version": "0.1.5",
+	"title": "Header",
+	"category": "theme",
+	"description": "A gutenberg block for header.",
+	"supports": {
+		"html": false,
+		"anchor": false,
+		"customClassName": false
+	},
+	"attributes": {
+		"site_url": {
+			"type": "string",
+			"default": "/"
+		}
+	},
+	"keywords": ["Header", "GbBlocks"],
+	"textdomain": "gbblocks",
+	"editorScript": "blocks-2"
+}
